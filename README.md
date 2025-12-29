@@ -1,16 +1,77 @@
-## Hi there 👋
+# 👋 Hi, I’m Junyeong (JUNIXION)
 
-<!--
-**jjuunnii98/jjuunnii98** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+I am preparing for **graduate-level research in Machine Learning** while actively building  
+**data-driven products and AI-powered services**.
 
-Here are some ideas to get you started:
+My focus lies in applying machine learning and data analysis to real-world problems,  
+bridging **research, engineering, and early-stage entrepreneurship**.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+I am currently working toward:
+- Advanced ML/statistics training for graduate studies
+- Practical data analysis and modeling projects
+- Building the foundation of **JUNIXION**, a data-driven venture in progress
+
+---
+
+## 🔍 Current Focus
+
+- Applied Machine Learning & Data Analysis  
+- Research-oriented ML projects (EDA → modeling → interpretation)  
+- SQL & Python for analytics pipelines  
+- Early-stage product and service development  
+
+---
+
+## 📂 Featured Repositories
+
+- **study-languages**  
+  Structured daily learning of Python, SQL, and core programming concepts  
+  → foundations for data analysis and software development  
+
+- **competition-projects**  
+  End-to-end data science projects based on real datasets (Kaggle-style workflows)  
+  → problem definition, EDA, feature engineering, and baseline models  
+
+- **grad-portfolio-ml**  
+  Graduate-school–oriented ML portfolio  
+  → statistical modeling, survival analysis, paper replications, and ML baselines  
+
+---
+
+## 🛠 Tech Stack
+
+- **Languages:** Python, SQL  
+- **Data & ML:** pandas, NumPy, scikit-learn, statsmodels  
+- **Workflow:** Jupyter Notebook, Git/GitHub  
+- **Interests:** Healthcare AI, Financial Data, Applied ML Research  
+
+---
+
+## 🌱 Philosophy
+
+I believe strong engineering fundamentals,  
+clear data reasoning, and research-level thinking  
+are essential to building impactful AI systems.
+
+This GitHub documents my journey  
+from **learning and experimentation**  
+to **research and real-world applications**.
+
+---
+
+## 🇰🇷 한국어 요약
+
+머신러닝 대학원 진학을 준비하며, 동시에 **데이터 기반 제품과 AI 서비스 개발**을 진행하고 있습니다.
+
+- 파이썬·SQL 기반 데이터 분석 역량 강화  
+- 실전 데이터셋 기반 머신러닝 프로젝트 수행  
+- 연구와 실무를 연결하는 **JUNIXION** 사업 준비 중  
+
+이 GitHub는  
+**학습 → 프로젝트 → 연구 → 사업**으로 이어지는 과정을 기록합니다.
+
+---
+
+## 📫 Contact
+
+- Email: jjuunnii98@yonsei.ac.kr
