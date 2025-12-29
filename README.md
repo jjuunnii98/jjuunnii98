@@ -24,17 +24,14 @@ I am currently working toward:
 
 ## 📂 Featured Repositories
 
-- **study-languages**  
-  Structured daily learning of Python, SQL, and core programming concepts  
-  → foundations for data analysis and software development  
+- [study-languages](https://github.com/jjuunnii98/study-languages)  
+  Daily practice: Python, SQL, and JavaScript fundamentals for data analysis and development.
 
-- **competition-projects**  
-  End-to-end data science projects based on real datasets (Kaggle-style workflows)  
-  → problem definition, EDA, feature engineering, and baseline models  
+- [competition-projects](https://github.com/jjuunnii98/competition-projects)  
+  Competition-style ML projects: EDA → feature engineering → baseline modeling.
 
-- **grad-portfolio-ml**  
-  Graduate-school–oriented ML portfolio  
-  → statistical modeling, survival analysis, paper replications, and ML baselines  
+- [grad-portfolio-ml](https://github.com/jjuunnii98/grad-portfolio-ml)  
+  Graduate portfolio: ML, statistics, survival analysis, and replications.
 
 ---
 
