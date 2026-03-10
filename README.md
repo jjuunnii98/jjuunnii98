@@ -3,7 +3,7 @@
 **Applied Machine Learning · Data Analysis · AI Systems Engineering**
 
 I am an **Applied Machine Learning and Data-focused developer** preparing for  
-**AI/Data-related industry roles starting July 2026** while also exploring  
+**AI/Data-related industry roles starting July 2026**, while also exploring  
 graduate-level research and early-stage AI products.
 
 My work focuses on the intersection of:
@@ -58,11 +58,24 @@ Core tools:
 
 ---
 
+# 🏆 Certifications
+
+- **SQLD (SQL Developer)**
+- **ADsP (Advanced Data Analytics Semi-Professional)**
+- **CDS Big Data Certification**
+- **빅데이터분석기사 (Big Data Analyst Engineer)**
+- **리눅스마스터 2급 (Linux Master Level 2)**
+- **TOEIC 800+**
+
+These certifications support my goal of becoming a **data-driven AI engineer with strong data and system foundations**.
+
+---
+
 # 🚀 Highlight Projects
 
 ### 🔹 study-languages
 
-This repository represents my **daily engineering practice across Python, SQL, and JavaScript**, 
+This repository represents my **daily engineering practice across Python, SQL, and JavaScript**,  
 focusing on reproducible data workflows and practical ML foundations.
 
 Structured learning repository covering:
@@ -163,27 +176,16 @@ Currently building a **practical AI/Data portfolio** in the following areas:
 
 ---
 
-# 🏆 Certification Goals (In Progress)
-
-Before graduation, I am preparing the following certifications:
-
-- **SQLD (SQL Developer)**  
-- **빅데이터분석기사 (Big Data Analyst Engineer)**  
-- **리눅스마스터 2급 (Linux Master Level 2)**  
-- **TOEIC 800+**
-
-These certifications strengthen my foundation as a **data-driven AI engineer**.
-
----
-
 # 📚 Learning & Engineering Roadmap
 
 My learning process follows this workflow:
 
+```
 Study theory
 → Implement code
 → Refactor structure
 → Publish repository
+```
 
 Current areas of development:
 
