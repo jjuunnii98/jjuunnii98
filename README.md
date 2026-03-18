@@ -31,6 +31,7 @@ Core domains:
 # 🚀 Highlight Projects
 
 ### 🔹 End-to-End ML Analytics System
+⭐ Core ML Engineering Project
 Production-grade ML pipeline covering data ingestion, feature engineering, model training, and inference.
 
 👉 https://github.com/jjuunnii98/end-to-end-ml-analytics-system
