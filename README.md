@@ -1,19 +1,68 @@
 # 👋 Junyeong Song | JUNIXION
 
+> 🚀 AI Engineer building production-ready machine learning systems from data to deployment
+
 **AI Engineer · Machine Learning Systems · Risk Intelligence AI**
 
-I am an **AI Engineer focused on building production-oriented machine learning systems**  
+I build **production-ready machine learning systems**  
 with applications in **healthcare and financial risk intelligence**.
 
-My work centers on designing **end-to-end ML pipelines**, from data ingestion  
-to model deployment and API-based inference.
+My focus is on **end-to-end ML pipelines**:
+data → feature engineering → modeling → API → deployment
+
+---
+
+# 🚀 Featured Project
+
+### Survival Analysis API (Production)
+
+Production-grade survival analysis system with real-time inference and cloud deployment.
+
+👉 https://survival-api.onrender.com/docs
+
+- Cox Survival Model (Healthcare Risk Prediction)
+- FastAPI-based real-time inference
+- Docker containerization
+- Cloud deployment (Render)
+
+---
+
+# 📦 Portfolio Projects (AI + Engineering + Learning)
+
+### 1️⃣ Survival Analysis System (Production ML)
+👉 https://github.com/jjuunnii98/grad-portfolio-ml
+
+- End-to-end ML pipeline (Feature → Model → Evaluation)
+- Penalized Cox model (Survival Analysis)
+- FastAPI + Docker + Cloud deployment
+- Production-ready AI system
+
+---
+
+### 2️⃣ Python Analysis Lab (Data Science Training)
+👉 https://github.com/jjuunnii98/python-analysis-lab
+
+- Structured Python & data analysis practice
+- EDA / statistics / visualization
+- Reproducible notebook workflows
+- Daily commit-based learning system
+
+---
+
+### 3️⃣ Study Languages (Engineering & DevOps)
+👉 https://github.com/jjuunnii98/study-languages
+
+- Git / Docker / Linux / backend fundamentals
+- Bash scripting & container practice
+- Engineering-focused learning logs
+- DevOps & infra foundation
 
 ---
 
 # 🎯 Career Direction
 
-📅 **Expected Graduation:** June 2026 (Yonsei University)  
-💼 **Seeking AI/ML Engineering Roles:** July 2026 ~
+📅 Expected Graduation: June 2026 (Yonsei University)  
+💼 Seeking AI/ML Engineering Roles: July 2026 ~
 
 Target roles:
 
@@ -28,32 +77,9 @@ Core domains:
 
 ---
 
-# 🚀 Highlight Projects
-
-### 🔹 End-to-End ML Analytics System
-⭐ Core ML Engineering Project
-
-Production-grade ML pipeline covering data ingestion, feature engineering, model training, and inference.
-
-👉 https://github.com/jjuunnii98/end-to-end-ml-analytics-system
-
----
-
-### 🔹 Healthcare Risk Prediction API
-Survival analysis-based risk prediction system using Cox Proportional Hazards model with FastAPI deployment.
-
-👉 https://github.com/jjuunnii98/healthcare-risk-prediction-api
-
----
-
-### 🔹 Crypto Risk Intelligence Pipeline
-End-to-end data pipeline for crypto market risk analysis, including data ingestion, feature engineering, and predictive modeling.
-
-👉 https://github.com/jjuunnii98/crypto-risk-intelligence-pipeline
-
----
-
 # ⚙️ Tech Stack
+
+> Core technologies used in production ML systems and deployment pipelines
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
@@ -98,51 +124,37 @@ Application areas:
 - Financial market intelligence  
 - Data-driven decision support systems  
 
-This GitHub represents the **technical foundation and system architecture**  
-behind JUNIXION.
-
 ---
 
-# 🏆 Certifications
+# 🏆 Certifications & Achievements
 
-- SQLD (SQL Developer)  
+## 📌 Completed (Past)
+
+- CDS 빅데이터 전문가 과정 (Citizen Data Scientist)  
+- 2024 제주 스마트관광 빅데이터 해커톤 우수상 (3등) — Team Leader  
 - ADsP (Advanced Data Analytics Semi-Professional)  
-- Big Data Analyst Engineer  
-- Linux Master Level 2  
-- TOEIC 800+  
+- SQLD (SQL Developer)  
 
 ---
 
-# 📊 GitHub Stats
+## 🔬 Current (In Progress)
 
-![GitHub stats](https://github-readme-stats.vercel.app/api?username=jjuunnii98&show_icons=true&theme=default)
-
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=jjuunnii98&layout=compact&theme=default)
-
-![GitHub Streak](https://streak-stats.demolab.com?user=jjuunnii98)
+- Undergraduate Research Assistant (Survival Analysis, Healthcare Data Modeling)  
+- JUNIXION trademark application in progress (AI-based Risk Intelligence brand)  
+- Developing Risk Intelligence AI system for personal startup (Healthcare & Financial risk modeling, real-time inference API)
 
 ---
 
-# 🇰🇷 한국어 요약
+## 🚀 Planned (Upcoming)
 
-연세대학교 졸업 예정(2026년 6월)으로  
-**AI Engineer / Machine Learning Engineer 취업을 목표로 포트폴리오를 구축하고 있습니다.**
-
-현재는 다음과 같은 시스템 중심 프로젝트를 개발하고 있습니다:
-
-- End-to-End 머신러닝 시스템 구축  
-- 헬스케어 생존분석 기반 리스크 예측 API  
-- 암호화폐 데이터 기반 리스크 인텔리전스 파이프라인  
-
-단순 모델 개발이 아닌,  
-**데이터 → 모델 → API까지 연결된 실제 시스템 구현**을 목표로 합니다.
+- 빅데이터분석기사  
+- 리눅스마스터 2급 → 1급  
+- 정보처리기사  
+- 정보보안기사  
 
 ---
 
 # 📫 Contact
 
-📧 Email  
-jjuunnii98@yonsei.ac.kr  
-
-🔗 LinkedIn  
-https://www.linkedin.com/in/jun-yeong-song/
+📧 jjuunnii98@yonsei.ac.kr  
+🔗 https://www.linkedin.com/in/jun-yeong-song/  
