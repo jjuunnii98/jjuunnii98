@@ -2,8 +2,8 @@
 
 > AI Engineer · FinTech Founder · Risk Intelligence AI Builder
 
-[![GitHub Stats](https://github-readme-stats.vercel.app/api?username=jjuunnii98&show_icons=true&theme=tokyonight&hide_border=true)](https://github.com/jjuunnii98)
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=jjuunnii98&layout=compact&theme=tokyonight&hide_border=true)](https://github.com/jjuunnii98)
+[![GitHub Streak](https://streak-stats.demolab.com?user=jjuunnii98&theme=tokyonight&hide_border=true)](https://github.com/jjuunnii98)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=jjuunnii98&layout=compact&theme=tokyonight&hide_border=true&langs_count=6)](https://github.com/jjuunnii98)
 
 ---
 
