@@ -64,13 +64,13 @@ Currently building **[JUNIXION](https://junixion.com)** — a proprietary Risk I
 
 ### Research-Driven Systems
 
-**[Healthcare Risk Prediction API](https://github.com/jjuunnii98/healthcare-risk-prediction-api)**
-Survival analysis-based risk scoring system. Implements penalized Cox regression with FastAPI inference layer and deployment-ready backend.
-`survival analysis` `quantitative risk modeling` `FastAPI` `Docker`
+**[Survival Analysis — Finance](https://github.com/jjuunnii98/survival-analysis-finance)**
+Survival analysis applied to financial risk: Cox PH and AFT models for cryptocurrency volatility and default prediction. Bridges statistical survival theory with quantitative finance applications.
+`Cox PH` `AFT model` `financial risk` `time-to-event modeling` `stochastic modeling`
 
-**[Survival Analysis API](https://survival-api.onrender.com/docs)** — *live production*
-Cox proportional hazards model deployed on Render. Real-time risk estimation endpoint with clinical decision support design.
-`Cox PH model` `statistical inference` `REST API` `cloud deployment`
+**[Crypto Risk Scoring Demo](https://github.com/jjuunnii98/crypto-risk-scoring-demo)**
+End-to-end crypto market risk scoring system: data ingestion, feature engineering, survival analysis, and FastAPI deployment. Full pipeline from raw market data to risk score inference.
+`quantitative risk scoring` `survival analysis` `FastAPI` `real-time pipeline`
 
 **[Graduate ML Portfolio](https://github.com/jjuunnii98/grad-portfolio-ml)**
 Penalized Cox regression, statistical modeling experiments, and replication studies from undergraduate research.
@@ -80,13 +80,13 @@ Penalized Cox regression, statistical modeling experiments, and replication stud
 
 ### Engineering-Driven Systems
 
-**Crypto Risk Intelligence Pipeline** *(available upon request)*
-Real-time financial risk intelligence system. Multi-signal quantitative risk scoring from market, liquidity, sentiment, and event data with dashboard-based decision support.
-`real-time pipeline` `quantitative risk scoring` `market data engineering` `Streamlit`
-
 **[End-to-End ML Analytics System](https://github.com/jjuunnii98/end-to-end-ml-analytics-system)**
 Full ML lifecycle from raw data to Dockerized API serving. Production-oriented architecture with modular pipeline design.
 `ML system design` `feature engineering` `model serving` `Docker`
+
+**[SQL Analytics Portfolio](https://github.com/jjuunnii98/sql-analytics-portfolio)**
+SQL analytics portfolio: financial and crypto data analysis queries, window functions, and structured query practice for data engineering and analytics roles.
+`SQL` `window functions` `financial data` `analytics engineering`
 
 **[Python Analysis Lab](https://github.com/jjuunnii98/python-analysis-lab)**
 Structured EDA, statistical modeling, and reproducible analysis workflows.
@@ -113,6 +113,7 @@ Product vision       →  Domain-specialized AI for financial risk intelligence
 ```
 2026.08 ──▶  Graduation · Yonsei University
 2026    ──▶  Technology IP Filing (JUNIXION proprietary system)
+2026    ──▶  JUNIXION FinTech company launch preparation
 2027.03 ──▶  Graduate School · Financial Engineering / AI (Spring entry)
 ```
 
@@ -120,8 +121,10 @@ Product vision       →  Domain-specialized AI for financial risk intelligence
 
 ## Background
 
-**Yonsei University** — Economics × Data Science · Expected Aug 2026  
-Undergraduate Research Assistant — Survival Analysis & Healthcare Risk Modeling
+**Yonsei University** — Economics × Data Science  
+Expected Graduation: **August 2026**  
+Undergraduate Research Assistant — Survival Analysis & Healthcare Risk Modeling  
+Founder — JUNIXION (Risk Intelligence AI · FinTech Startup)
 
 ### Certifications
 
