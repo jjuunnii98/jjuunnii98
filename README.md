@@ -1,11 +1,29 @@
+<div align="center">
+
 # Junyeong Song
+
+**AI Engineer · Quantitative Finance · Risk Intelligence**  
+Founder @ [JUNIXION](https://junixion.com) · Yonsei University · Seoul, South Korea
+
+<br>
 
 > Financial distress models have not fundamentally changed since Altman (1968).  
 > Static scoring. No censoring. No time structure. Fifty years of the same assumption.  
 > I'm building the next layer — survival-based, market-aware, production-ready.
 
+<br>
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-jun--yeong--song-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jun-yeong-song/)
+[![JUNIXION](https://img.shields.io/badge/junixion.com-000000?style=flat-square&logo=vercel&logoColor=white)](https://junixion.com)
+[![HuggingFace](https://img.shields.io/badge/HuggingFace-JUNIXION-FFD21E?style=flat-square&logo=huggingface&logoColor=black)](https://huggingface.co/JUNIXION)
+[![Email](https://img.shields.io/badge/jjuunnii98%40yonsei.ac.kr-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:jjuunnii98@yonsei.ac.kr)
+![Profile Views](https://komarev.com/ghpvc/?username=jjuunnii98&style=flat-square&color=0d1117&label=views)
+
+<br>
+
 ![GitHub Stats](./github-metrics.svg)
-![Top Languages](./github-metrics-langs.svg)
+
+</div>
 
 ---
 
@@ -37,58 +55,75 @@
 
 ---
 
-## Systems
+## Projects
 
-**[Survival Analysis — Finance](https://github.com/jjuunnii98/survival-analysis-finance)**
-Full implementation of the research above. Cox PH, Weibull/Log-Normal/Log-Logistic AFT, heteroscedastic extension, Kaplan-Meier curves, Schoenfeld residual diagnostics. Reproduces all tables and figures in the working paper.
-`Cox PH` `AFT` `lifelines` `KRX data` `reproducible research`
+**[Survival Analysis — Finance](https://github.com/jjuunnii98/survival-analysis-finance)**  
+Full implementation of the research above. Cox PH, Weibull/Log-Normal/Log-Logistic AFT, heteroscedastic extension, Kaplan-Meier curves, Schoenfeld residual diagnostics. Reproduces all tables and figures in the working paper.  
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![R](https://img.shields.io/badge/R-276DC3?style=flat-square&logo=r&logoColor=white)
+![lifelines](https://img.shields.io/badge/lifelines-FF6B6B?style=flat-square)
 
-**[Crypto Risk Scoring Demo](https://github.com/jjuunnii98/crypto-risk-scoring-demo)**
-End-to-end crypto market risk scoring pipeline: real-time data ingestion, feature engineering, multi-signal quantitative risk scoring, and FastAPI deployment. The engineering counterpart to the survival analysis research — same risk intelligence methodology, applied to crypto market dynamics.
-`quantitative risk scoring` `real-time pipeline` `FastAPI` `feature engineering` `Docker`
+**[Crypto Risk Scoring Demo](https://github.com/jjuunnii98/crypto-risk-scoring-demo)**  
+End-to-end crypto market risk scoring pipeline: real-time data ingestion, feature engineering, multi-signal quantitative risk scoring, and FastAPI deployment.  
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 
-**[End-to-End ML Analytics System](https://github.com/jjuunnii98/end-to-end-ml-analytics-system)**
-Full ML lifecycle from raw data to Dockerized API serving. Production-oriented architecture: preprocessing → training → evaluation → inference endpoint.
-`ML system design` `model serving` `Docker` `production ML`
+**[End-to-End ML Analytics System](https://github.com/jjuunnii98/end-to-end-ml-analytics-system)**  
+Full ML lifecycle from raw data to Dockerized API serving. Production-oriented architecture: preprocessing → training → evaluation → inference endpoint.  
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white)
 
-**[SQL Analytics Portfolio](https://github.com/jjuunnii98/sql-analytics-portfolio)**
-Financial and crypto data analysis with SQL: window functions, time-series aggregation, market data queries. Analytics engineering foundation for the risk intelligence pipeline.
-`SQL` `window functions` `financial data` `analytics engineering`
+**[SQL Analytics Portfolio](https://github.com/jjuunnii98/sql-analytics-portfolio)**  
+Financial and crypto data analysis with SQL: window functions, time-series aggregation, market data queries.  
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
+![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white)
 
-**[Graduate ML Portfolio](https://github.com/jjuunnii98/grad-portfolio-ml)**
-Penalized Cox regression, statistical modeling experiments, and replication studies from undergraduate research. The experimental ground that preceded the SSRN paper.
-`penalized regression` `L1/L2 regularization` `reproducible research`
+**[Graduate ML Portfolio](https://github.com/jjuunnii98/grad-portfolio-ml)**  
+Penalized Cox regression, statistical modeling experiments, and replication studies from undergraduate research.  
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![R](https://img.shields.io/badge/R-276DC3?style=flat-square&logo=r&logoColor=white)
 
-**[Python Analysis Lab](https://github.com/jjuunnii98/python-analysis-lab)**
-Structured EDA, statistical modeling, and reproducible analysis workflows.
-`EDA` `statistical modeling` `reproducibility`
+**[Python Analysis Lab](https://github.com/jjuunnii98/python-analysis-lab)**  
+Structured EDA, statistical modeling, and reproducible analysis workflows.  
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white)
 
 ---
 
 ## Stack
 
-### Languages & Modeling
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
-![R](https://img.shields.io/badge/R-276DC3?style=flat&logo=r&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat&logo=mysql&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
+<div align="center">
 
-### ML / Statistical Modeling
-![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat&logo=scikit-learn&logoColor=white)
-![pandas](https://img.shields.io/badge/pandas-150458?style=flat&logo=pandas&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat&logo=numpy&logoColor=white)
-![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat&logo=jupyter&logoColor=white)
+**Languages & Modeling**
 
-### Backend / Deployment
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=black)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![R](https://img.shields.io/badge/R-276DC3?style=for-the-badge&logo=r&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 
-### Analytics & Visualization
-![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat&logo=streamlit&logoColor=white)
-![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat&logo=sqlite&logoColor=white)
-![SAS](https://img.shields.io/badge/SAS-003399?style=flat&logo=sas&logoColor=white)
+**ML / Statistical Modeling**
+
+![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
+![pandas](https://img.shields.io/badge/pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
+![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
+
+**Backend / Deployment**
+
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+
+**Analytics & Visualization**
+
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
+![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)
+![SAS](https://img.shields.io/badge/SAS-003399?style=for-the-badge&logo=sas&logoColor=white)
+
+</div>
 
 ---
 
@@ -125,8 +160,8 @@ Proprietary system architecture. IP filing in preparation.
 
 ## Background
 
-**Yonsei University** — Economics × Information Statistics · Expected August 2026
-Undergraduate Research Assistant — Survival Analysis & Healthcare Risk Modeling
+**Yonsei University** — Economics × Information Statistics · Expected August 2026  
+Undergraduate Research Assistant — Survival Analysis & Healthcare Risk Modeling  
 Founder — JUNIXION (Risk Intelligence AI · FinTech Startup)
 
 ### Certifications
@@ -145,4 +180,10 @@ Founder — JUNIXION (Risk Intelligence AI · FinTech Startup)
 
 ---
 
-[LinkedIn](https://www.linkedin.com/in/jun-yeong-song/) · [JUNIXION](https://junixion.com) · jjuunnii98@yonsei.ac.kr
+<div align="center">
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jun-yeong-song/)
+[![JUNIXION](https://img.shields.io/badge/JUNIXION-000000?style=flat-square&logo=vercel&logoColor=white)](https://junixion.com)
+[![Email](https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:jjuunnii98@yonsei.ac.kr)
+
+</div>
