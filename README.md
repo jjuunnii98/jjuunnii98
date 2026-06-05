@@ -4,8 +4,7 @@
 > Static scoring. No censoring. No time structure. Fifty years of the same assumption.  
 > I'm building the next layer — survival-based, market-aware, production-ready.
 
-[![GitHub Stats](https://github-readme-stats.vercel.app/api?username=jjuunnii98&theme=tokyonight&hide_border=true&show_icons=true&count_private=true&include_all_commits=true)](https://github.com/jjuunnii98)
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=jjuunnii98&layout=compact&theme=tokyonight&hide_border=true&langs_count=6&count_private=true)](https://github.com/jjuunnii98)
+![GitHub Metrics](./github-metrics.svg)
 
 ---
 
