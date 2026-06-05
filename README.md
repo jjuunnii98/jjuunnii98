@@ -18,6 +18,7 @@ Founder @ [JUNIXION](https://junixion.com) · Yonsei University · Seoul, South 
 [![HuggingFace](https://img.shields.io/badge/HuggingFace-JUNIXION-FFD21E?style=flat-square&logo=huggingface&logoColor=black)](https://huggingface.co/JUNIXION)
 [![Email](https://img.shields.io/badge/jjuunnii98%40yonsei.ac.kr-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:jjuunnii98@yonsei.ac.kr)
 ![Profile Views](https://komarev.com/ghpvc/?username=jjuunnii98&style=flat-square&color=0d1117&label=views)
+![Streak](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/jjuunnii98/jjuunnii98/main/streak.json)
 
 <br>
 
