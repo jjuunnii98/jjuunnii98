@@ -4,7 +4,8 @@
 > Static scoring. No censoring. No time structure. Fifty years of the same assumption.  
 > I'm building the next layer — survival-based, market-aware, production-ready.
 
-![GitHub Metrics](./github-metrics.svg)
+![GitHub Stats](./github-metrics.svg)
+![Top Languages](./github-metrics-langs.svg)
 
 ---
 
