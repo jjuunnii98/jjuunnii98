@@ -7,7 +7,7 @@ on:
   push:
     branches: [main]
     paths-ignore:
-      - "github-metrics.svg"
+      - "github-metrics*.svg"
       - "streak.json"
 
 jobs:
@@ -36,14 +36,32 @@ jobs:
     permissions:
       contents: write
     steps:
-      - name: Stats card
+      - name: Stats + Calendar card
         uses: lowlighter/metrics@latest
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           user: jjuunnii98
           template: classic
           base: header, activity
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: half-year
           config_theme: tokyonight
           config_padding: 10%, 5%
           filename: github-metrics.svg
           committer_message: "chore(metrics): update stats [skip ci]"
+
+      - name: Activity timeline card
+        uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          user: jjuunnii98
+          template: classic
+          base: ""
+          plugin_activity: yes
+          plugin_activity_limit: 5
+          plugin_activity_days: 30
+          plugin_activity_filter: commit, issue, pr, release
+          config_theme: tokyonight
+          config_padding: 10%, 5%
+          filename: github-metrics-activity.svg
+          committer_message: "chore(metrics): update activity [skip ci]"

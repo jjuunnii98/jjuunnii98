@@ -24,6 +24,8 @@
 
 ![GitHub Stats](./github-metrics.svg)
 
+![Recent Activity](./github-metrics-activity.svg)
+
 <br>
 
 <picture>
