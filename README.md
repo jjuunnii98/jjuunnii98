@@ -2,8 +2,7 @@
 
 # Junyeong Song
 
-**AI Engineer · Quantitative Finance · Risk Intelligence**  
-Founder @ [JUNIXION](https://junixion.com) · Yonsei University · Seoul, South Korea
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=18&pause=1000&color=58A6FF&center=true&vCenter=true&random=false&width=600&lines=AI+Engineer+%C2%B7+Quantitative+Finance;Survival+Analysis+%C2%B7+Cox+PH+%C2%B7+AFT+Models;Risk+Intelligence+Builder+%40+JUNIXION;Yonsei+University+%C2%B7+Seoul%2C+South+Korea)](https://github.com/jjuunnii98)
 
 <br>
 
@@ -17,12 +16,21 @@ Founder @ [JUNIXION](https://junixion.com) · Yonsei University · Seoul, South 
 [![JUNIXION](https://img.shields.io/badge/junixion.com-000000?style=flat-square&logo=vercel&logoColor=white)](https://junixion.com)
 [![HuggingFace](https://img.shields.io/badge/HuggingFace-JUNIXION-FFD21E?style=flat-square&logo=huggingface&logoColor=black)](https://huggingface.co/JUNIXION)
 [![Email](https://img.shields.io/badge/jjuunnii98%40yonsei.ac.kr-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:jjuunnii98@yonsei.ac.kr)
+
 ![Profile Views](https://komarev.com/ghpvc/?username=jjuunnii98&style=flat-square&color=0d1117&label=views)
 ![Streak](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/jjuunnii98/jjuunnii98/main/streak.json)
 
 <br>
 
 ![GitHub Stats](./github-metrics.svg)
+
+<br>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/jjuunnii98/jjuunnii98/output/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/jjuunnii98/jjuunnii98/output/github-snake.svg" />
+  <img alt="github contribution snake" src="https://raw.githubusercontent.com/jjuunnii98/jjuunnii98/output/github-snake-dark.svg" />
+</picture>
 
 </div>
 
