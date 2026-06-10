@@ -67,22 +67,23 @@
 ## Projects
 
 **[Survival Analysis — Finance](https://github.com/jjuunnii98/survival-analysis-finance)**  
-Full implementation of the research above. Cox PH, Weibull/Log-Normal/Log-Logistic AFT, heteroscedastic extension, Kaplan-Meier curves, Schoenfeld residual diagnostics. Reproduces all tables and figures in the working paper.  
+Full implementation of the SSRN working paper above. 365 KRX firms (KOSPI/KOSDAQ), 2000–2023, 43.3% event rate. Kaplan-Meier, Cox PH (C-index 0.738), and Weibull/Log-Normal/Log-Logistic AFT models with heteroscedastic extension. Data pipeline: DART API + FinanceDataReader → 7 covariates → survival dataset. Reproduces all tables and figures in the working paper.  
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![R](https://img.shields.io/badge/R-276DC3?style=flat-square&logo=r&logoColor=white)
 ![lifelines](https://img.shields.io/badge/lifelines-FF6B6B?style=flat-square)
+![pandas](https://img.shields.io/badge/pandas-150458?style=flat-square&logo=pandas&logoColor=white)
 
-**[Crypto Risk Scoring Demo](https://github.com/jjuunnii98/crypto-risk-scoring-demo)**  
-End-to-end crypto market risk scoring pipeline: real-time data ingestion, feature engineering, multi-signal quantitative risk scoring, and FastAPI deployment.  
+**[Crypto Risk Scoring Demo](https://github.com/jjuunnii98/crypto-risk-scoring-demo)**  [![Live API](https://img.shields.io/badge/Live%20API-online-brightgreen?style=flat-square&logo=render&logoColor=white)](https://crypto-risk-scoring-demo.onrender.com/docs)  
+Cox PH survival model predicting 24-hour drawdown risk (>3% threshold) on live Binance data — C-index 0.862. 16 engineered features: 9 technical (RSI, Bollinger, MACD, VWAP divergence, ATR) + 7 volatility/tail-risk (Garman-Klass, Sortino, rolling MDD, funding rate z-score). Async multi-symbol scoring. 40 passing tests.  
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![lifelines](https://img.shields.io/badge/lifelines-FF6B6B?style=flat-square)
 
-**[End-to-End ML Analytics System](https://github.com/jjuunnii98/end-to-end-ml-analytics-system)**  
-Full ML lifecycle from raw data to Dockerized API serving. Production-oriented architecture: preprocessing → training → evaluation → inference endpoint.  
+**[End-to-End ML Analytics System](https://github.com/jjuunnii98/end-to-end-ml-analytics-system)**  [![Live API](https://img.shields.io/badge/Live%20API-online-brightgreen?style=flat-square&logo=render&logoColor=white)](https://ml-churn-api-2z9m.onrender.com/docs)  
+Telco customer churn prediction as a production ML system. Random Forest (ROC-AUC 0.83, accuracy 0.79) with full pipeline: data validation → numeric/categorical feature engineering → artifact-based inference → Dockerized FastAPI. Modular architecture with config-driven pipeline and 4 test modules.  
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 
 **[SQL Analytics Portfolio](https://github.com/jjuunnii98/sql-analytics-portfolio)**  
 PostgreSQL 16 analytics on 9 assets × 5 years (13,489 rows): 18 SQL analyses across basics, window functions, financial metrics, and crypto indicators — all implemented from scratch in pure SQL. Sharpe ratio, max drawdown, Bollinger bands, RSI, VWAP, and pairwise correlation across BTC/ETH/SOL/BNB and AAPL/MSFT/NVDA/TSLA/GOOGL. Full pipeline: yfinance → CSV → PostgreSQL → Makefile automation → Python test suite.
@@ -93,14 +94,17 @@ PostgreSQL 16 analytics on 9 assets × 5 years (13,489 rows): 18 SQL analyses ac
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
 
-**[Graduate ML Portfolio](https://github.com/jjuunnii98/grad-portfolio-ml)**  
-Penalized Cox regression, statistical modeling experiments, and replication studies from undergraduate research.  
+**[Graduate ML Portfolio](https://github.com/jjuunnii98/grad-portfolio-ml)**  [![Live API](https://img.shields.io/badge/Live%20API-online-brightgreen?style=flat-square&logo=render&logoColor=white)](https://survival-api.onrender.com/docs)  
+Breast cancer survival analysis on METABRIC clinical dataset (1,353 patients). Penalized Cox PH (L2, penalizer=0.1) vs. baseline — validation C-index 0.638 vs. 0.629. Hazard ratio interpretation: Histologic Grade 3, HER2+, and lymph node positivity as high-risk indicators; ER+ as protective. Deployed as FastAPI inference service.  
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![R](https://img.shields.io/badge/R-276DC3?style=flat-square&logo=r&logoColor=white)
+![lifelines](https://img.shields.io/badge/lifelines-FF6B6B?style=flat-square)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 
 **[Python Analysis Lab](https://github.com/jjuunnii98/python-analysis-lab)**  
-Structured EDA, statistical modeling, and reproducible analysis workflows.  
+Three-domain analysis portfolio, each following a 4-notebook pipeline (EDA → feature engineering → modeling → insights): **(1) Retail** — RFM features, customer segmentation, churn prediction; **(2) Financial** — technical indicators (MA, RSI, Bollinger), volatility clustering, strategy backtesting; **(3) Healthcare** — patient risk classification with XGBoost, SHAP interpretation, SMOTE for class imbalance.  
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white)
 ![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white)
 
 ---
