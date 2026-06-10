@@ -185,20 +185,30 @@ Mobile        →  SimSage — React Native market intelligence + mock trading
 Decoder-only Transformer from scratch in PyTorch — no pre-trained weights. Architecture: RMSNorm + RoPE + Grouped Query Attention + KV Cache + SwiGLU FFN. Phase 1b complete: 817M tokens (wikitext-103 + Korean/English Wikipedia), step 50,000, avg_loss = 1.6946 on Kaggle T4 ×2. Domain data pipeline ready for Qwen2.5-Coder-7B QLoRA SFT: DART filings + crypto/finance news + finance code (The Stack v2). Phase 6 target: FastAPI serving + Telegram integration → JUNIXION inference layer.  
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-`Transformer` `GQA` `RoPE` `KV Cache` `QLoRA` `SFT`
+![Transformer](https://img.shields.io/badge/Transformer-555555?style=flat-square)
+![GQA](https://img.shields.io/badge/GQA-555555?style=flat-square)
+![RoPE](https://img.shields.io/badge/RoPE-555555?style=flat-square)
+![KV Cache](https://img.shields.io/badge/KV_Cache-555555?style=flat-square)
+![QLoRA](https://img.shields.io/badge/QLoRA-8B5CF6?style=flat-square)
+![SFT](https://img.shields.io/badge/SFT-8B5CF6?style=flat-square)
 
 **JUNIXION Risk Intelligence Pipeline** *(private · live ✅)*  
 4-factor composite score (volatility · liquidity · sentiment · event) running 24/7 via macOS LaunchAgent. 60+ RSS feeds, on-chain metrics (SOPR/MVRV/NVT/hashrate/mempool), stablecoin surveillance (9 assets), derivatives monitoring (funding rate + L/S + OI, Binance/Bybit/OKX), 227-keyword global news routing. Telegram 7-topic dispatch + Streamlit dashboard. Supabase PostgreSQL accumulating risk snapshots continuously.  
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white)
 ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
-`Telegram Bot API` `Binance API` `DeFi Llama` `GNews API`
+![Telegram Bot API](https://img.shields.io/badge/Telegram_Bot_API-26A5E4?style=flat-square&logo=telegram&logoColor=white)
+![Binance API](https://img.shields.io/badge/Binance_API-F0B90B?style=flat-square&logoColor=black)
+![DeFi Llama](https://img.shields.io/badge/DeFi_Llama-555555?style=flat-square)
+![GNews API](https://img.shields.io/badge/GNews_API-555555?style=flat-square)
 
 **SimSage — JUNIXION Mobile App** *(private · in development 🔄)*  
 React Native / Expo SDK 54 frontend to the risk pipeline. AI mock trading (spot/futures/options), Kimchi Premium, Fear & Greed Index, Sector Treemap, liquidation heatmap overlay, live order book, price-target alerts, no-code Strategy Builder, Correlation Matrix + VaR. Shares Telegram bot channel with the intelligence pipeline.  
 ![React Native](https://img.shields.io/badge/React_Native-61DAFB?style=flat-square&logo=react&logoColor=black)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-`Expo SDK 54` `Zustand 5` `TanStack Query 5`
+![Expo SDK 54](https://img.shields.io/badge/Expo_SDK_54-000020?style=flat-square&logo=expo&logoColor=white)
+![Zustand 5](https://img.shields.io/badge/Zustand_5-555555?style=flat-square)
+![TanStack Query 5](https://img.shields.io/badge/TanStack_Query_5-FF4154?style=flat-square)
 
 **Research Extension** *(in progress 🔄)*  
 Extending the KRX survival paper toward stochastic intensity models — continuous-time hazard rates, market-regime conditioning, time-varying baseline hazard.
