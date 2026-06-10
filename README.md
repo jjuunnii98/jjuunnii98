@@ -85,9 +85,13 @@ Full ML lifecycle from raw data to Dockerized API serving. Production-oriented a
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white)
 
 **[SQL Analytics Portfolio](https://github.com/jjuunnii98/sql-analytics-portfolio)**  
-Financial and crypto data analysis with SQL: window functions, time-series aggregation, market data queries.  
+PostgreSQL 16 analytics on 9 assets × 5 years (13,489 rows): 18 SQL analyses across basics, window functions, financial metrics, and crypto indicators — all implemented from scratch in pure SQL. Sharpe ratio, max drawdown, Bollinger bands, RSI, VWAP, and pairwise correlation across BTC/ETH/SOL/BNB and AAPL/MSFT/NVDA/TSLA/GOOGL. Full pipeline: yfinance → CSV → PostgreSQL → Makefile automation → Python test suite.
+
+> NVDA Sharpe 1.436 · SOL 2021 +11,153% · BTC–ETH correlation 0.817 · BTC max drawdown −76.6%
+
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
-![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white)
 
 **[Graduate ML Portfolio](https://github.com/jjuunnii98/grad-portfolio-ml)**  
 Penalized Cox regression, statistical modeling experiments, and replication studies from undergraduate research.  
@@ -129,7 +133,7 @@ Structured EDA, statistical modeling, and reproducible analysis workflows.
 **Analytics & Visualization**
 
 ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
-![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
 ![SAS](https://img.shields.io/badge/SAS-003399?style=for-the-badge&logo=sas&logoColor=white)
 
 </div>
