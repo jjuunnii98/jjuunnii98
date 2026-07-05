@@ -113,6 +113,12 @@ Three-domain analysis portfolio, each following a 4-notebook pipeline (EDA → f
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white)
 ![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white)
 
+**[Python Snake Game](https://github.com/jjuunnii98/python-snake-game)**  
+Pygame snake game with three difficulty modes (EASY · NORMAL · HARD), progressive FPS acceleration (score-driven speed increase up to 30 FPS), and per-difficulty persistent high scores (JSON). Clean OOP: `Snake` class handles body management, 180° reversal guard, wall and self-collision detection; `Food` class handles collision-aware respawn. WASD + arrow key controls, grid overlay, NEW RECORD indicator. Distributed as standalone executable via PyInstaller.  
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Pygame](https://img.shields.io/badge/Pygame-000000?style=flat-square&logo=python&logoColor=white)
+![PyInstaller](https://img.shields.io/badge/PyInstaller-4B5563?style=flat-square)
+
 ---
 
 ## Stack
