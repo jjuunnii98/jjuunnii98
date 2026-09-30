@@ -2,7 +2,9 @@
 
 # Junyeong Song
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=18&pause=1000&color=58A6FF&center=true&vCenter=true&random=false&width=600&lines=AI+Engineer+%C2%B7+Quantitative+Finance;Survival+Analysis+%C2%B7+Cox+PH+%C2%B7+AFT+Models;Risk+Intelligence+Builder+%40+JUNIXION;Yonsei+University+%C2%B7+Seoul%2C+South+Korea)](https://github.com/jjuunnii98)
+**Founder & AI Engineer, [JUNIXION](https://junixion.com)** · Risk Intelligence AI · Seoul
+
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=18&pause=1000&color=58A6FF&center=true&vCenter=true&random=false&width=620&lines=Risk+Intelligence+AI+for+Financial+Decisions;Building+SimSage+%C2%B7+AI+Mock+Trading+%26+Market+Intelligence;Survival+Analysis+%C2%B7+Cox+PH+%C2%B7+AFT+%C2%B7+C-index+0.738;React+Native+%C2%B7+Supabase+%C2%B7+Next.js+%C2%B7+FastAPI+%C2%B7+PyTorch)](https://junixion.com)
 
 <br>
 
@@ -12,13 +14,16 @@
 
 <br>
 
+[![SSRN](https://img.shields.io/badge/SSRN-Working_Paper_%C2%B7_C--index_0.738-1F4E79?style=flat-square)](https://papers.ssrn.com/abstract=6656258)
+[![SimSage](https://img.shields.io/badge/SimSage-pre--launch-8B5CF6?style=flat-square)](https://junixion.com)
+[![Backend](https://img.shields.io/badge/Backend-33_Edge_Functions_%C2%B7_53_migrations-3ECF8E?style=flat-square&logo=supabase&logoColor=white)](#currently-building)
+[![Risk Engine](https://img.shields.io/badge/Risk_Engine-7_factors_%C2%B7_100%2B_collectors-FF4B4B?style=flat-square)](#currently-building)
+
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-jun--yeong--song-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jun-yeong-song/)
 [![JUNIXION](https://img.shields.io/badge/junixion.com-000000?style=flat-square&logo=vercel&logoColor=white)](https://junixion.com)
+[![GitLab](https://img.shields.io/badge/GitLab-jjuunnii98-FC6D26?style=flat-square&logo=gitlab&logoColor=white)](https://gitlab.com/jjuunnii98)
 [![HuggingFace](https://img.shields.io/badge/HuggingFace-JUNIXION-FFD21E?style=flat-square&logo=huggingface&logoColor=black)](https://huggingface.co/JUNIXION)
-[![Email](https://img.shields.io/badge/jjuunnii98%40yonsei.ac.kr-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:jjuunnii98@yonsei.ac.kr)
-
-![Profile Views](https://komarev.com/ghpvc/?username=jjuunnii98&style=flat-square&color=0d1117&label=views)
-![Streak](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/jjuunnii98/jjuunnii98/main/streak.json)
+[![Email](https://img.shields.io/badge/junyeong%40junixion.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:junyeong@junixion.com)
 
 <br>
 
@@ -271,7 +276,7 @@ Building the full JUNIXION stack as a solo researcher and engineer: LLM weights,
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-jun--yeong--song-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jun-yeong-song/)
 [![JUNIXION](https://img.shields.io/badge/JUNIXION-junixion.com-000000?style=flat-square&logo=vercel&logoColor=white)](https://junixion.com)
-[![Email](https://img.shields.io/badge/Email-jjuunnii98%40yonsei.ac.kr-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:jjuunnii98@yonsei.ac.kr)
+[![Email](https://img.shields.io/badge/Email-junyeong%40junixion.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:junyeong@junixion.com)
 
 ---
 
@@ -301,6 +306,6 @@ Founder — JUNIXION (Risk Intelligence AI · FinTech Startup)
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jun-yeong-song/)
 [![JUNIXION](https://img.shields.io/badge/JUNIXION-000000?style=flat-square&logo=vercel&logoColor=white)](https://junixion.com)
-[![Email](https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:jjuunnii98@yonsei.ac.kr)
+[![Email](https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:junyeong@junixion.com)
 
 </div>

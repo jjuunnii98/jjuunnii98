@@ -43,7 +43,8 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           user: jjuunnii98
           template: classic
-          base: header, activity
+          base: header
+          config_timezone: Asia/Seoul
           plugin_isocalendar: yes
           plugin_isocalendar_duration: half-year
           config_theme: tokyonight
