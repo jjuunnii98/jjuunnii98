@@ -23,7 +23,7 @@
 [![JUNIXION](https://img.shields.io/badge/junixion.com-000000?style=flat-square&logo=vercel&logoColor=white)](https://junixion.com)
 [![GitLab](https://img.shields.io/badge/GitLab-jjuunnii98-FC6D26?style=flat-square&logo=gitlab&logoColor=white)](https://gitlab.com/jjuunnii98)
 [![HuggingFace](https://img.shields.io/badge/HuggingFace-JUNIXION-FFD21E?style=flat-square&logo=huggingface&logoColor=black)](https://huggingface.co/JUNIXION)
-[![Email](https://img.shields.io/badge/junyeong%40junixion.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:junyeong@junixion.com)
+[![Email](https://img.shields.io/badge/contact%40junixion.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:contact@junixion.com)
 
 <br>
 
@@ -276,7 +276,7 @@ Building the full JUNIXION stack as a solo researcher and engineer: LLM weights,
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-jun--yeong--song-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jun-yeong-song/)
 [![JUNIXION](https://img.shields.io/badge/JUNIXION-junixion.com-000000?style=flat-square&logo=vercel&logoColor=white)](https://junixion.com)
-[![Email](https://img.shields.io/badge/Email-junyeong%40junixion.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:junyeong@junixion.com)
+[![Email](https://img.shields.io/badge/Email-contact%40junixion.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:contact@junixion.com)
 
 ---
 
@@ -306,6 +306,6 @@ Founder — JUNIXION (Risk Intelligence AI · FinTech Startup)
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jun-yeong-song/)
 [![JUNIXION](https://img.shields.io/badge/JUNIXION-000000?style=flat-square&logo=vercel&logoColor=white)](https://junixion.com)
-[![Email](https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:junyeong@junixion.com)
+[![Email](https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:contact@junixion.com)
 
 </div>
