@@ -4,7 +4,7 @@
 
 **Founder & AI Engineer, [JUNIXION](https://junixion.com)** · Risk Intelligence AI · Seoul
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=18&pause=1000&color=58A6FF&center=true&vCenter=true&random=false&width=620&lines=Risk+Intelligence+AI+for+Financial+Decisions;Building+SimSage+%C2%B7+AI+Mock+Trading+%26+Market+Intelligence;Survival+Analysis+%C2%B7+Cox+PH+%C2%B7+AFT+%C2%B7+C-index+0.738;React+Native+%C2%B7+Supabase+%C2%B7+Next.js+%C2%B7+FastAPI+%C2%B7+PyTorch)](https://junixion.com)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=18&pause=1000&color=58A6FF&center=true&vCenter=true&random=false&width=620&lines=Risk+Intelligence+AI+for+Financial+Decisions;Building+SimSage+%C2%B7+AI+Mock+Trading+%26+Market+Intelligence;Building+Nalbom+%C2%B7+Widget-first+Calendar+App;Survival+Analysis+%C2%B7+Cox+PH+%C2%B7+AFT+%C2%B7+C-index+0.738;React+Native+%C2%B7+Supabase+%C2%B7+Next.js+%C2%B7+FastAPI+%C2%B7+PyTorch)](https://junixion.com)
 
 <br>
 
@@ -16,8 +16,8 @@
 
 [![SSRN](https://img.shields.io/badge/SSRN-Working_Paper_%C2%B7_C--index_0.738-1F4E79?style=flat-square)](https://papers.ssrn.com/abstract=6656258)
 [![SimSage](https://img.shields.io/badge/SimSage-pre--launch-8B5CF6?style=flat-square)](https://junixion.com)
-[![Backend](https://img.shields.io/badge/Backend-33_Edge_Functions_%C2%B7_53_migrations-3ECF8E?style=flat-square&logo=supabase&logoColor=white)](#currently-building)
-[![Risk Engine](https://img.shields.io/badge/Risk_Engine-7_factors_%C2%B7_100%2B_collectors-FF4B4B?style=flat-square)](#currently-building)
+[![Nalbom](https://img.shields.io/badge/Nalbom-pre--launch-F59E0B?style=flat-square)](#currently-building)
+[![Backend](https://img.shields.io/badge/Backend-35_Edge_Functions_%C2%B7_54_migrations-3ECF8E?style=flat-square&logo=supabase&logoColor=white)](#currently-building)
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-jun--yeong--song-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jun-yeong-song/)
 [![JUNIXION](https://img.shields.io/badge/junixion.com-000000?style=flat-square&logo=vercel&logoColor=white)](https://junixion.com)
@@ -55,16 +55,17 @@ That is what JUNIXION builds.
 Research layer    →  Survival models, stochastic processes, quantitative risk theory
 AI layer          →  JunixionLM — custom Transformer, domain SFT pipeline (DART + crypto + code)
 Engineering layer →  Real-time inference, scalable pipelines, production deployment
-Product layer     →  Domain-specialized Risk Intelligence AI for financial decision-making
+Product layer     →  SimSage (AI mock trading) · Nalbom (calendar app) · junixion.com
 ```
 
-The product stack runs across three private repositories, mirrored on GitHub and GitLab:
+The product stack runs across four private repositories, mirrored on GitHub and GitLab:
 
 | Repository | Role | Stack |
 |---|---|---|
-| `junixion-app` | **SimSage**, the first consumer product: AI mock trading and global market intelligence | React Native 0.81 · Expo SDK 54 · TypeScript |
-| `junixion-server` | Shared backend for the app and website: 53 migrations, 33 Edge Functions, all in production | Supabase (Postgres · Auth · RLS · pg_cron) · Deno |
-| `junixion-web` | Monorepo with the public site ([junixion.com](https://junixion.com)) and the risk intelligence engine (`app.` / `api.junixion.com`) | Next.js 16 · Python · FastAPI · Streamlit |
+| `junixion-app` | **SimSage**: AI mock trading and global market intelligence | React Native 0.81 · Expo SDK 54 · TypeScript |
+| `junixion-server` | Shared backend for SimSage and the website: 54 migrations, 35 Edge Functions | Supabase (Postgres · Auth · RLS · pg_cron) · Deno |
+| `junixion-web` | Company site ([junixion.com](https://junixion.com)) with SimSage and Nalbom product pages, plus the earlier Python risk engine prototype | Next.js 16 · React 19 · Tailwind v4 |
+| `nalbom` | **Nalbom (날봄)**: widget-first calendar app, fully on-device, no server | React Native 0.81 · Expo SDK 54 · SQLite |
 
 Proprietary system architecture. IP filing in preparation.
 
@@ -75,10 +76,10 @@ Proprietary system architecture. IP filing in preparation.
 ```
 Research      →  Continuous-time default models (KRX paper extension)
 AI Model      →  JunixionLM — 162M params, Phase 1 ✅, QLoRA SFT prep 🔄
-Intelligence  →  Risk engine — 7-component composite score, 100+ collectors, FastAPI + Streamlit
-Mobile        →  SimSage — server-authoritative mock trading, grounded AI analysis, pre-launch
-Backend       →  Supabase — 53 migrations, 33 Edge Functions in production
-Web           →  junixion.com — company site, SimSage waitlist, insights blog
+Mobile        →  SimSage — server-authoritative mock trading, compliance-gated AI, pre-launch
+Mobile        →  Nalbom — widget-first calendar, D-days, work tools, on-device only, pre-launch
+Backend       →  Supabase — 54 migrations, 35 Edge Functions in production
+Web           →  junixion.com — company site, SimSage & Nalbom pages, insights blog
 ```
 
 **JunixionLM** *(private · Phase 1 ✅ · SFT prep 🔄)*  
@@ -93,7 +94,7 @@ Decoder-only Transformer from scratch in PyTorch — no pre-trained weights. Arc
 ![SFT](https://img.shields.io/badge/SFT-8B5CF6?style=flat-square)
 
 **SimSage — JUNIXION Mobile App** *(private · pre-launch 🔄)*  
-AI mock trading and global market intelligence app built with React Native 0.81 and Expo SDK 54. Supports spot, leveraged futures and options trading. Orders fill against a synthetic order book, with partial fills, slippage, a pre-trade preview and pre-market/after-hours sessions for equities. Balances, positions and liquidations are computed on the server; the client only renders the state the server returns. One 6-factor risk model (volatility · liquidity · sentiment · event · systemic · derivatives) covers crypto, equities, FX and commodities, with CFTC COT positioning feeding the derivatives factor. Tapping a risk factor expands an explanation of it. The AI chat streams its answers, can read the user's mock positions, and grounds its market analysis in measured data passed to the server. Community features include public profiles, follows, @mentions, leagues, a weekly leaderboard and strategy cloning. Other features: Kimchi Premium, Fear & Greed, sector treemap, a monthly-returns heatmap of global indices (incl. Nikkei 225 · Hang Seng · FTSE 100 · Nifty 50), liquidation heatmap, Strategy Builder, Correlation Matrix + VaR, TOTP 2FA, RevenueCat subscriptions, and 5 languages (ko/en/ja/zh/es).  
+AI mock trading and global market intelligence app built with React Native 0.81 and Expo SDK 54. Supports spot, leveraged futures and options trading. Orders fill against a synthetic order book, with partial fills, slippage, a pre-trade preview and pre-market/after-hours sessions for equities. Balances, positions and liquidations are computed on the server; the client only renders the state the server returns. One 6-factor risk model (volatility · liquidity · sentiment · event · systemic · derivatives) covers crypto, equities, FX and commodities, with CFTC COT positioning feeding the derivatives factor, and each factor can be drilled into. Before an order, the app warns the user about patterns from their own past trading mistakes. The AI chat streams market explanations and education rather than investment advice: a compliance gate built for Korean financial regulation keeps it from making calls on specific securities. AI analysis cards can be read aloud. Community features include public profiles, follows, @mentions, leagues, a weekly leaderboard and strategy cloning. Other features: Kimchi Premium, Fear & Greed, sector treemap, a monthly-returns heatmap of global indices, liquidation heatmap, Strategy Builder, Correlation Matrix + VaR, TOTP 2FA, RevenueCat subscriptions, Sentry crash monitoring, and 5 languages (ko/en/ja/zh/es). About 970 commits since May 2026.  
 ![React Native](https://img.shields.io/badge/React_Native-61DAFB?style=flat-square&logo=react&logoColor=black)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
 ![Expo SDK 54](https://img.shields.io/badge/Expo_SDK_54-000020?style=flat-square&logo=expo&logoColor=white)
@@ -102,15 +103,15 @@ AI mock trading and global market intelligence app built with React Native 0.81 
 ![RevenueCat](https://img.shields.io/badge/RevenueCat-F25A5A?style=flat-square)
 
 **JUNIXION Backend** *(private · production ✅)*  
-Shared Supabase backend for SimSage and junixion.com, kept in its own repository so server secrets can never end up in the client bundle. It has 53 SQL migrations and 33 Edge Functions, all active in production. The server-authoritative trading ledger places orders, closes positions and applies rewards through atomic Postgres RPCs, and a pg_cron liquidation, TP/SL and options-expiry batch runs every 2 minutes. The Claude API proxy (chat, market analysis, trade and journal feedback) sits behind a global AI-usage circuit breaker. Subscriptions arrive through a RevenueCat webhook. Account security covers re-authentication, MFA backup codes, device sessions and rate limiting. Market data comes from EODHD prices, SEC EDGAR earnings-tone analysis, and a daily z-score anomaly briefing. The waitlist sends Resend confirmation email and removes bounced addresses automatically.  
+Shared Supabase backend for SimSage and junixion.com, kept in its own repository so server secrets can never end up in the client bundle. It has 54 SQL migrations and 35 Edge Functions, pinned to the Seoul region. The server-authoritative trading ledger places orders, closes positions and applies rewards through atomic Postgres RPCs, and a pg_cron liquidation, TP/SL and options-expiry batch runs every 2 minutes. The Claude API proxy (chat, market analysis, trade and journal feedback) sits behind a global AI-usage circuit breaker and a regulatory-compliance guardrail that classifies each question first, and it refunds the AI credit when a reply fails. Public crypto market data is fetched server-side through an allowlisted, cached proxy, and screenshot price reading runs through an OCR proxy with per-user limits. Subscriptions arrive through a RevenueCat webhook. Account security covers re-authentication, MFA backup codes, device sessions and rate limiting. Market data comes from EODHD prices, SEC EDGAR earnings-tone analysis, and a daily z-score anomaly briefing. The waitlist sends Resend confirmation email and removes bounced addresses automatically.  
 ![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
 ![Deno](https://img.shields.io/badge/Deno-000000?style=flat-square&logo=deno&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
 ![Claude API](https://img.shields.io/badge/Claude_API-D97757?style=flat-square&logo=anthropic&logoColor=white)
 
-**JUNIXION Risk Intelligence Engine** *(private · live ✅)*  
-Real-time multi-factor risk scoring for Upbit-listed crypto assets (2 fixed + a dynamic Top 30 by 24h volume). The composite score (0–1) is a weighted blend of 7 components: volatility 22% · derivatives 18% · sentiment 15% · event 15% · liquidity 12% · on-chain 10% · kimchi premium 8%. It maps to 4 levels: normal, caution ≥ 0.55, warning ≥ 0.75 and critical ≥ 0.90. More than 100 collectors cover markets, derivatives (Deribit options, funding, liquidation maps), on-chain (MVRV, SOPR, exchange reserves, whale flows), macro (M2, DXY, Fed balance sheet), social and news, and ETF/institutional flows. Claude writes the risk explanations (HybridRiskExplainer). Results are served by a Streamlit dashboard and a FastAPI REST API (`app.` / `api.junixion.com`, Docker on a VPS), with Gmail digests and threshold alerts.  
+**JUNIXION Risk Intelligence Engine** *(private · earlier prototype, not deployed)*  
+The first JUNIXION prototype: multi-factor risk scoring for Upbit-listed crypto assets. The composite score (0–1) blends 7 components (volatility 22% · derivatives 18% · sentiment 15% · event 15% · liquidity 12% · on-chain 10% · kimchi premium 8%) and maps to normal, caution, warning and critical levels. About 135 collectors cover markets, derivatives (Deribit options, funding, liquidation maps), on-chain (MVRV, SOPR, exchange reserves, whale flows), macro (M2, DXY, Fed balance sheet), social and news, and ETF/institutional flows, and Claude writes the risk explanations (HybridRiskExplainer). It was built with a Streamlit dashboard and a FastAPI REST API. The risk model now lives on inside SimSage.  
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
 ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
@@ -118,12 +119,20 @@ Real-time multi-factor risk scoring for Upbit-listed crypto assets (2 fixed + a 
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 
 **[junixion.com](https://junixion.com)** *(company site · Vercel ✅)*  
-Next.js 16 (App Router) + React 19 + Tailwind v4. Pages include the company story and vision (`/company`), the SimSage launch waitlist with a live counter and one-click unsubscribe, an insights blog (concepts · methodology · market commentary), a glossary, a press kit, a live status page, a changelog and legal pages. The site stays behind a private-preview access gate until launch, with light and dark modes. GitLab CI runs typecheck, lint, build and a Lighthouse quality gate on every change.  
+Next.js 16 (App Router) + React 19 + Tailwind v4. The site is organized as a company with two products: the home page introduces JUNIXION and its products, `/simsage` carries the SimSage introduction and launch waitlist, and `/nalbom` introduces Nalbom with its own Korean and English privacy policy and terms. It also has the company story (`/company`), an insights blog (concepts · methodology · market commentary), a glossary, a press kit, a live status page, a changelog and legal pages. The site has no database of its own and calls Edge Functions in the shared backend. It stays behind a private-preview access gate until launch, with light and dark modes. GitLab CI runs typecheck, lint, build and a Lighthouse quality gate on every change.  
 ![Next.js](https://img.shields.io/badge/Next.js_16-000000?style=flat-square&logo=nextdotjs&logoColor=white)
 ![React](https://img.shields.io/badge/React_19-61DAFB?style=flat-square&logo=react&logoColor=black)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_v4-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
 ![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
 ![GitLab CI](https://img.shields.io/badge/GitLab_CI-FC6D26?style=flat-square&logo=gitlab&logoColor=white)
+
+**Nalbom (날봄) — "a calendar for seeing your days"** *(private · pre-launch 🔄)*  
+JUNIXION's second app: a widget-first calendar for iOS and Android that brings D-days and anniversaries, a calendar, notes and office-worker tools into one place. Features include month and week views, public holidays for 19 countries, lunar dates, D-days with share cards, home-screen and lock-screen widgets, natural-language quick add parsed on the device, an annual-leave calculator that follows Korean labor law, 52-hour work-week tracking, a shift-work calendar, a work log that turns into a weekly report, and a long-weekend finder. The core design rule is zero server cost: all data stays on the device in SQLite, Google and iCloud calendars connect through the phone's own calendar, and there are no ads or analytics. It is free, with a one-time lifetime pass, and will launch globally in Korean and English.  
+![React Native](https://img.shields.io/badge/React_Native-61DAFB?style=flat-square&logo=react&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![Expo SDK 54](https://img.shields.io/badge/Expo_SDK_54-000020?style=flat-square&logo=expo&logoColor=white)
+![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white)
+![Swift](https://img.shields.io/badge/Swift_Widgets-F05138?style=flat-square&logo=swift&logoColor=white)
 
 **Research Extension** *(in progress 🔄)*  
 Extending the KRX survival paper toward stochastic intensity models — continuous-time hazard rates, market-regime conditioning, time-varying baseline hazard.
@@ -265,7 +274,7 @@ Pygame snake game with three difficulty modes (EASY · NORMAL · HARD), progress
 
 ## Connect
 
-Building the full JUNIXION stack as a solo researcher and engineer: LLM weights, the live risk engine, the Supabase backend, the mobile app and the website.
+Building the full JUNIXION stack as a solo researcher and engineer: LLM weights, the Supabase backend, two mobile apps (SimSage and Nalbom) and the website.
 
 | Area | Open to |
 |---|---|
