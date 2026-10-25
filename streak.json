@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
   "label": "streak",
-  "message": "29 days",
-  "color": "brightgreen",
+  "message": "0 days",
+  "color": "yellow",
   "style": "flat-square",
   "namedLogo": "github"
 }
