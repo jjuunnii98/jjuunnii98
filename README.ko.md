@@ -18,11 +18,7 @@
 
 <a href="https://junixion.com"><picture><source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="./assets/now-m-ko-dark.svg" /><source media="(max-width: 600px)" srcset="./assets/now-m-ko-light.svg" /><source media="(prefers-color-scheme: dark)" srcset="./assets/now-ko-dark.svg" /><img src="./assets/now-ko-light.svg" width="100%" alt="2026년 11월 출시 예정인 날봄과 회사 웹사이트 junixion.com" /></picture></a>
 
-<br>
-
 <picture><source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="./assets/roadmap-m-ko-dark.svg" /><source media="(max-width: 600px)" srcset="./assets/roadmap-m-ko-light.svg" /><source media="(prefers-color-scheme: dark)" srcset="./assets/roadmap-ko-dark.svg" /><img src="./assets/roadmap-ko-light.svg" width="100%" alt="날봄 출시 길: TestFlight 베타, Google Play 테스트, 2026년 11월 출시, 정기 업데이트, 2027년 두 번째 앱" /></picture>
-
-<br>
 
 <picture><source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="./assets/kpi-m-ko-dark.svg" /><source media="(max-width: 600px)" srcset="./assets/kpi-m-ko-light.svg" /><source media="(prefers-color-scheme: dark)" srcset="./assets/kpi-ko-dark.svg" /><img src="./assets/kpi-ko-light.svg" width="100%" alt="공휴일 151개 나라, 기기 4종, 언어 3개, 종단간 암호화 공유, 날봄 커밋 745개" /></picture>
 
@@ -35,7 +31,7 @@
 <picture><source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="./assets/features-m-ko-dark.svg" /><source media="(max-width: 600px)" srcset="./assets/features-m-ko-light.svg" /><source media="(prefers-color-scheme: dark)" srcset="./assets/features-ko-dark.svg" /><img src="./assets/features-ko-light.svg" width="100%" alt="날봄 기능: 달력, D-day와 메모, 일 도구, 위젯과 실시간 현황, 함께 공간, 꾸미기" /></picture>
 
 <details>
-<summary><b>어떻게 만들었나</b></summary>
+<summary><kbd>어떻게 만들었나</kbd></summary>
 
 <br>
 
@@ -60,7 +56,7 @@
 <picture><source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="./assets/web-m-ko-dark.svg" /><source media="(max-width: 600px)" srcset="./assets/web-m-ko-light.svg" /><source media="(prefers-color-scheme: dark)" srcset="./assets/web-ko-dark.svg" /><img src="./assets/web-ko-light.svg" width="100%" alt="junixion.com: 3개 언어, 날봄 소개, 앱에 맞춘 법적 문서, 비밀 초대 링크, 작고 조용하게, 바꿀 때마다 검사" /></picture>
 
 <details>
-<summary><b>웹사이트 자세히</b></summary>
+<summary><kbd>웹사이트 자세히</kbd></summary>
 
 <br>
 
@@ -81,7 +77,7 @@
 <a href="https://papers.ssrn.com/abstract=6656258"><picture><source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="./assets/research-m-ko-dark.svg" /><source media="(max-width: 600px)" srcset="./assets/research-m-ko-light.svg" /><source media="(prefers-color-scheme: dark)" srcset="./assets/research-ko-dark.svg" /><img src="./assets/research-ko-light.svg" width="100%" alt="워킹 페이퍼: 한국 주식시장 상장폐지 위험의 생존분석. C-index 0.738, 기업 365개, 상장폐지 158건, 276개월" /></picture></a>
 
 <details>
-<summary><b>전체 결과</b></summary>
+<summary><kbd>전체 결과</kbd></summary>
 
 <br>
 
@@ -121,7 +117,7 @@ Cox 비례위험 모형과 가속실패시간(AFT) 모형 — KOSPI/KOSDAQ 패�
 <a href="https://survival-api.onrender.com/docs"><picture><source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="./assets/project-grad-m-ko-dark.svg" /><source media="(max-width: 600px)" srcset="./assets/project-grad-m-ko-light.svg" /><source media="(prefers-color-scheme: dark)" srcset="./assets/project-grad-ko-dark.svg" /><img src="./assets/project-grad-ko-light.svg" width="49.5%" alt="grad" /></picture></a> <a href="https://github.com/jjuunnii98/sql-analytics-portfolio"><picture><source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="./assets/project-sql-m-ko-dark.svg" /><source media="(max-width: 600px)" srcset="./assets/project-sql-m-ko-light.svg" /><source media="(prefers-color-scheme: dark)" srcset="./assets/project-sql-ko-dark.svg" /><img src="./assets/project-sql-ko-light.svg" width="49.5%" alt="sql" /></picture></a>
 
 <details>
-<summary><b>자세히</b></summary>
+<summary><kbd>자세히</kbd></summary>
 
 <br>
 
@@ -174,7 +170,7 @@ PostgreSQL 16으로 자산 9개 × 5년(13,489행)을 분석한 18개 쿼리. �
 <picture><source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="./assets/about-m-ko-dark.svg" /><source media="(max-width: 600px)" srcset="./assets/about-m-ko-light.svg" /><source media="(prefers-color-scheme: dark)" srcset="./assets/about-ko-dark.svg" /><img src="./assets/about-ko-light.svg" width="100%" alt="연세대학교 경제학 × 정보통계학, 2027년 2월 졸업 예정. 주닉션 대표. 앱 의견, 연구, 직무, 대학원 이야기 환영" /></picture>
 
 <details>
-<summary><b>자격증</b></summary>
+<summary><kbd>자격증</kbd></summary>
 
 <br>
 

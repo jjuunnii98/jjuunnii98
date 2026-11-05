@@ -187,7 +187,8 @@ def social(m):
         # label segment
         w = int(len(label) * 8.4 + 28)
         b = (f'<path d="{seg_shape(w, H, R, True, False)}" fill="{c["card"]}" stroke="{c["line"]}"/>'
-             f'<text x="14" y="21.5" font-family="{MONO}" font-size="11.5" letter-spacing="1.8" fill="{c["faint"]}">{label}</text>')
+             f'<path d="{seg_shape(w, H, R, True, False)}" fill="{c["accent"]}" fill-opacity="0.09" stroke="none"/>'
+             f'<text x="14" y="21.5" font-family="{MONO}" font-size="11.5" font-weight="600" letter-spacing="1.8" fill="{c["accent"]}">{label}</text>')
         with open(os.path.join(OUT, f"social-{gkey}-label-{m}.svg"), "w") as f:
             f.write(f'<svg xmlns="http://www.w3.org/2000/svg" width="{w}" height="{H}" viewBox="0 0 {w} {H}" font-family="{SANS}">{b}</svg>\n')
         for k, n in enumerate(items):
@@ -361,8 +362,8 @@ def header(L, m):
     b += f'<rect x="0.5" y="0.5" width="{W-1}" height="{H-1}" rx="18" fill="none" stroke="{c["line"]}"/>'
     b += f'<rect x="40" y="0.2" width="560" height="1.8" rx="0.9" fill="url(#edge)"/>'
     # mini month: a quiet nod to Nalbom
-    cs, gap = 22, 7; gx = W - 56 - 7 * (cs + gap) + gap; gy = 38
-    b += f'<g font-family="{MONO}" font-size="10" fill="{c["faint"]}">'
+    cs, gap = 25, 6; gx = W - 52 - 7 * (cs + gap) + gap; gy = 30
+    b += f'<g font-family="{MONO}" font-size="11" fill="{c["faint"]}">'
     for k, d in enumerate("MTWTFSS"):
         b += f'<text x="{gx + k*(cs+gap) + cs/2:.1f}" y="{gy-6}" text-anchor="middle">{d}</text>'
     b += '</g>'
@@ -375,12 +376,12 @@ def header(L, m):
                 continue
             if n == 5:      # today
                 b += f'<rect x="{x}" y="{y}" width="{cs}" height="{cs}" rx="7" fill="url(#accg)"/>'
-                b += f'<text x="{x+cs/2}" y="{y+15}" text-anchor="middle" font-family="{MONO}" font-size="10.5" font-weight="600" fill="#FFFFFF">{n}</text>'
+                b += f'<text x="{x+cs/2}" y="{y+16.8}" text-anchor="middle" font-family="{MONO}" font-size="12" font-weight="600" fill="#FFFFFF">{n}</text>'
                 continue
             fill_op = 0.10 if m == "dark" else 0.07
             b += f'<rect x="{x}" y="{y}" width="{cs}" height="{cs}" rx="7" fill="{c["accent"]}" fill-opacity="{fill_op}"/>'
             col_txt = c["violet"] if col >= 5 else c["faint"]
-            b += f'<text x="{x+cs/2}" y="{y+15}" text-anchor="middle" font-family="{MONO}" font-size="10" fill="{col_txt}" fill-opacity="0.85">{n}</text>'
+            b += f'<text x="{x+cs/2}" y="{y+16.8}" text-anchor="middle" font-family="{MONO}" font-size="11.5" fill="{col_txt}" fill-opacity="0.85">{n}</text>'
             if n in (12, 19, 24):
                 b += f'<circle cx="{x+cs/2}" cy="{y+cs-3}" r="1.5" fill="{c["violet"] if n == 24 else c["accent"]}"/>'
             if n == 24:     # a D-day ring
@@ -1083,7 +1084,7 @@ PostgreSQL 16으로 자산 9개 × 5년(13,489행)을 분석한 18개 쿼리. �
 학부 연구원 — 생존분석·헬스케어 위험 모델링
 주닉션(JUNIXION) 대표 — 응용 소프트웨어, 2026년 8월 개업""",
     certs="""<details>
-<summary><b>자격증</b></summary>
+<summary><kbd>자격증</kbd></summary>
 
 <br>
 
@@ -1113,7 +1114,7 @@ C["en"]['built'] = "| Area | What I did |\n|---|---|\n| **On-device first** | Al
 C["en"]['web_list'] = "- **Three languages**: Korean, English and Japanese, with a language menu in the header and Japanese line-breaking and fonts.\n- **Nalbom pages**: introduction, real app screenshots (light and dark, three languages), pricing table and FAQ.\n- **Legal pages written to match the app**: Nalbom's privacy policy and terms in three languages, updated with each app build. Facts that are unfavorable to users are shown in bold blue, one sentence per line.\n- **Invite and D-day links** for Nalbom: the secret key after `#` is only used inside the browser. No analytics, no forms, no referrer, not indexed.\n- **Small and quiet**: no database of its own, no visit analytics (Speed Insights only), light and dark modes.\n- **Checked on every change**: GitLab CI runs typecheck, lint, build and a Lighthouse gate.\n- **Now**: in a review period. The legal pages, app links and press images stay public."
 C["en"]['research'] = '**Survival Analysis of Corporate Delisting Risk in the Korean Stock Market**  \nCox Proportional Hazards and Accelerated Failure Time Models — KOSPI/KOSDAQ Panel Data (2000–2023)\n\n📄 [SSRN Working Paper](https://papers.ssrn.com/abstract=6656258) · Submitted April 2026\n\n> *Static scoring models (Altman Z-score, logistic regression) treat failure as a yes-or-no outcome and drop censored observations. This paper uses event-history methods instead.*\n\n- Builds a KRX survival dataset: 365 firms, 158 delisting events, a 276-month window (DART + FinanceDataReader)\n- Compares Kaplan-Meier, Cox PH and Weibull / Log-Normal / Log-Logistic AFT models\n- Adds a heteroscedastic AFT extension that captures the variance gap between market segments\n\n| Finding | Result |\n|---|---|\n| Model discrimination | **C-index = 0.738**, close to the Shumway (2001) US benchmark (C ≈ 0.74) |\n| Strongest predictor | 12-month momentum: HR = 0.496, p = 0.001 |\n| Volatility | Price volatility: HR = 1.827, p = 0.004 |\n| Best specification | Weibull AFT with ancillary scale: AIC = 1620.6, ΔAIC = 318.1 (p < 0.001) |\n| Market difference | KOSDAQ vs. KOSPI log-rank χ² = 10.57, p = 0.001 |\n\n`survival analysis` `Cox PH` `AFT` `KRX` `KOSPI` `KOSDAQ` `DART` `empirical research`\n\n**Next**: continuous-time hazard models with time-varying baselines and regime conditioning.'
 C["en"]['projects_more'] = '**[Survival Analysis — KRX](https://github.com/jjuunnii98/survival-analysis-finance)**  \nCode for the SSRN paper above. 365 KRX firms, 2000–2023, 43.3% event rate. Kaplan-Meier, Cox PH (C-index 0.738) and AFT models with a heteroscedastic extension. Reproduces every table and figure in the paper.  \n<sub>Python · lifelines · pandas</sub>\n\n**JunixionLM** *(private · personal research)*  \nA decoder-only Transformer written from scratch in PyTorch, with no pre-trained weights: RMSNorm, RoPE, Grouped Query Attention, KV cache and a SwiGLU FFN. Three sizes (about 14M, 162M and 489M). The 162M model was trained on 817M tokens (wikitext-103 and Korean/English Wikipedia) to step 50,000, avg loss 1.6946, on Kaggle T4 ×2.  \n<sub>PyTorch · Python · Hugging Face</sub>\n\n**[Crypto Drawdown Survival Demo](https://github.com/jjuunnii98/crypto-risk-scoring-demo)** <sub>[live api ↗](https://crypto-risk-scoring-demo.onrender.com/docs)</sub>  \nA Cox PH model for 24-hour drawdowns (> 3%) on live Binance data, C-index 0.862. 16 features (RSI, Bollinger, MACD, VWAP gap, ATR, Garman-Klass, Sortino, rolling MDD, funding-rate z-score). 40 passing tests.  \n<sub>Python · FastAPI · lifelines</sub>\n\n**[End-to-End ML Analytics System](https://github.com/jjuunnii98/end-to-end-ml-analytics-system)** <sub>[live api ↗](https://ml-churn-api-2z9m.onrender.com/docs)</sub>  \nTelco churn prediction as a production ML system. Random Forest (ROC-AUC 0.83) with data validation, feature engineering, artifact-based inference and a Dockerized FastAPI.  \n<sub>Python · scikit-learn · Docker</sub>\n\n**[Graduate ML Portfolio](https://github.com/jjuunnii98/grad-portfolio-ml)** <sub>[live api ↗](https://survival-api.onrender.com/docs)</sub>  \nBreast cancer survival analysis on METABRIC (1,353 patients). Penalized Cox PH, validation C-index 0.638, deployed as a FastAPI service.  \n<sub>Python · lifelines · FastAPI</sub>\n\n**[SQL Analytics Portfolio](https://github.com/jjuunnii98/sql-analytics-portfolio)**  \nPostgreSQL 16 on 9 assets × 5 years (13,489 rows): 18 analyses in pure SQL, from window functions to Sharpe ratio, max drawdown, RSI and VWAP. yfinance → CSV → PostgreSQL → Makefile → Python tests.  \n<sub>PostgreSQL · SQL</sub>\n\n**[Python Analysis Lab](https://github.com/jjuunnii98/python-analysis-lab)**  \nThree domains, each in four notebooks (EDA → features → model → insights): retail segmentation and churn, time-series indicators and backtests, and healthcare risk classification with XGBoost and SHAP.  \n<sub>Python · Jupyter</sub>\n\n**[Python Snake Game](https://github.com/jjuunnii98/python-snake-game)**  \nPygame snake with three difficulty modes, speed that grows with the score, saved high scores and a PyInstaller build.  \n<sub>Python · Pygame</sub>'
-C["en"]['certs'] = '<details>\n<summary><b>Certifications</b></summary>\n\n<br>\n\n**Completed**\n- ADsP · SQLD · CDS 빅데이터 전문가 과정\n- 2024 제주 스마트관광 빅데이터 해커톤 우수상 — Team Leader\n\n**In progress**\n- 투자자산운용사 (Investment Asset Manager)\n- 빅데이터분석기사 (Big Data Analytics Engineer) · 정보처리기사 (Engineer Information Processing)\n\n**Planned**\n- 리눅스마스터 1급 (Linux Master Level 1) · 정보보안기사 (Engineer Information Security)\n- 금융투자분석사 (Financial Investment Analyst)\n\n</details>'
+C["en"]['certs'] = '<details>\n<summary><kbd>Certifications</kbd></summary>\n\n<br>\n\n**Completed**\n- ADsP · SQLD · CDS 빅데이터 전문가 과정\n- 2024 제주 스마트관광 빅데이터 해커톤 우수상 — Team Leader\n\n**In progress**\n- 투자자산운용사 (Investment Asset Manager)\n- 빅데이터분석기사 (Big Data Analytics Engineer) · 정보처리기사 (Engineer Information Processing)\n\n**Planned**\n- 리눅스마스터 1급 (Linux Master Level 1) · 정보보안기사 (Engineer Information Security)\n- 금융투자분석사 (Financial Investment Analyst)\n\n</details>'
 
 def build(lang):
     c = C[lang]
@@ -1136,11 +1137,7 @@ def build(lang):
 
 <a href="https://junixion.com">{pic('now', c['now_alt'], lang)}</a>
 
-<br>
-
 {pic('roadmap', c['roadmap_alt'], lang)}
-
-<br>
 
 {pic('kpi', c['kpi_alt'], lang)}
 
@@ -1153,7 +1150,7 @@ def build(lang):
 {pic('features', c['features_alt'], lang)}
 
 <details>
-<summary><b>{c['built_summary']}</b></summary>
+<summary><kbd>{c['built_summary']}</kbd></summary>
 
 <br>
 
@@ -1170,7 +1167,7 @@ def build(lang):
 {pic('web', c['web_alt'], lang)}
 
 <details>
-<summary><b>{c['web_more']}</b></summary>
+<summary><kbd>{c['web_more']}</kbd></summary>
 
 <br>
 
@@ -1185,7 +1182,7 @@ def build(lang):
 <a href="https://papers.ssrn.com/abstract=6656258">{pic('research', c['research_alt'], lang)}</a>
 
 <details>
-<summary><b>{c['research_more']}</b></summary>
+<summary><kbd>{c['research_more']}</kbd></summary>
 
 <br>
 
@@ -1200,7 +1197,7 @@ def build(lang):
 {project_grid(lang)}
 
 <details>
-<summary><b>{c['projects_summary']}</b></summary>
+<summary><kbd>{c['projects_summary']}</kbd></summary>
 
 <br>
 

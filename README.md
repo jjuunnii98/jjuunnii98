@@ -18,11 +18,7 @@
 
 <a href="https://junixion.com"><picture><source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="./assets/now-m-dark.svg" /><source media="(max-width: 600px)" srcset="./assets/now-m-light.svg" /><source media="(prefers-color-scheme: dark)" srcset="./assets/now-dark.svg" /><img src="./assets/now-light.svg" width="100%" alt="Nalbom, launching November 2026, and junixion.com, the company website" /></picture></a>
 
-<br>
-
 <picture><source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="./assets/roadmap-m-dark.svg" /><source media="(max-width: 600px)" srcset="./assets/roadmap-m-light.svg" /><source media="(prefers-color-scheme: dark)" srcset="./assets/roadmap-dark.svg" /><img src="./assets/roadmap-light.svg" width="100%" alt="Nalbom roadmap: TestFlight beta, Google Play testing, launch in November 2026, regular updates, app number two in 2027" /></picture>
-
-<br>
 
 <picture><source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="./assets/kpi-m-dark.svg" /><source media="(max-width: 600px)" srcset="./assets/kpi-m-light.svg" /><source media="(prefers-color-scheme: dark)" srcset="./assets/kpi-dark.svg" /><img src="./assets/kpi-light.svg" width="100%" alt="151 countries' holidays, 4 platforms, 3 languages, end-to-end encrypted sharing, 745 Nalbom commits" /></picture>
 
@@ -35,7 +31,7 @@
 <picture><source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="./assets/features-m-dark.svg" /><source media="(max-width: 600px)" srcset="./assets/features-m-light.svg" /><source media="(prefers-color-scheme: dark)" srcset="./assets/features-dark.svg" /><img src="./assets/features-light.svg" width="100%" alt="Nalbom features: calendar, D-days and notes, work tools, widgets and live activities, shared spaces, themes" /></picture>
 
 <details>
-<summary><b>How it is built</b></summary>
+<summary><kbd>How it is built</kbd></summary>
 
 <br>
 
@@ -60,7 +56,7 @@
 <picture><source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="./assets/web-m-dark.svg" /><source media="(max-width: 600px)" srcset="./assets/web-m-light.svg" /><source media="(prefers-color-scheme: dark)" srcset="./assets/web-dark.svg" /><img src="./assets/web-light.svg" width="100%" alt="junixion.com: three languages, Nalbom pages, legal pages that match the app, private invite links, small and quiet, checked on every change" /></picture>
 
 <details>
-<summary><b>Website details</b></summary>
+<summary><kbd>Website details</kbd></summary>
 
 <br>
 
@@ -81,7 +77,7 @@
 <a href="https://papers.ssrn.com/abstract=6656258"><picture><source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="./assets/research-m-dark.svg" /><source media="(max-width: 600px)" srcset="./assets/research-m-light.svg" /><source media="(prefers-color-scheme: dark)" srcset="./assets/research-dark.svg" /><img src="./assets/research-light.svg" width="100%" alt="Working paper: Survival Analysis of Corporate Delisting Risk in the Korean Stock Market. C-index 0.738, 365 firms, 158 delisting events, 276 months" /></picture></a>
 
 <details>
-<summary><b>Full results</b></summary>
+<summary><kbd>Full results</kbd></summary>
 
 <br>
 
@@ -121,7 +117,7 @@ Cox Proportional Hazards and Accelerated Failure Time Models — KOSPI/KOSDAQ Pa
 <a href="https://survival-api.onrender.com/docs"><picture><source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="./assets/project-grad-m-dark.svg" /><source media="(max-width: 600px)" srcset="./assets/project-grad-m-light.svg" /><source media="(prefers-color-scheme: dark)" srcset="./assets/project-grad-dark.svg" /><img src="./assets/project-grad-light.svg" width="49.5%" alt="grad" /></picture></a> <a href="https://github.com/jjuunnii98/sql-analytics-portfolio"><picture><source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="./assets/project-sql-m-dark.svg" /><source media="(max-width: 600px)" srcset="./assets/project-sql-m-light.svg" /><source media="(prefers-color-scheme: dark)" srcset="./assets/project-sql-dark.svg" /><img src="./assets/project-sql-light.svg" width="49.5%" alt="sql" /></picture></a>
 
 <details>
-<summary><b>Details</b></summary>
+<summary><kbd>Details</kbd></summary>
 
 <br>
 
@@ -174,7 +170,7 @@ Pygame snake with three difficulty modes, speed that grows with the score, saved
 <picture><source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="./assets/about-m-dark.svg" /><source media="(max-width: 600px)" srcset="./assets/about-m-light.svg" /><source media="(prefers-color-scheme: dark)" srcset="./assets/about-dark.svg" /><img src="./assets/about-light.svg" width="100%" alt="Yonsei University, Economics and Information Statistics, expected February 2027. Founder of JUNIXION. Open to app feedback, research, roles and graduate study" /></picture>
 
 <details>
-<summary><b>Certifications</b></summary>
+<summary><kbd>Certifications</kbd></summary>
 
 <br>
 
