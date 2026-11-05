@@ -1,138 +1,57 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0B1F4D,55:1E4FB8,100:5B9BFF&height=190&section=header&text=Junyeong%20Song&fontSize=46&fontColor=FFFFFF&fontAlignY=36&desc=Founder%20of%20JUNIXION%20%C2%B7%20App%20Developer%20%C2%B7%20Seoul&descSize=17&descAlignY=58" alt="Junyeong Song — Founder of JUNIXION" width="100%" />
+<a href="https://junixion.com">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/header-dark.svg" />
+  <img src="./assets/header-light.svg" width="100%" alt="Junyeong Song — Founder of JUNIXION, app developer in Seoul" />
+</picture>
+</a>
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=18&pause=1100&color=5B9BFF&center=true&vCenter=true&random=false&width=680&lines=Building+Nalbom+%C2%B7+a+widget-first+calendar+app;iPhone+%C2%B7+iPad+%C2%B7+Mac+%C2%B7+Android+%C2%B7+Apple+Watch;On-device+first+%C2%B7+end-to-end+encrypted+sharing;Holidays+for+151+countries+%C2%B7+Korean+%C2%B7+English+%C2%B7+Japanese;Research%3A+survival+analysis+%C2%B7+Cox+PH+%C2%B7+AFT+%C2%B7+C-index+0.738)](https://junixion.com)
+<br>
 
-> **Software for every day, built and backed to last.**  
-> I run JUNIXION, a one-person application software company in Seoul.  
-> I design, build, ship and support every part myself: app, widgets, server, website and legal pages.
-
-[![Nalbom](https://img.shields.io/badge/Nalbom-launching_Nov_2026-2160D4?style=flat-square)](#-nalbom-날봄)
-[![TestFlight](https://img.shields.io/badge/TestFlight-build_50-0D96F6?style=flat-square&logo=apple&logoColor=white)](#-nalbom-날봄)
-[![Google Play](https://img.shields.io/badge/Google_Play-closed_testing-34A853?style=flat-square&logo=googleplay&logoColor=white)](#-nalbom-날봄)
-[![Streak](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fjjuunnii98%2Fjjuunnii98%2Fmain%2Fstreak.json&style=flat-square)](https://github.com/jjuunnii98)
-[![SSRN](https://img.shields.io/badge/SSRN-working_paper-1F4E79?style=flat-square)](https://papers.ssrn.com/abstract=6656258)
-
-[![junixion.com](https://img.shields.io/badge/junixion.com-0B1F4D?style=flat-square&logo=vercel&logoColor=white)](https://junixion.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jun-yeong-song/)
-[![GitLab](https://img.shields.io/badge/GitLab-FC6D26?style=flat-square&logo=gitlab&logoColor=white)](https://gitlab.com/jjuunnii98)
-[![Hugging Face](https://img.shields.io/badge/Hugging_Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black)](https://huggingface.co/JUNIXION)
-[![Email](https://img.shields.io/badge/contact%40junixion.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:contact@junixion.com)
+[![junixion.com](https://img.shields.io/badge/junixion.com-0B1F4D?style=flat-square&logo=vercel&logoColor=white)](https://junixion.com) [![LinkedIn](https://img.shields.io/badge/LinkedIn-0B1F4D?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jun-yeong-song/) [![GitLab](https://img.shields.io/badge/GitLab-0B1F4D?style=flat-square&logo=gitlab&logoColor=white)](https://gitlab.com/jjuunnii98) [![Hugging Face](https://img.shields.io/badge/Hugging_Face-0B1F4D?style=flat-square&logo=huggingface&logoColor=white)](https://huggingface.co/JUNIXION) [![SSRN paper](https://img.shields.io/badge/SSRN_paper-0B1F4D?style=flat-square&logo=ssrn&logoColor=white)](https://papers.ssrn.com/abstract=6656258) [![contact@junixion.com](https://img.shields.io/badge/contact@junixion.com-0B1F4D?style=flat-square&logo=gmail&logoColor=white)](mailto:contact@junixion.com) [![Streak](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fjjuunnii98%2Fjjuunnii98%2Fmain%2Fstreak.json&style=flat-square&color=0B1F4D&labelColor=0B1F4D)](https://github.com/jjuunnii98)
 
 </div>
 
----
+<br>
 
-## 🧭 Now
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/section-now-dark.svg" />
+  <img src="./assets/section-now-light.svg" width="100%" alt="01 Now" />
+</picture>
 
-<table>
-<tr>
-<td width="50%" valign="top">
+<br>
 
-### 📅 Nalbom (날봄)
-**A calendar for seeing your days.**  
-D-days, calendar, notes and work tools in one widget-first app.
+<a href="https://junixion.com">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/now-dark.svg" />
+  <img src="./assets/now-light.svg" width="100%" alt="Nalbom, launching November 2026, and junixion.com, the company website" />
+</picture>
+</a>
 
-`iOS` `iPadOS` `macOS` `Android` `watchOS Smart Stack`
+<br>
 
-**745 commits** · TestFlight build 50 · launching November 2026
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/kpi-dark.svg" />
+  <img src="./assets/kpi-light.svg" width="100%" alt="151 countries holidays, 4 platforms, 3 languages, end-to-end encrypted sharing, 745 commits" />
+</picture>
 
-</td>
-<td width="50%" valign="top">
+<br>
 
-### 🌐 junixion.com
-**The company website.**  
-Company story, the Nalbom page, and Nalbom's privacy policy and terms in three languages.
-
-`Next.js 16` `React 19` `Tailwind v4` `Vercel`
-
-**343 commits** · Korean · English · Japanese
-
-</td>
-</tr>
-</table>
-
-```text
-Product    →  Nalbom: final checks before the November launch (iOS, iPadOS, macOS, Android)
-Website    →  junixion.com: review period, legal pages and app links stay public
-Next       →  App #2 in research, after Nalbom is stable
-Research   →  Survival analysis: extending the KRX delisting paper to continuous time
-```
-
----
-
-## 📅 Nalbom (날봄)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/section-nalbom-dark.svg" />
+  <img src="./assets/section-nalbom-light.svg" width="100%" alt="02 Nalbom" />
+</picture>
 
 > **날마다 봄, 나를 돌아봄. 거꾸로 읽으면 봄날.**  
 > *Seeing your days, looking back on yourself. Read backwards: bomnal, spring days.*
 
-Nalbom is JUNIXION's first app. It puts the dates you care about, your calendar, daily notes and everyday work tools into one place, and shows them on the home screen and lock screen.
+Nalbom puts the dates you care about, your calendar, daily notes and everyday work tools into one app, and shows them on the home screen and lock screen. It runs on iPhone, iPad, Mac (Apple silicon) and Android.
 
-<table>
-<tr>
-<td width="33%" valign="top">
-
-**🗓️ Calendar**
-- Year, month, week and day views
-- Public holidays for **151 countries**
-- Lunar dates, per-country rules
-- Google and iCloud calendars through the phone's own calendar
-- Repeats, multiple alarms, quick add parsed on the device
-
-</td>
-<td width="33%" valign="top">
-
-**⏳ D-days & notes**
-- D-days, count-ups, anniversaries
-- Trip D-days and share cards
-- Daily notes with photos, voice, links and places
-- One-line journal and mood
-- Locked notes with Face ID
-
-</td>
-<td width="33%" valign="top">
-
-**💼 Work tools**
-- Annual leave under Korean labor law
-- Clock-in, 52-hour week, breaks
-- Shift-work roster calendar
-- Work log → weekly report
-- Long-weekend finder, payday countdown
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-**📱 Widgets & live**
-- Home and lock-screen widgets
-- Tap to check or clock in from the widget
-- Live Activities and Apple Watch Smart Stack
-- Galaxy Live Updates on Android
-
-</td>
-<td valign="top">
-
-**👥 Together**
-- Shared spaces for couples, family, friends and trips
-- **End-to-end encrypted**, keys stay in the invite link
-- Key rotation when a member leaves
-- iCloud sync between your own Apple devices
-
-</td>
-<td valign="top">
-
-**🎨 Look & feel**
-- 13 color themes, 19 accent colors
-- Matching app icons on iOS
-- Text size and full dark mode
-- Korean, English and Japanese
-- Free, with a one-time lifetime pass
-
-</td>
-</tr>
-</table>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/features-dark.svg" />
+  <img src="./assets/features-light.svg" width="100%" alt="Nalbom features: calendar, D-days and notes, work tools, widgets and live activities, shared spaces, themes" />
+</picture>
 
 <details>
 <summary><b>How it is built</b> (click to open)</summary>
@@ -151,24 +70,16 @@ Nalbom is JUNIXION's first app. It puts the dates you care about, your calendar,
 
 </details>
 
-![React Native](https://img.shields.io/badge/React_Native_0.81-61DAFB?style=flat-square&logo=react&logoColor=black)
-![Expo SDK 54](https://img.shields.io/badge/Expo_SDK_54-000020?style=flat-square&logo=expo&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white)
-![Swift](https://img.shields.io/badge/Swift-F05138?style=flat-square&logo=swift&logoColor=white)
-![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=flat-square&logo=kotlin&logoColor=white)
-![CloudKit](https://img.shields.io/badge/CloudKit-3693F3?style=flat-square&logo=icloud&logoColor=white)
-![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white)
-![RevenueCat](https://img.shields.io/badge/RevenueCat-F25A5A?style=flat-square)
-![Sentry](https://img.shields.io/badge/Sentry-362D59?style=flat-square&logo=sentry&logoColor=white)
+![React Native 0.81](https://img.shields.io/badge/React_Native_0.81-0B1F4D?style=flat-square&logo=react&logoColor=white) ![Expo SDK 54](https://img.shields.io/badge/Expo_SDK_54-0B1F4D?style=flat-square&logo=expo&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-0B1F4D?style=flat-square&logo=typescript&logoColor=white) ![SQLite](https://img.shields.io/badge/SQLite-0B1F4D?style=flat-square&logo=sqlite&logoColor=white) ![Swift](https://img.shields.io/badge/Swift-0B1F4D?style=flat-square&logo=swift&logoColor=white) ![Kotlin](https://img.shields.io/badge/Kotlin-0B1F4D?style=flat-square&logo=kotlin&logoColor=white) ![CloudKit](https://img.shields.io/badge/CloudKit-0B1F4D?style=flat-square&logo=icloud&logoColor=white) ![Supabase](https://img.shields.io/badge/Supabase-0B1F4D?style=flat-square&logo=supabase&logoColor=white) ![RevenueCat](https://img.shields.io/badge/RevenueCat-0B1F4D?style=flat-square) ![Sentry](https://img.shields.io/badge/Sentry-0B1F4D?style=flat-square&logo=sentry&logoColor=white)
 
-[![Instagram](https://img.shields.io/badge/@nalbom.app-E4405F?style=flat-square&logo=instagram&logoColor=white)](https://www.instagram.com/nalbom.app/)
-[![X](https://img.shields.io/badge/@nalbomapp-000000?style=flat-square&logo=x&logoColor=white)](https://x.com/nalbomapp)
-[![Facebook](https://img.shields.io/badge/nalbomapp-0866FF?style=flat-square&logo=facebook&logoColor=white)](https://www.facebook.com/nalbomapp)
+[![@nalbom.app](https://img.shields.io/badge/@nalbom.app-2160D4?style=flat-square&logo=instagram&logoColor=white)](https://www.instagram.com/nalbom.app/) [![@nalbomapp](https://img.shields.io/badge/@nalbomapp-2160D4?style=flat-square&logo=x&logoColor=white)](https://x.com/nalbomapp) [![nalbomapp](https://img.shields.io/badge/nalbomapp-2160D4?style=flat-square&logo=facebook&logoColor=white)](https://www.facebook.com/nalbomapp)
 
----
+<br>
 
-## 🌐 junixion.com
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/section-web-dark.svg" />
+  <img src="./assets/section-web-light.svg" width="100%" alt="03 junixion.com" />
+</picture>
 
 The company website, built and run by me. Private repository, mirrored on GitHub and GitLab.
 
@@ -180,35 +91,16 @@ The company website, built and run by me. Private repository, mirrored on GitHub
 - **Checked on every change**: GitLab CI runs typecheck, lint, build and a Lighthouse gate.
 - **Now**: in a review period. The legal pages, app links and press images stay public.
 
-![Next.js](https://img.shields.io/badge/Next.js_16-000000?style=flat-square&logo=nextdotjs&logoColor=white)
-![React](https://img.shields.io/badge/React_19-61DAFB?style=flat-square&logo=react&logoColor=black)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_v4-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
-![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
-![GitLab CI](https://img.shields.io/badge/GitLab_CI-FC6D26?style=flat-square&logo=gitlab&logoColor=white)
+![Next.js 16](https://img.shields.io/badge/Next.js_16-0B1F4D?style=flat-square&logo=nextdotjs&logoColor=white) ![React 19](https://img.shields.io/badge/React_19-0B1F4D?style=flat-square&logo=react&logoColor=white) ![Tailwind v4](https://img.shields.io/badge/Tailwind_v4-0B1F4D?style=flat-square&logo=tailwindcss&logoColor=white) ![Vercel](https://img.shields.io/badge/Vercel-0B1F4D?style=flat-square&logo=vercel&logoColor=white) ![GitLab CI](https://img.shields.io/badge/GitLab_CI-0B1F4D?style=flat-square&logo=gitlab&logoColor=white)
 
-[![Instagram](https://img.shields.io/badge/@junixion.official-E4405F?style=flat-square&logo=instagram&logoColor=white)](https://www.instagram.com/junixion.official/)
-[![X](https://img.shields.io/badge/@junixion-000000?style=flat-square&logo=x&logoColor=white)](https://x.com/junixion)
-[![Facebook](https://img.shields.io/badge/junixion.official-0866FF?style=flat-square&logo=facebook&logoColor=white)](https://www.facebook.com/junixion.official)
+[![@junixion.official](https://img.shields.io/badge/@junixion.official-0B1F4D?style=flat-square&logo=instagram&logoColor=white)](https://www.instagram.com/junixion.official/) [![@junixion](https://img.shields.io/badge/@junixion-0B1F4D?style=flat-square&logo=x&logoColor=white)](https://x.com/junixion) [![junixion.official](https://img.shields.io/badge/junixion.official-0B1F4D?style=flat-square&logo=facebook&logoColor=white)](https://www.facebook.com/junixion.official)
 
----
-
-## 📊 GitHub
-
-<div align="center">
-
-![GitHub Stats](./github-metrics.svg)
+<br>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="./github-snake.svg" />
-  <img alt="GitHub contribution snake" src="./github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/section-research-dark.svg" />
+  <img src="./assets/section-research-light.svg" width="100%" alt="04 Research" />
 </picture>
-
-</div>
-
----
-
-## 🔬 Research
 
 ### Survival Analysis of Corporate Delisting Risk in the Korean Stock Market
 **Cox Proportional Hazards and Accelerated Failure Time Models — KOSPI/KOSDAQ Panel Data (2000–2023)**
@@ -233,9 +125,12 @@ The company website, built and run by me. Private repository, mirrored on GitHub
 
 **Next**: continuous-time hazard models with time-varying baselines and regime conditioning.
 
----
+<br>
 
-## 🧪 Projects
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/section-projects-dark.svg" />
+  <img src="./assets/section-projects-light.svg" width="100%" alt="05 Projects" />
+</picture>
 
 <details open>
 <summary><b>Machine learning & statistics</b></summary>
@@ -296,47 +191,43 @@ Pygame snake with three difficulty modes, speed that grows with the score, saved
 
 </details>
 
----
+<br>
 
-## 🛠️ Stack
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/section-stack-dark.svg" />
+  <img src="./assets/section-stack-light.svg" width="100%" alt="06 Stack" />
+</picture>
 
 <div align="center">
 
-**Apps**
+![React Native](https://img.shields.io/badge/React_Native-0B1F4D?style=for-the-badge&logo=react&logoColor=white) ![Expo](https://img.shields.io/badge/Expo-0B1F4D?style=for-the-badge&logo=expo&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-0B1F4D?style=for-the-badge&logo=typescript&logoColor=white) ![Swift](https://img.shields.io/badge/Swift-0B1F4D?style=for-the-badge&logo=swift&logoColor=white) ![Kotlin](https://img.shields.io/badge/Kotlin-0B1F4D?style=for-the-badge&logo=kotlin&logoColor=white) ![SQLite](https://img.shields.io/badge/SQLite-0B1F4D?style=for-the-badge&logo=sqlite&logoColor=white)
 
-![React Native](https://img.shields.io/badge/React_Native-61DAFB?style=for-the-badge&logo=react&logoColor=black)
-![Expo](https://img.shields.io/badge/Expo-000020?style=for-the-badge&logo=expo&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![Swift](https://img.shields.io/badge/Swift-F05138?style=for-the-badge&logo=swift&logoColor=white)
-![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white)
-![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)
+![Next.js](https://img.shields.io/badge/Next.js-0B1F4D?style=for-the-badge&logo=nextdotjs&logoColor=white) ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-0B1F4D?style=for-the-badge&logo=tailwindcss&logoColor=white) ![Supabase](https://img.shields.io/badge/Supabase-0B1F4D?style=for-the-badge&logo=supabase&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-0B1F4D?style=for-the-badge&logo=postgresql&logoColor=white) ![Deno](https://img.shields.io/badge/Deno-0B1F4D?style=for-the-badge&logo=deno&logoColor=white) ![Vercel](https://img.shields.io/badge/Vercel-0B1F4D?style=for-the-badge&logo=vercel&logoColor=white) ![GitLab CI](https://img.shields.io/badge/GitLab_CI-0B1F4D?style=for-the-badge&logo=gitlab&logoColor=white)
 
-**Web & backend**
-
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
-![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
-![Deno](https://img.shields.io/badge/Deno-000000?style=for-the-badge&logo=deno&logoColor=white)
-![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
-![GitLab CI](https://img.shields.io/badge/GitLab_CI-FC6D26?style=for-the-badge&logo=gitlab&logoColor=white)
-
-**ML & statistics**
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
-![pandas](https://img.shields.io/badge/pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
-![R](https://img.shields.io/badge/R-276DC3?style=for-the-badge&logo=r&logoColor=white)
-![SAS](https://img.shields.io/badge/SAS-003399?style=for-the-badge&logo=sas&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Python](https://img.shields.io/badge/Python-0B1F4D?style=for-the-badge&logo=python&logoColor=white) ![PyTorch](https://img.shields.io/badge/PyTorch-0B1F4D?style=for-the-badge&logo=pytorch&logoColor=white) ![scikit-learn](https://img.shields.io/badge/scikit--learn-0B1F4D?style=for-the-badge&logo=scikitlearn&logoColor=white) ![pandas](https://img.shields.io/badge/pandas-0B1F4D?style=for-the-badge&logo=pandas&logoColor=white) ![R](https://img.shields.io/badge/R-0B1F4D?style=for-the-badge&logo=r&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-0B1F4D?style=for-the-badge&logo=fastapi&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-0B1F4D?style=for-the-badge&logo=docker&logoColor=white)
 
 </div>
 
----
+<br>
 
-## 🎓 Background
+<div align="center">
+
+![GitHub Stats](./github-metrics.svg)
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="./github-snake.svg" />
+  <img alt="GitHub contribution snake" src="./github-snake-dark.svg" />
+</picture>
+
+</div>
+
+<br>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/section-about-dark.svg" />
+  <img src="./assets/section-about-light.svg" width="100%" alt="07 About" />
+</picture>
 
 **Yonsei University** — Economics × Information Statistics · Expected August 2026  
 Undergraduate Research Assistant — Survival Analysis & Healthcare Risk Modeling  
@@ -361,10 +252,6 @@ Founder — JUNIXION (application software, opened August 2026)
 
 </details>
 
----
-
-## 🤝 Connect
-
 | Area | Open to |
 |---|---|
 | Apps | Nalbom feedback, bug reports and localization help |
@@ -372,12 +259,11 @@ Founder — JUNIXION (application software, opened August 2026)
 | Roles | App engineer · ML researcher · AI engineer · Quant engineer |
 | Academia | Financial Engineering / AI graduate programs (2027 entry) |
 
-<div align="center">
+<br>
 
-[![junixion.com](https://img.shields.io/badge/junixion.com-0B1F4D?style=for-the-badge&logo=vercel&logoColor=white)](https://junixion.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jun-yeong-song/)
-[![Email](https://img.shields.io/badge/contact%40junixion.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:contact@junixion.com)
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:5B9BFF,45:1E4FB8,100:0B1F4D&height=110&section=footer" alt="" width="100%" />
-
-</div>
+<a href="mailto:contact@junixion.com">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/footer-dark.svg" />
+  <img src="./assets/footer-light.svg" width="100%" alt="Software for every day, built and backed to last. JUNIXION, Seoul, contact@junixion.com" />
+</picture>
+</a>
