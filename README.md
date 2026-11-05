@@ -30,10 +30,7 @@
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="./assets/section-nalbom-dark.svg" /><img src="./assets/section-nalbom-light.svg" width="100%" alt="02 Nalbom" /></picture>
 
-> **날마다 봄, 나를 돌아봄. 거꾸로 읽으면 봄날.**  
-> *Seeing your days, looking back on yourself. Read backwards: bomnal, spring days.*
-
-Nalbom puts the dates you care about, your calendar, daily notes and everyday work tools into one app, and shows them on the home screen and lock screen. It runs on iPhone, iPad, Mac (Apple silicon) and Android.
+<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/lead-nalbom-dark.svg" /><img src="./assets/lead-nalbom-light.svg" width="100%" alt="Nalbom puts the dates you care about, your calendar, daily notes and everyday work tools into one app, and shows them on the home screen and lock screen. It runs on iPhone, iPad, Mac (Apple silicon) and Android." /></picture>
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="./assets/features-dark.svg" /><img src="./assets/features-light.svg" width="100%" alt="Nalbom features: calendar, D-days and notes, work tools, widgets and live activities, shared spaces, themes" /></picture>
 
@@ -54,13 +51,11 @@ Nalbom puts the dates you care about, your calendar, daily notes and everyday wo
 
 </details>
 
-<sub>React Native 0.81 · Expo SDK 54 · TypeScript · SQLite · Swift · Kotlin · CloudKit · Supabase · RevenueCat · Sentry</sub>
-
 <br>
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="./assets/section-web-dark.svg" /><img src="./assets/section-web-light.svg" width="100%" alt="03 junixion.com" /></picture>
 
-The company website, built and run by me. Private repository, mirrored on GitHub and GitLab.
+<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/lead-web-dark.svg" /><img src="./assets/lead-web-light.svg" width="100%" alt="The company website, built and run by me. Private repository, mirrored on GitHub and GitLab." /></picture>
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="./assets/web-dark.svg" /><img src="./assets/web-light.svg" width="100%" alt="junixion.com: three languages, Nalbom pages, legal pages that match the app, private invite links, small and quiet, checked on every change" /></picture>
 
@@ -78,8 +73,6 @@ The company website, built and run by me. Private repository, mirrored on GitHub
 - **Now**: in a review period. The legal pages, app links and press images stay public.
 
 </details>
-
-<sub>Next.js 16 · React 19 · Tailwind v4 · Vercel · GitLab CI</sub>
 
 <br>
 

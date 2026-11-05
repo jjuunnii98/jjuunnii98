@@ -30,10 +30,7 @@
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="./assets/section-nalbom-ko-dark.svg" /><img src="./assets/section-nalbom-ko-light.svg" width="100%" alt="02 Nalbom" /></picture>
 
-> **날마다 봄, 나를 돌아봄. 거꾸로 읽으면 봄날.**  
-> 챙겨야 할 날을 날마다 보고, 하루 한 줄로 나를 돌아보는 달력이에요.
-
-날봄은 챙겨야 할 날, 캘린더, 하루 메모, 직장인 도구를 한 앱에 담고 홈 화면과 잠금화면에 보여 줍니다. 아이폰, 아이패드, 맥(Apple 실리콘), 안드로이드에서 쓸 수 있어요.
+<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/lead-nalbom-ko-dark.svg" /><img src="./assets/lead-nalbom-ko-light.svg" width="100%" alt="날봄은 챙겨야 할 날, 캘린더, 하루 메모, 직장인 도구를 한 앱에 담고 홈 화면과 잠금화면에 보여 줍니다. 아이폰, 아이패드, 맥(Apple 실리콘), 안드로이드에서 쓸 수 있어요." /></picture>
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="./assets/features-ko-dark.svg" /><img src="./assets/features-ko-light.svg" width="100%" alt="날봄 기능: 달력, D-day와 메모, 일 도구, 위젯과 실시간 현황, 함께 공간, 꾸미기" /></picture>
 
@@ -54,13 +51,11 @@
 
 </details>
 
-<sub>React Native 0.81 · Expo SDK 54 · TypeScript · SQLite · Swift · Kotlin · CloudKit · Supabase · RevenueCat · Sentry</sub>
-
 <br>
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="./assets/section-web-ko-dark.svg" /><img src="./assets/section-web-ko-light.svg" width="100%" alt="03 junixion.com" /></picture>
 
-회사 웹사이트입니다. 직접 만들고 운영해요. 비공개 저장소이고 GitHub와 GitLab에 함께 올려요.
+<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/lead-web-ko-dark.svg" /><img src="./assets/lead-web-ko-light.svg" width="100%" alt="회사 웹사이트입니다. 직접 만들고 운영해요. 비공개 저장소이고 GitHub와 GitLab에 함께 올려요." /></picture>
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="./assets/web-ko-dark.svg" /><img src="./assets/web-ko-light.svg" width="100%" alt="junixion.com: 3개 언어, 날봄 소개, 앱에 맞춘 법적 문서, 비밀 초대 링크, 작고 조용하게, 바꿀 때마다 검사" /></picture>
 
@@ -78,8 +73,6 @@
 - **지금**: 검토 기간이에요. 법적 문서, 앱 링크, 프레스 이미지는 계속 공개돼요.
 
 </details>
-
-<sub>Next.js 16 · React 19 · Tailwind v4 · Vercel · GitLab CI</sub>
 
 <br>
 
