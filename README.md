@@ -70,9 +70,9 @@ Nalbom puts the dates you care about, your calendar, daily notes and everyday wo
 
 </details>
 
-![React Native 0.81](https://img.shields.io/badge/React_Native_0.81-0B1F4D?style=flat-square&logo=react&logoColor=white) ![Expo SDK 54](https://img.shields.io/badge/Expo_SDK_54-0B1F4D?style=flat-square&logo=expo&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-0B1F4D?style=flat-square&logo=typescript&logoColor=white) ![SQLite](https://img.shields.io/badge/SQLite-0B1F4D?style=flat-square&logo=sqlite&logoColor=white) ![Swift](https://img.shields.io/badge/Swift-0B1F4D?style=flat-square&logo=swift&logoColor=white) ![Kotlin](https://img.shields.io/badge/Kotlin-0B1F4D?style=flat-square&logo=kotlin&logoColor=white) ![CloudKit](https://img.shields.io/badge/CloudKit-0B1F4D?style=flat-square&logo=icloud&logoColor=white) ![Supabase](https://img.shields.io/badge/Supabase-0B1F4D?style=flat-square&logo=supabase&logoColor=white) ![RevenueCat](https://img.shields.io/badge/RevenueCat-0B1F4D?style=flat-square) ![Sentry](https://img.shields.io/badge/Sentry-0B1F4D?style=flat-square&logo=sentry&logoColor=white)
+<sub>React Native 0.81 · Expo SDK 54 · TypeScript · SQLite · Swift · Kotlin · CloudKit · Supabase · RevenueCat · Sentry</sub>
 
-[![@nalbom.app](https://img.shields.io/badge/@nalbom.app-2160D4?style=flat-square&logo=instagram&logoColor=white)](https://www.instagram.com/nalbom.app/) [![@nalbomapp](https://img.shields.io/badge/@nalbomapp-2160D4?style=flat-square&logo=x&logoColor=white)](https://x.com/nalbomapp) [![nalbomapp](https://img.shields.io/badge/nalbomapp-2160D4?style=flat-square&logo=facebook&logoColor=white)](https://www.facebook.com/nalbomapp)
+<sub>[Instagram @nalbom.app](https://www.instagram.com/nalbom.app/) · [X @nalbomapp](https://x.com/nalbomapp) · [Facebook nalbomapp](https://www.facebook.com/nalbomapp)</sub>
 
 <br>
 
@@ -91,9 +91,9 @@ The company website, built and run by me. Private repository, mirrored on GitHub
 - **Checked on every change**: GitLab CI runs typecheck, lint, build and a Lighthouse gate.
 - **Now**: in a review period. The legal pages, app links and press images stay public.
 
-![Next.js 16](https://img.shields.io/badge/Next.js_16-0B1F4D?style=flat-square&logo=nextdotjs&logoColor=white) ![React 19](https://img.shields.io/badge/React_19-0B1F4D?style=flat-square&logo=react&logoColor=white) ![Tailwind v4](https://img.shields.io/badge/Tailwind_v4-0B1F4D?style=flat-square&logo=tailwindcss&logoColor=white) ![Vercel](https://img.shields.io/badge/Vercel-0B1F4D?style=flat-square&logo=vercel&logoColor=white) ![GitLab CI](https://img.shields.io/badge/GitLab_CI-0B1F4D?style=flat-square&logo=gitlab&logoColor=white)
+<sub>Next.js 16 · React 19 · Tailwind v4 · Vercel · GitLab CI</sub>
 
-[![@junixion.official](https://img.shields.io/badge/@junixion.official-0B1F4D?style=flat-square&logo=instagram&logoColor=white)](https://www.instagram.com/junixion.official/) [![@junixion](https://img.shields.io/badge/@junixion-0B1F4D?style=flat-square&logo=x&logoColor=white)](https://x.com/junixion) [![junixion.official](https://img.shields.io/badge/junixion.official-0B1F4D?style=flat-square&logo=facebook&logoColor=white)](https://www.facebook.com/junixion.official)
+<sub>[Instagram @junixion.official](https://www.instagram.com/junixion.official/) · [X @junixion](https://x.com/junixion) · [Facebook junixion.official](https://www.facebook.com/junixion.official)</sub>
 
 <br>
 
@@ -102,8 +102,8 @@ The company website, built and run by me. Private repository, mirrored on GitHub
   <img src="./assets/section-research-light.svg" width="100%" alt="04 Research" />
 </picture>
 
-### Survival Analysis of Corporate Delisting Risk in the Korean Stock Market
-**Cox Proportional Hazards and Accelerated Failure Time Models — KOSPI/KOSDAQ Panel Data (2000–2023)**
+**Survival Analysis of Corporate Delisting Risk in the Korean Stock Market**  
+Cox Proportional Hazards and Accelerated Failure Time Models — KOSPI/KOSDAQ Panel Data (2000–2023)
 
 📄 [SSRN Working Paper](https://papers.ssrn.com/abstract=6656258) · Submitted April 2026
 
@@ -139,33 +139,23 @@ The company website, built and run by me. Private repository, mirrored on GitHub
 
 **[Survival Analysis — KRX](https://github.com/jjuunnii98/survival-analysis-finance)**  
 Code for the SSRN paper above. 365 KRX firms, 2000–2023, 43.3% event rate. Kaplan-Meier, Cox PH (C-index 0.738) and AFT models with a heteroscedastic extension. Reproduces every table and figure in the paper.  
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![lifelines](https://img.shields.io/badge/lifelines-FF6B6B?style=flat-square)
-![pandas](https://img.shields.io/badge/pandas-150458?style=flat-square&logo=pandas&logoColor=white)
+<sub>Python · lifelines · pandas</sub>
 
 **JunixionLM** *(private · personal research)*  
 A decoder-only Transformer written from scratch in PyTorch, with no pre-trained weights: RMSNorm, RoPE, Grouped Query Attention, KV cache and a SwiGLU FFN. Three sizes (about 14M, 162M and 489M). The 162M model was trained on 817M tokens (wikitext-103 and Korean/English Wikipedia) to step 50,000, avg loss 1.6946, on Kaggle T4 ×2.  
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![Hugging Face](https://img.shields.io/badge/Hugging_Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black)
+<sub>PyTorch · Python · Hugging Face</sub>
 
-**[Crypto Drawdown Survival Demo](https://github.com/jjuunnii98/crypto-risk-scoring-demo)** [![Live API](https://img.shields.io/badge/Live_API-online-brightgreen?style=flat-square&logo=render&logoColor=white)](https://crypto-risk-scoring-demo.onrender.com/docs)  
+**[Crypto Drawdown Survival Demo](https://github.com/jjuunnii98/crypto-risk-scoring-demo)** <sub>[live api ↗](https://crypto-risk-scoring-demo.onrender.com/docs)</sub>  
 A Cox PH model for 24-hour drawdowns (> 3%) on live Binance data, C-index 0.862. 16 features (RSI, Bollinger, MACD, VWAP gap, ATR, Garman-Klass, Sortino, rolling MDD, funding-rate z-score). 40 passing tests.  
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-![lifelines](https://img.shields.io/badge/lifelines-FF6B6B?style=flat-square)
+<sub>Python · FastAPI · lifelines</sub>
 
-**[End-to-End ML Analytics System](https://github.com/jjuunnii98/end-to-end-ml-analytics-system)** [![Live API](https://img.shields.io/badge/Live_API-online-brightgreen?style=flat-square&logo=render&logoColor=white)](https://ml-churn-api-2z9m.onrender.com/docs)  
+**[End-to-End ML Analytics System](https://github.com/jjuunnii98/end-to-end-ml-analytics-system)** <sub>[live api ↗](https://ml-churn-api-2z9m.onrender.com/docs)</sub>  
 Telco churn prediction as a production ML system. Random Forest (ROC-AUC 0.83) with data validation, feature engineering, artifact-based inference and a Dockerized FastAPI.  
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+<sub>Python · scikit-learn · Docker</sub>
 
-**[Graduate ML Portfolio](https://github.com/jjuunnii98/grad-portfolio-ml)** [![Live API](https://img.shields.io/badge/Live_API-online-brightgreen?style=flat-square&logo=render&logoColor=white)](https://survival-api.onrender.com/docs)  
+**[Graduate ML Portfolio](https://github.com/jjuunnii98/grad-portfolio-ml)** <sub>[live api ↗](https://survival-api.onrender.com/docs)</sub>  
 Breast cancer survival analysis on METABRIC (1,353 patients). Penalized Cox PH, validation C-index 0.638, deployed as a FastAPI service.  
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![lifelines](https://img.shields.io/badge/lifelines-FF6B6B?style=flat-square)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+<sub>Python · lifelines · FastAPI</sub>
 
 </details>
 
@@ -176,18 +166,15 @@ Breast cancer survival analysis on METABRIC (1,353 patients). Penalized Cox PH, 
 
 **[SQL Analytics Portfolio](https://github.com/jjuunnii98/sql-analytics-portfolio)**  
 PostgreSQL 16 on 9 assets × 5 years (13,489 rows): 18 analyses in pure SQL, from window functions to Sharpe ratio, max drawdown, RSI and VWAP. yfinance → CSV → PostgreSQL → Makefile → Python tests.  
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
+<sub>PostgreSQL · SQL</sub>
 
 **[Python Analysis Lab](https://github.com/jjuunnii98/python-analysis-lab)**  
 Three domains, each in four notebooks (EDA → features → model → insights): retail segmentation and churn, time-series indicators and backtests, and healthcare risk classification with XGBoost and SHAP.  
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white)
+<sub>Python · Jupyter</sub>
 
 **[Python Snake Game](https://github.com/jjuunnii98/python-snake-game)**  
 Pygame snake with three difficulty modes, speed that grows with the score, saved high scores and a PyInstaller build.  
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![Pygame](https://img.shields.io/badge/Pygame-000000?style=flat-square&logo=python&logoColor=white)
+<sub>Python · Pygame</sub>
 
 </details>
 
@@ -198,15 +185,11 @@ Pygame snake with three difficulty modes, speed that grows with the score, saved
   <img src="./assets/section-stack-light.svg" width="100%" alt="06 Stack" />
 </picture>
 
-<div align="center">
-
-![React Native](https://img.shields.io/badge/React_Native-0B1F4D?style=for-the-badge&logo=react&logoColor=white) ![Expo](https://img.shields.io/badge/Expo-0B1F4D?style=for-the-badge&logo=expo&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-0B1F4D?style=for-the-badge&logo=typescript&logoColor=white) ![Swift](https://img.shields.io/badge/Swift-0B1F4D?style=for-the-badge&logo=swift&logoColor=white) ![Kotlin](https://img.shields.io/badge/Kotlin-0B1F4D?style=for-the-badge&logo=kotlin&logoColor=white) ![SQLite](https://img.shields.io/badge/SQLite-0B1F4D?style=for-the-badge&logo=sqlite&logoColor=white)
-
-![Next.js](https://img.shields.io/badge/Next.js-0B1F4D?style=for-the-badge&logo=nextdotjs&logoColor=white) ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-0B1F4D?style=for-the-badge&logo=tailwindcss&logoColor=white) ![Supabase](https://img.shields.io/badge/Supabase-0B1F4D?style=for-the-badge&logo=supabase&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-0B1F4D?style=for-the-badge&logo=postgresql&logoColor=white) ![Deno](https://img.shields.io/badge/Deno-0B1F4D?style=for-the-badge&logo=deno&logoColor=white) ![Vercel](https://img.shields.io/badge/Vercel-0B1F4D?style=for-the-badge&logo=vercel&logoColor=white) ![GitLab CI](https://img.shields.io/badge/GitLab_CI-0B1F4D?style=for-the-badge&logo=gitlab&logoColor=white)
-
-![Python](https://img.shields.io/badge/Python-0B1F4D?style=for-the-badge&logo=python&logoColor=white) ![PyTorch](https://img.shields.io/badge/PyTorch-0B1F4D?style=for-the-badge&logo=pytorch&logoColor=white) ![scikit-learn](https://img.shields.io/badge/scikit--learn-0B1F4D?style=for-the-badge&logo=scikitlearn&logoColor=white) ![pandas](https://img.shields.io/badge/pandas-0B1F4D?style=for-the-badge&logo=pandas&logoColor=white) ![R](https://img.shields.io/badge/R-0B1F4D?style=for-the-badge&logo=r&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-0B1F4D?style=for-the-badge&logo=fastapi&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-0B1F4D?style=for-the-badge&logo=docker&logoColor=white)
-
-</div>
+| Area | Tools |
+|---|---|
+| **Apps** | React Native · Expo · TypeScript · Swift · Kotlin · SQLite · CloudKit |
+| **Web & backend** | Next.js · Tailwind CSS · Supabase · PostgreSQL · Deno · Vercel · GitLab CI |
+| **ML & statistics** | Python · PyTorch · scikit-learn · pandas · R · SAS · FastAPI · Docker |
 
 <br>
 
