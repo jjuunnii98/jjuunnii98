@@ -8,6 +8,7 @@ on:
     branches: [main]
     paths-ignore:
       - "github-metrics*.svg"
+      - "assets/activity-*.svg"
       - "github-snake*.svg"
       - "streak.json"
 
@@ -37,18 +38,18 @@ jobs:
     permissions:
       contents: write
     steps:
-      - name: Stats + Calendar card
-        uses: lowlighter/metrics@latest
+      - uses: actions/checkout@v4
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          user: jjuunnii98
-          template: classic
-          base: header
-          config_timezone: Asia/Seoul
-          plugin_isocalendar: yes
-          plugin_isocalendar_duration: half-year
-          config_theme: tokyonight
-          config_padding: 10%, 5%
-          filename: github-metrics.svg
-          committer_message: "chore(metrics): update stats [skip ci]"
+          ref: main
 
+      - name: Draw activity card
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python3 .github/scripts/activity_card.py
+
+      - name: Commit activity card
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/activity-*.svg
+          git diff --staged --quiet || (git commit -m "chore(metrics): update activity card [skip ci]" && git push)

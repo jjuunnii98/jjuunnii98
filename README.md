@@ -1,60 +1,46 @@
+<p align="right"><sub><b>English</b> · <a href="./README.ko.md">한국어</a></sub></p>
+
+<a href="https://junixion.com"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/header-dark.svg" /><img src="./assets/header-light.svg" width="100%" alt="Junyeong Song — Founder of JUNIXION, app developer in Seoul" /></picture></a>
+
 <div align="center">
 
-<a href="https://junixion.com">
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/header-dark.svg" />
-  <img src="./assets/header-light.svg" width="100%" alt="Junyeong Song — Founder of JUNIXION, app developer in Seoul" />
-</picture>
-</a>
+<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/social-company-label-dark.svg" /><img src="./assets/social-company-label-light.svg" height="34" alt="JUNIXION" /></picture><a href="https://www.instagram.com/junixion.official/"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/social-company-instagram-dark.svg" /><img src="./assets/social-company-instagram-light.svg" height="34" alt="JUNIXION on Instagram" /></picture></a><a href="https://www.threads.com/@junixion.official"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/social-company-threads-dark.svg" /><img src="./assets/social-company-threads-light.svg" height="34" alt="JUNIXION on Threads" /></picture></a><a href="https://x.com/junixion"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/social-company-x-dark.svg" /><img src="./assets/social-company-x-light.svg" height="34" alt="JUNIXION on X" /></picture></a><a href="https://www.facebook.com/junixion.official"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/social-company-facebook-dark.svg" /><img src="./assets/social-company-facebook-light.svg" height="34" alt="JUNIXION on Facebook" /></picture></a><br>
+<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/social-nalbom-label-dark.svg" /><img src="./assets/social-nalbom-label-light.svg" height="34" alt="Nalbom" /></picture><a href="https://www.instagram.com/nalbom.app/"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/social-nalbom-instagram-dark.svg" /><img src="./assets/social-nalbom-instagram-light.svg" height="34" alt="Nalbom on Instagram" /></picture></a><a href="https://www.threads.com/@nalbom.app"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/social-nalbom-threads-dark.svg" /><img src="./assets/social-nalbom-threads-light.svg" height="34" alt="Nalbom on Threads" /></picture></a><a href="https://x.com/nalbomapp"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/social-nalbom-x-dark.svg" /><img src="./assets/social-nalbom-x-light.svg" height="34" alt="Nalbom on X" /></picture></a><a href="https://www.facebook.com/nalbomapp"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/social-nalbom-facebook-dark.svg" /><img src="./assets/social-nalbom-facebook-light.svg" height="34" alt="Nalbom on Facebook" /></picture></a><a href="https://www.tiktok.com/@nalbom.app"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/social-nalbom-tiktok-dark.svg" /><img src="./assets/social-nalbom-tiktok-light.svg" height="34" alt="Nalbom on TikTok" /></picture></a><br>
+<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/social-dev-label-dark.svg" /><img src="./assets/social-dev-label-light.svg" height="34" alt="Developer" /></picture><a href="https://www.linkedin.com/in/jun-yeong-song/"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/social-dev-linkedin-dark.svg" /><img src="./assets/social-dev-linkedin-light.svg" height="34" alt="Developer on LinkedIn" /></picture></a><a href="https://gitlab.com/jjuunnii98"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/social-dev-gitlab-dark.svg" /><img src="./assets/social-dev-gitlab-light.svg" height="34" alt="Developer on GitLab" /></picture></a><a href="https://huggingface.co/JUNIXION"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/social-dev-huggingface-dark.svg" /><img src="./assets/social-dev-huggingface-light.svg" height="34" alt="Developer on Hugging Face" /></picture></a>
 
-<br>
-
-[![junixion.com](https://img.shields.io/badge/junixion.com-0B1F4D?style=flat-square&logo=vercel&logoColor=white)](https://junixion.com) [![LinkedIn](https://img.shields.io/badge/LinkedIn-0B1F4D?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jun-yeong-song/) [![GitLab](https://img.shields.io/badge/GitLab-0B1F4D?style=flat-square&logo=gitlab&logoColor=white)](https://gitlab.com/jjuunnii98) [![Hugging Face](https://img.shields.io/badge/Hugging_Face-0B1F4D?style=flat-square&logo=huggingface&logoColor=white)](https://huggingface.co/JUNIXION) [![SSRN paper](https://img.shields.io/badge/SSRN_paper-0B1F4D?style=flat-square&logo=ssrn&logoColor=white)](https://papers.ssrn.com/abstract=6656258) [![contact@junixion.com](https://img.shields.io/badge/contact@junixion.com-0B1F4D?style=flat-square&logo=gmail&logoColor=white)](mailto:contact@junixion.com) [![Streak](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fjjuunnii98%2Fjjuunnii98%2Fmain%2Fstreak.json&style=flat-square&color=0B1F4D&labelColor=0B1F4D)](https://github.com/jjuunnii98)
+<sub><a href="https://junixion.com">junixion.com</a> · <a href="mailto:contact@junixion.com">contact@junixion.com</a> · <a href="https://papers.ssrn.com/abstract=6656258">SSRN paper</a></sub>
 
 </div>
 
 <br>
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/section-now-dark.svg" />
-  <img src="./assets/section-now-light.svg" width="100%" alt="01 Now" />
-</picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/section-now-dark.svg" /><img src="./assets/section-now-light.svg" width="100%" alt="01 Now" /></picture>
 
 <br>
 
-<a href="https://junixion.com">
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/now-dark.svg" />
-  <img src="./assets/now-light.svg" width="100%" alt="Nalbom, launching November 2026, and junixion.com, the company website" />
-</picture>
-</a>
+<a href="https://junixion.com"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/now-dark.svg" /><img src="./assets/now-light.svg" width="100%" alt="Nalbom, launching November 2026, and junixion.com, the company website" /></picture></a>
 
 <br>
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/kpi-dark.svg" />
-  <img src="./assets/kpi-light.svg" width="100%" alt="151 countries holidays, 4 platforms, 3 languages, end-to-end encrypted sharing, 745 commits" />
-</picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/roadmap-dark.svg" /><img src="./assets/roadmap-light.svg" width="100%" alt="Nalbom roadmap: TestFlight beta, Google Play testing, launch in November 2026, regular updates, app number two in 2027" /></picture>
 
 <br>
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/section-nalbom-dark.svg" />
-  <img src="./assets/section-nalbom-light.svg" width="100%" alt="02 Nalbom" />
-</picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/kpi-dark.svg" /><img src="./assets/kpi-light.svg" width="100%" alt="151 countries' holidays, 4 platforms, 3 languages, end-to-end encrypted sharing, 745 commits" /></picture>
+
+<br>
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/section-nalbom-dark.svg" /><img src="./assets/section-nalbom-light.svg" width="100%" alt="02 Nalbom" /></picture>
 
 > **날마다 봄, 나를 돌아봄. 거꾸로 읽으면 봄날.**  
 > *Seeing your days, looking back on yourself. Read backwards: bomnal, spring days.*
 
 Nalbom puts the dates you care about, your calendar, daily notes and everyday work tools into one app, and shows them on the home screen and lock screen. It runs on iPhone, iPad, Mac (Apple silicon) and Android.
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/features-dark.svg" />
-  <img src="./assets/features-light.svg" width="100%" alt="Nalbom features: calendar, D-days and notes, work tools, widgets and live activities, shared spaces, themes" />
-</picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/features-dark.svg" /><img src="./assets/features-light.svg" width="100%" alt="Nalbom features: calendar, D-days and notes, work tools, widgets and live activities, shared spaces, themes" /></picture>
 
 <details>
-<summary><b>How it is built</b> (click to open)</summary>
+<summary><b>How it is built</b></summary>
 
 <br>
 
@@ -72,14 +58,9 @@ Nalbom puts the dates you care about, your calendar, daily notes and everyday wo
 
 <sub>React Native 0.81 · Expo SDK 54 · TypeScript · SQLite · Swift · Kotlin · CloudKit · Supabase · RevenueCat · Sentry</sub>
 
-<sub>[Instagram @nalbom.app](https://www.instagram.com/nalbom.app/) · [X @nalbomapp](https://x.com/nalbomapp) · [Facebook nalbomapp](https://www.facebook.com/nalbomapp)</sub>
-
 <br>
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/section-web-dark.svg" />
-  <img src="./assets/section-web-light.svg" width="100%" alt="03 junixion.com" />
-</picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/section-web-dark.svg" /><img src="./assets/section-web-light.svg" width="100%" alt="03 junixion.com" /></picture>
 
 The company website, built and run by me. Private repository, mirrored on GitHub and GitLab.
 
@@ -93,14 +74,9 @@ The company website, built and run by me. Private repository, mirrored on GitHub
 
 <sub>Next.js 16 · React 19 · Tailwind v4 · Vercel · GitLab CI</sub>
 
-<sub>[Instagram @junixion.official](https://www.instagram.com/junixion.official/) · [X @junixion](https://x.com/junixion) · [Facebook junixion.official](https://www.facebook.com/junixion.official)</sub>
-
 <br>
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/section-research-dark.svg" />
-  <img src="./assets/section-research-light.svg" width="100%" alt="04 Research" />
-</picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/section-research-dark.svg" /><img src="./assets/section-research-light.svg" width="100%" alt="04 Research" /></picture>
 
 **Survival Analysis of Corporate Delisting Risk in the Korean Stock Market**  
 Cox Proportional Hazards and Accelerated Failure Time Models — KOSPI/KOSDAQ Panel Data (2000–2023)
@@ -127,13 +103,18 @@ Cox Proportional Hazards and Accelerated Failure Time Models — KOSPI/KOSDAQ Pa
 
 <br>
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/section-projects-dark.svg" />
-  <img src="./assets/section-projects-light.svg" width="100%" alt="05 Projects" />
-</picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/section-projects-dark.svg" /><img src="./assets/section-projects-light.svg" width="100%" alt="05 Projects" /></picture>
 
-<details open>
-<summary><b>Machine learning & statistics</b></summary>
+<br>
+
+<a href="https://github.com/jjuunnii98/survival-analysis-finance"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/project-krx-dark.svg" /><img src="./assets/project-krx-light.svg" width="49%" alt="krx" /></picture></a> <a href="https://huggingface.co/JUNIXION"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/project-lm-dark.svg" /><img src="./assets/project-lm-light.svg" width="49%" alt="lm" /></picture></a>
+<br>
+<a href="https://crypto-risk-scoring-demo.onrender.com/docs"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/project-crypto-dark.svg" /><img src="./assets/project-crypto-light.svg" width="49%" alt="crypto" /></picture></a> <a href="https://ml-churn-api-2z9m.onrender.com/docs"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/project-e2e-dark.svg" /><img src="./assets/project-e2e-light.svg" width="49%" alt="e2e" /></picture></a>
+<br>
+<a href="https://survival-api.onrender.com/docs"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/project-grad-dark.svg" /><img src="./assets/project-grad-light.svg" width="49%" alt="grad" /></picture></a> <a href="https://github.com/jjuunnii98/sql-analytics-portfolio"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/project-sql-dark.svg" /><img src="./assets/project-sql-light.svg" width="49%" alt="sql" /></picture></a>
+
+<details>
+<summary><b>Details</b></summary>
 
 <br>
 
@@ -157,13 +138,6 @@ Telco churn prediction as a production ML system. Random Forest (ROC-AUC 0.83) w
 Breast cancer survival analysis on METABRIC (1,353 patients). Penalized Cox PH, validation C-index 0.638, deployed as a FastAPI service.  
 <sub>Python · lifelines · FastAPI</sub>
 
-</details>
-
-<details>
-<summary><b>Data analysis & smaller projects</b></summary>
-
-<br>
-
 **[SQL Analytics Portfolio](https://github.com/jjuunnii98/sql-analytics-portfolio)**  
 PostgreSQL 16 on 9 assets × 5 years (13,489 rows): 18 analyses in pure SQL, from window functions to Sharpe ratio, max drawdown, RSI and VWAP. yfinance → CSV → PostgreSQL → Makefile → Python tests.  
 <sub>PostgreSQL · SQL</sub>
@@ -180,10 +154,7 @@ Pygame snake with three difficulty modes, speed that grows with the score, saved
 
 <br>
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/section-stack-dark.svg" />
-  <img src="./assets/section-stack-light.svg" width="100%" alt="06 Stack" />
-</picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/section-stack-dark.svg" /><img src="./assets/section-stack-light.svg" width="100%" alt="06 Stack" /></picture>
 
 | Area | Tools |
 |---|---|
@@ -193,27 +164,14 @@ Pygame snake with three difficulty modes, speed that grows with the score, saved
 
 <br>
 
-<div align="center">
-
-![GitHub Stats](./github-metrics.svg)
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="./github-snake.svg" />
-  <img alt="GitHub contribution snake" src="./github-snake-dark.svg" />
-</picture>
-
-</div>
+<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg" /><img src="./assets/activity-light.svg" width="100%" alt="GitHub activity over the last 26 weeks" /></picture>
 
 <br>
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/section-about-dark.svg" />
-  <img src="./assets/section-about-light.svg" width="100%" alt="07 About" />
-</picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/section-about-dark.svg" /><img src="./assets/section-about-light.svg" width="100%" alt="07 About" /></picture>
 
-**Yonsei University** — Economics × Information Statistics · Expected February 2027  
-Undergraduate Research Assistant — Survival Analysis & Healthcare Risk Modeling  
+**Yonsei University** — Economics × Information Statistics · Expected February 2027
+Undergraduate Research Assistant — Survival Analysis & Healthcare Risk Modeling
 Founder — JUNIXION (application software, opened August 2026)
 
 <details>
@@ -244,9 +202,4 @@ Founder — JUNIXION (application software, opened August 2026)
 
 <br>
 
-<a href="mailto:contact@junixion.com">
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/footer-dark.svg" />
-  <img src="./assets/footer-light.svg" width="100%" alt="Software for every day, built and backed to last. JUNIXION, Seoul, contact@junixion.com" />
-</picture>
-</a>
+<a href="mailto:contact@junixion.com"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/footer-dark.svg" /><img src="./assets/footer-light.svg" width="100%" alt="Software for every day, built and backed to last. JUNIXION, Seoul, contact@junixion.com" /></picture></a>

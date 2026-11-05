@@ -5,9 +5,4 @@
 <text x="54" y="138" font-size="50" font-weight="600" letter-spacing="-1.6" fill="#F5F7FB">Junyeong Song</text>
 <text x="56" y="176" font-size="19.5" fill="#CDD4E1">Founder of JUNIXION. I design, build and ship software for every day.</text>
 <line x1="56" y1="222" x2="1224" y2="222" stroke="#2A3242"/>
-<g font-family="'JetBrains Mono', 'SF Mono', ui-monospace, Menlo, Consolas, monospace" font-size="15" fill="#A3ADC0">
-<circle class="p" cx="61" cy="251" r="3.5" fill="#4ADE9B"/><circle cx="61" cy="251" r="3.5" fill="#4ADE9B"/><text x="74" y="256"><tspan fill="#F5F7FB">nalbom</tspan>  launching nov 2026</text>
-<circle cx="391" cy="251" r="3.5" fill="none" stroke="#A3ADC0" stroke-width="1.4"/><text x="404" y="256"><tspan fill="#F5F7FB">junixion.com</tspan>  in review</text>
-<circle cx="691" cy="251" r="3.5" fill="none" stroke="#A3ADC0" stroke-width="1.4"/><text x="704" y="256"><tspan fill="#F5F7FB">ssrn</tspan>  working paper</text>
-<text x="1224" y="256" text-anchor="end">est. 2026</text>
-</g></svg>
+<g font-family="'JetBrains Mono', 'SF Mono', ui-monospace, Menlo, Consolas, monospace" font-size="15" fill="#A3ADC0"><circle class="p" cx="61" cy="251" r="3.5" fill="#4ADE9B"/><circle cx="61" cy="251" r="3.5" fill="#4ADE9B"/><text x="74" y="256"><tspan fill="#F5F7FB">nalbom</tspan>  launching nov 2026</text><circle cx="391" cy="251" r="3.5" fill="none" stroke="#A3ADC0" stroke-width="1.4"/><text x="404" y="256"><tspan fill="#F5F7FB">junixion.com</tspan>  in review</text><circle cx="721" cy="251" r="3.5" fill="none" stroke="#A3ADC0" stroke-width="1.4"/><text x="734" y="256"><tspan fill="#F5F7FB">ssrn</tspan>  working paper</text><text x="1224" y="256" text-anchor="end">est. 2026</text></g></svg>
