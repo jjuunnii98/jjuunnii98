@@ -17,8 +17,10 @@ WEEKS = 26
 SANS = "Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', 'Apple SD Gothic Neo', 'Noto Sans KR', 'Malgun Gothic', Arial, sans-serif"
 MONO = "'JetBrains Mono', 'SF Mono', ui-monospace, Menlo, Consolas, monospace"
 THEMES = {
-    "dark": dict(card="#10141D", line="#2A3242", ink="#F5F7FB", sub="#CDD4E1", faint="#A3ADC0", bar="#8DB6FF", empty="#1E2532"),
-    "light": dict(card="#FFFFFF", line="#E6E9EF", ink="#0F172A", sub="#3F4A5C", faint="#667085", bar="#2160D4", empty="#EEF1F6"),
+    "dark": dict(card="#121828", card2="#0C111C", line="#263049", ink="#F5F7FB", sub="#CDD4E1", faint="#A3ADC0",
+                 bar="#8DB6FF", violet="#C3A6FF", empty="#1E2532"),
+    "light": dict(card="#FFFFFF", card2="#F5F8FE", line="#DFE5F0", ink="#0F172A", sub="#3F4A5C", faint="#667085",
+                  bar="#2160D4", violet="#7C5CE0", empty="#EEF1F6"),
 }
 TEXT = {
     "en": dict(title="ACTIVITY · LAST 26 WEEKS", updated="updated", total="contributions this year",
@@ -86,7 +88,11 @@ def esc(s):
 def draw(s, lang, mode):
     c, t = THEMES[mode], TEXT[lang]
     W, H = 1280, 300
-    out = [f'<rect x="0.5" y="0.5" width="{W-1}" height="{H-1}" rx="14" fill="{c["card"]}" stroke="{c["line"]}"/>',
+    out = [f'<defs><linearGradient id="cardg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="{c["card"]}"/><stop offset="1" stop-color="{c["card2"]}"/></linearGradient>'
+           f'<linearGradient id="barg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="{c["violet"]}"/><stop offset="1" stop-color="{c["bar"]}"/></linearGradient>'
+           f'<linearGradient id="edge" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="{c["bar"]}" stop-opacity="0"/><stop offset="0.25" stop-color="{c["bar"]}" stop-opacity="0.9"/><stop offset="0.6" stop-color="{c["violet"]}" stop-opacity="0.8"/><stop offset="1" stop-color="{c["violet"]}" stop-opacity="0"/></linearGradient></defs>',
+           f'<rect x="0.5" y="0.5" width="{W-1}" height="{H-1}" rx="14" fill="url(#cardg)" stroke="{c["line"]}"/>',
+           f'<rect x="20" y="0.2" width="520" height="1.6" rx="0.8" fill="url(#edge)"/>',
            f'<text x="32" y="44" font-family="{MONO}" font-size="13.5" letter-spacing="2.5" fill="{c["faint"]}">{esc(t["title"])}</text>',
            f'<text x="{W-32}" y="44" text-anchor="end" font-family="{MONO}" font-size="13.5" fill="{c["faint"]}">{t["updated"]} {s["today"]}</text>']
     x0, x1, top, base = 32, W - 32, 72, 186
@@ -96,7 +102,7 @@ def draw(s, lang, mode):
     for i, n in enumerate(s["weeks"]):
         x = x0 + i * slot
         h = max(3, (base - top) * n / peak)
-        fill = c["bar"] if n else c["empty"]
+        fill = "url(#barg)" if n else c["empty"]
         op = 0.35 + 0.65 * (n / peak) if n else 1
         out.append(f'<rect x="{x+3:.1f}" y="{base-h:.1f}" width="{slot-6:.1f}" height="{h:.1f}" rx="3" fill="{fill}" fill-opacity="{op:.2f}"/>')
         month = (s["start"] + timedelta(weeks=i)).month
