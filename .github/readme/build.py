@@ -322,9 +322,10 @@ def about(L, m):
 T["dark"].update(card="#121828", card2="#0C111C", line="#263049", line2="#45516B", ink="#F5F7FB",
                  sub="#CDD4E1", faint="#A3ADC0", accent="#8DB6FF", violet="#C3A6FF", ok="#4ADE9B",
                  glow1="#2D5BD8", glow2="#6B47D6", bg0="#0B1020", bg1="#121533", dot="#FFFFFF")
-T["light"].update(card="#FFFFFF", card2="#F5F8FE", line="#DFE5F0", line2="#C9D2E2", ink="#0F172A",
-                  sub="#3F4A5C", faint="#667085", accent="#2160D4", violet="#7C5CE0", ok="#16A34A",
-                  glow1="#9CC0FF", glow2="#D3C2FF", bg0="#F4F7FF", bg1="#FAF7FF", dot="#2160D4")
+T["light"].update(card="#FFFFFF", card2="#F3F6FC", line="#D6DEEB", line2="#BFC9DB", ink="#0B1530",
+                  sub="#38445A", faint="#5F6B82", accent="#1F5BD0", violet="#6E4BDB", ok="#15924A",
+                  glow1="#7EA8FF", glow2="#C3A8FF", bg0="#EAF1FF", bg1="#F4EEFF", dot="#1F5BD0",
+                  shadow="#1C2D57")
 
 def _defs(c):
     return (f'<defs>'
@@ -332,7 +333,8 @@ def _defs(c):
             f'<linearGradient id="edge" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="{c["accent"]}" stop-opacity="0"/><stop offset="0.25" stop-color="{c["accent"]}" stop-opacity="0.9"/><stop offset="0.6" stop-color="{c["violet"]}" stop-opacity="0.8"/><stop offset="1" stop-color="{c["violet"]}" stop-opacity="0"/></linearGradient>'
             f'<linearGradient id="accg" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="{c["accent"]}"/><stop offset="1" stop-color="{c["violet"]}"/></linearGradient>'
             f'<linearGradient id="inkg" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="{c["ink"]}"/><stop offset="0.7" stop-color="{c["ink"]}"/><stop offset="1" stop-color="{c["accent"]}"/></linearGradient>'
-            f'</defs>')
+            + (f'<filter id="sh" x="-5%" y="-10%" width="110%" height="130%"><feDropShadow dx="0" dy="2" stdDeviation="2.6" flood-color="{c["shadow"]}" flood-opacity="0.10"/></filter>' if c.get("shadow") else "")
+            + f'</defs>')
 
 def write(name, lang, mode, body, w, h):
     suffix = "" if lang == "en" else "-ko"
@@ -342,8 +344,12 @@ def write(name, lang, mode, body, w, h):
 
 def box(c, x, y, w, h, r=14):
     hw = min(w * 0.6, 520)
-    return (f'<rect x="{x+0.5:.1f}" y="{y+0.5:.1f}" width="{w-1:.1f}" height="{h-1:.1f}" rx="{r}" fill="url(#cardg)" stroke="{c["line"]}"/>'
-            f'<rect x="{x+r+6:.1f}" y="{y+0.2:.1f}" width="{hw:.1f}" height="1.6" rx="0.8" fill="url(#edge)"/>')
+    if c.get("shadow"):  # light mode: lift the card off the white page
+        x, y, w, h = x + 3, y + 1, w - 6, h - 7
+        card = f'<rect x="{x:.1f}" y="{y:.1f}" width="{w:.1f}" height="{h:.1f}" rx="{r}" fill="url(#cardg)" stroke="{c["line"]}" filter="url(#sh)"/>'
+    else:
+        card = f'<rect x="{x+0.5:.1f}" y="{y+0.5:.1f}" width="{w-1:.1f}" height="{h-1:.1f}" rx="{r}" fill="url(#cardg)" stroke="{c["line"]}"/>'
+    return card + f'<rect x="{x+r+6:.1f}" y="{y+0.2:.1f}" width="{hw:.1f}" height="2" rx="1" fill="url(#edge)"/>'
 
 def header(L, m):
     c, t = T[m], TX[L]; W, H = 1280, 296
