@@ -24,7 +24,7 @@
 
 <br>
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/kpi-ko-dark.svg" /><img src="./assets/kpi-ko-light.svg" width="100%" alt="공휴일 151개 나라, 기기 4종, 언어 3개, 종단간 암호화 공유, 커밋 745개" /></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/kpi-ko-dark.svg" /><img src="./assets/kpi-ko-light.svg" width="100%" alt="공휴일 151개 나라, 기기 4종, 언어 3개, 종단간 암호화 공유, 날봄 커밋 745개" /></picture>
 
 <br>
 
@@ -121,11 +121,11 @@ Cox 비례위험 모형과 가속실패시간(AFT) 모형 — KOSPI/KOSDAQ 패�
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="./assets/section-projects-ko-dark.svg" /><img src="./assets/section-projects-ko-light.svg" width="100%" alt="05 Projects" /></picture>
 
-<a href="https://github.com/jjuunnii98/survival-analysis-finance"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/project-krx-ko-dark.svg" /><img src="./assets/project-krx-ko-light.svg" width="49%" alt="krx" /></picture></a> <a href="https://huggingface.co/JUNIXION"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/project-lm-ko-dark.svg" /><img src="./assets/project-lm-ko-light.svg" width="49%" alt="lm" /></picture></a>
+<a href="https://github.com/jjuunnii98/survival-analysis-finance"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/project-krx-ko-dark.svg" /><img src="./assets/project-krx-ko-light.svg" width="49.5%" alt="krx" /></picture></a> <a href="https://huggingface.co/JUNIXION"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/project-lm-ko-dark.svg" /><img src="./assets/project-lm-ko-light.svg" width="49.5%" alt="lm" /></picture></a>
 <br>
-<a href="https://crypto-risk-scoring-demo.onrender.com/docs"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/project-crypto-ko-dark.svg" /><img src="./assets/project-crypto-ko-light.svg" width="49%" alt="crypto" /></picture></a> <a href="https://ml-churn-api-2z9m.onrender.com/docs"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/project-e2e-ko-dark.svg" /><img src="./assets/project-e2e-ko-light.svg" width="49%" alt="e2e" /></picture></a>
+<a href="https://crypto-risk-scoring-demo.onrender.com/docs"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/project-crypto-ko-dark.svg" /><img src="./assets/project-crypto-ko-light.svg" width="49.5%" alt="crypto" /></picture></a> <a href="https://ml-churn-api-2z9m.onrender.com/docs"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/project-e2e-ko-dark.svg" /><img src="./assets/project-e2e-ko-light.svg" width="49.5%" alt="e2e" /></picture></a>
 <br>
-<a href="https://survival-api.onrender.com/docs"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/project-grad-ko-dark.svg" /><img src="./assets/project-grad-ko-light.svg" width="49%" alt="grad" /></picture></a> <a href="https://github.com/jjuunnii98/sql-analytics-portfolio"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/project-sql-ko-dark.svg" /><img src="./assets/project-sql-ko-light.svg" width="49%" alt="sql" /></picture></a>
+<a href="https://survival-api.onrender.com/docs"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/project-grad-ko-dark.svg" /><img src="./assets/project-grad-ko-light.svg" width="49.5%" alt="grad" /></picture></a> <a href="https://github.com/jjuunnii98/sql-analytics-portfolio"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/project-sql-ko-dark.svg" /><img src="./assets/project-sql-ko-light.svg" width="49.5%" alt="sql" /></picture></a>
 
 <details>
 <summary><b>자세히</b></summary>
