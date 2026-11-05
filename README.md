@@ -212,7 +212,7 @@ Pygame snake with three difficulty modes, speed that grows with the score, saved
   <img src="./assets/section-about-light.svg" width="100%" alt="07 About" />
 </picture>
 
-**Yonsei University** — Economics × Information Statistics · Expected August 2026  
+**Yonsei University** — Economics × Information Statistics · Expected February 2027  
 Undergraduate Research Assistant — Survival Analysis & Healthcare Risk Modeling  
 Founder — JUNIXION (application software, opened August 2026)
 
