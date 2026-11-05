@@ -1,6 +1,6 @@
 <p align="right"><sub><b>English</b> · <a href="./README.ko.md">한국어</a></sub></p>
 
-<a href="https://junixion.com"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/header-dark.svg" /><img src="./assets/header-light.svg" width="100%" alt="Junyeong Song — Founder of JUNIXION, app developer in Seoul" /></picture></a>
+<a href="https://junixion.com"><picture><source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="./assets/header-m-dark.svg" /><source media="(max-width: 600px)" srcset="./assets/header-m-light.svg" /><source media="(prefers-color-scheme: dark)" srcset="./assets/header-dark.svg" /><img src="./assets/header-light.svg" width="100%" alt="Junyeong Song — Founder of JUNIXION, app developer in Seoul" /></picture></a>
 
 <div align="center">
 
@@ -14,25 +14,25 @@
 
 <br>
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/section-now-dark.svg" /><img src="./assets/section-now-light.svg" width="100%" alt="01 Now" /></picture>
+<picture><source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="./assets/section-now-m-dark.svg" /><source media="(max-width: 600px)" srcset="./assets/section-now-m-light.svg" /><source media="(prefers-color-scheme: dark)" srcset="./assets/section-now-dark.svg" /><img src="./assets/section-now-light.svg" width="100%" alt="01 Now" /></picture>
 
-<a href="https://junixion.com"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/now-dark.svg" /><img src="./assets/now-light.svg" width="100%" alt="Nalbom, launching November 2026, and junixion.com, the company website" /></picture></a>
-
-<br>
-
-<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/roadmap-dark.svg" /><img src="./assets/roadmap-light.svg" width="100%" alt="Nalbom roadmap: TestFlight beta, Google Play testing, launch in November 2026, regular updates, app number two in 2027" /></picture>
+<a href="https://junixion.com"><picture><source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="./assets/now-m-dark.svg" /><source media="(max-width: 600px)" srcset="./assets/now-m-light.svg" /><source media="(prefers-color-scheme: dark)" srcset="./assets/now-dark.svg" /><img src="./assets/now-light.svg" width="100%" alt="Nalbom, launching November 2026, and junixion.com, the company website" /></picture></a>
 
 <br>
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/kpi-dark.svg" /><img src="./assets/kpi-light.svg" width="100%" alt="151 countries' holidays, 4 platforms, 3 languages, end-to-end encrypted sharing, 745 Nalbom commits" /></picture>
+<picture><source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="./assets/roadmap-m-dark.svg" /><source media="(max-width: 600px)" srcset="./assets/roadmap-m-light.svg" /><source media="(prefers-color-scheme: dark)" srcset="./assets/roadmap-dark.svg" /><img src="./assets/roadmap-light.svg" width="100%" alt="Nalbom roadmap: TestFlight beta, Google Play testing, launch in November 2026, regular updates, app number two in 2027" /></picture>
 
 <br>
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/section-nalbom-dark.svg" /><img src="./assets/section-nalbom-light.svg" width="100%" alt="02 Nalbom" /></picture>
+<picture><source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="./assets/kpi-m-dark.svg" /><source media="(max-width: 600px)" srcset="./assets/kpi-m-light.svg" /><source media="(prefers-color-scheme: dark)" srcset="./assets/kpi-dark.svg" /><img src="./assets/kpi-light.svg" width="100%" alt="151 countries' holidays, 4 platforms, 3 languages, end-to-end encrypted sharing, 745 Nalbom commits" /></picture>
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/lead-nalbom-dark.svg" /><img src="./assets/lead-nalbom-light.svg" width="100%" alt="Nalbom puts the dates you care about, your calendar, daily notes and everyday work tools into one app, and shows them on the home screen and lock screen. It runs on iPhone, iPad, Mac (Apple silicon) and Android." /></picture>
+<br>
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/features-dark.svg" /><img src="./assets/features-light.svg" width="100%" alt="Nalbom features: calendar, D-days and notes, work tools, widgets and live activities, shared spaces, themes" /></picture>
+<picture><source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="./assets/section-nalbom-m-dark.svg" /><source media="(max-width: 600px)" srcset="./assets/section-nalbom-m-light.svg" /><source media="(prefers-color-scheme: dark)" srcset="./assets/section-nalbom-dark.svg" /><img src="./assets/section-nalbom-light.svg" width="100%" alt="02 Nalbom" /></picture>
+
+<picture><source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="./assets/lead-nalbom-m-dark.svg" /><source media="(max-width: 600px)" srcset="./assets/lead-nalbom-m-light.svg" /><source media="(prefers-color-scheme: dark)" srcset="./assets/lead-nalbom-dark.svg" /><img src="./assets/lead-nalbom-light.svg" width="100%" alt="Nalbom puts the dates you care about, your calendar, daily notes and everyday work tools into one app, and shows them on the home screen and lock screen. It runs on iPhone, iPad, Mac (Apple silicon) and Android." /></picture>
+
+<picture><source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="./assets/features-m-dark.svg" /><source media="(max-width: 600px)" srcset="./assets/features-m-light.svg" /><source media="(prefers-color-scheme: dark)" srcset="./assets/features-dark.svg" /><img src="./assets/features-light.svg" width="100%" alt="Nalbom features: calendar, D-days and notes, work tools, widgets and live activities, shared spaces, themes" /></picture>
 
 <details>
 <summary><b>How it is built</b></summary>
@@ -53,11 +53,11 @@
 
 <br>
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/section-web-dark.svg" /><img src="./assets/section-web-light.svg" width="100%" alt="03 junixion.com" /></picture>
+<picture><source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="./assets/section-web-m-dark.svg" /><source media="(max-width: 600px)" srcset="./assets/section-web-m-light.svg" /><source media="(prefers-color-scheme: dark)" srcset="./assets/section-web-dark.svg" /><img src="./assets/section-web-light.svg" width="100%" alt="03 junixion.com" /></picture>
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/lead-web-dark.svg" /><img src="./assets/lead-web-light.svg" width="100%" alt="The company website, built and run by me. Private repository, mirrored on GitHub and GitLab." /></picture>
+<picture><source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="./assets/lead-web-m-dark.svg" /><source media="(max-width: 600px)" srcset="./assets/lead-web-m-light.svg" /><source media="(prefers-color-scheme: dark)" srcset="./assets/lead-web-dark.svg" /><img src="./assets/lead-web-light.svg" width="100%" alt="The company website, built and run by me. Private repository, mirrored on GitHub and GitLab." /></picture>
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/web-dark.svg" /><img src="./assets/web-light.svg" width="100%" alt="junixion.com: three languages, Nalbom pages, legal pages that match the app, private invite links, small and quiet, checked on every change" /></picture>
+<picture><source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="./assets/web-m-dark.svg" /><source media="(max-width: 600px)" srcset="./assets/web-m-light.svg" /><source media="(prefers-color-scheme: dark)" srcset="./assets/web-dark.svg" /><img src="./assets/web-light.svg" width="100%" alt="junixion.com: three languages, Nalbom pages, legal pages that match the app, private invite links, small and quiet, checked on every change" /></picture>
 
 <details>
 <summary><b>Website details</b></summary>
@@ -76,9 +76,9 @@
 
 <br>
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/section-research-dark.svg" /><img src="./assets/section-research-light.svg" width="100%" alt="04 Research" /></picture>
+<picture><source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="./assets/section-research-m-dark.svg" /><source media="(max-width: 600px)" srcset="./assets/section-research-m-light.svg" /><source media="(prefers-color-scheme: dark)" srcset="./assets/section-research-dark.svg" /><img src="./assets/section-research-light.svg" width="100%" alt="04 Research" /></picture>
 
-<a href="https://papers.ssrn.com/abstract=6656258"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/research-dark.svg" /><img src="./assets/research-light.svg" width="100%" alt="Working paper: Survival Analysis of Corporate Delisting Risk in the Korean Stock Market. C-index 0.738, 365 firms, 158 delisting events, 276 months" /></picture></a>
+<a href="https://papers.ssrn.com/abstract=6656258"><picture><source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="./assets/research-m-dark.svg" /><source media="(max-width: 600px)" srcset="./assets/research-m-light.svg" /><source media="(prefers-color-scheme: dark)" srcset="./assets/research-dark.svg" /><img src="./assets/research-light.svg" width="100%" alt="Working paper: Survival Analysis of Corporate Delisting Risk in the Korean Stock Market. C-index 0.738, 365 firms, 158 delisting events, 276 months" /></picture></a>
 
 <details>
 <summary><b>Full results</b></summary>
@@ -112,13 +112,13 @@ Cox Proportional Hazards and Accelerated Failure Time Models — KOSPI/KOSDAQ Pa
 
 <br>
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/section-projects-dark.svg" /><img src="./assets/section-projects-light.svg" width="100%" alt="05 Projects" /></picture>
+<picture><source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="./assets/section-projects-m-dark.svg" /><source media="(max-width: 600px)" srcset="./assets/section-projects-m-light.svg" /><source media="(prefers-color-scheme: dark)" srcset="./assets/section-projects-dark.svg" /><img src="./assets/section-projects-light.svg" width="100%" alt="05 Projects" /></picture>
 
-<a href="https://github.com/jjuunnii98/survival-analysis-finance"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/project-krx-dark.svg" /><img src="./assets/project-krx-light.svg" width="49.5%" alt="krx" /></picture></a> <a href="https://huggingface.co/JUNIXION"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/project-lm-dark.svg" /><img src="./assets/project-lm-light.svg" width="49.5%" alt="lm" /></picture></a>
+<a href="https://github.com/jjuunnii98/survival-analysis-finance"><picture><source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="./assets/project-krx-m-dark.svg" /><source media="(max-width: 600px)" srcset="./assets/project-krx-m-light.svg" /><source media="(prefers-color-scheme: dark)" srcset="./assets/project-krx-dark.svg" /><img src="./assets/project-krx-light.svg" width="49.5%" alt="krx" /></picture></a> <a href="https://huggingface.co/JUNIXION"><picture><source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="./assets/project-lm-m-dark.svg" /><source media="(max-width: 600px)" srcset="./assets/project-lm-m-light.svg" /><source media="(prefers-color-scheme: dark)" srcset="./assets/project-lm-dark.svg" /><img src="./assets/project-lm-light.svg" width="49.5%" alt="lm" /></picture></a>
 <br>
-<a href="https://crypto-risk-scoring-demo.onrender.com/docs"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/project-crypto-dark.svg" /><img src="./assets/project-crypto-light.svg" width="49.5%" alt="crypto" /></picture></a> <a href="https://ml-churn-api-2z9m.onrender.com/docs"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/project-e2e-dark.svg" /><img src="./assets/project-e2e-light.svg" width="49.5%" alt="e2e" /></picture></a>
+<a href="https://crypto-risk-scoring-demo.onrender.com/docs"><picture><source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="./assets/project-crypto-m-dark.svg" /><source media="(max-width: 600px)" srcset="./assets/project-crypto-m-light.svg" /><source media="(prefers-color-scheme: dark)" srcset="./assets/project-crypto-dark.svg" /><img src="./assets/project-crypto-light.svg" width="49.5%" alt="crypto" /></picture></a> <a href="https://ml-churn-api-2z9m.onrender.com/docs"><picture><source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="./assets/project-e2e-m-dark.svg" /><source media="(max-width: 600px)" srcset="./assets/project-e2e-m-light.svg" /><source media="(prefers-color-scheme: dark)" srcset="./assets/project-e2e-dark.svg" /><img src="./assets/project-e2e-light.svg" width="49.5%" alt="e2e" /></picture></a>
 <br>
-<a href="https://survival-api.onrender.com/docs"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/project-grad-dark.svg" /><img src="./assets/project-grad-light.svg" width="49.5%" alt="grad" /></picture></a> <a href="https://github.com/jjuunnii98/sql-analytics-portfolio"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/project-sql-dark.svg" /><img src="./assets/project-sql-light.svg" width="49.5%" alt="sql" /></picture></a>
+<a href="https://survival-api.onrender.com/docs"><picture><source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="./assets/project-grad-m-dark.svg" /><source media="(max-width: 600px)" srcset="./assets/project-grad-m-light.svg" /><source media="(prefers-color-scheme: dark)" srcset="./assets/project-grad-dark.svg" /><img src="./assets/project-grad-light.svg" width="49.5%" alt="grad" /></picture></a> <a href="https://github.com/jjuunnii98/sql-analytics-portfolio"><picture><source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="./assets/project-sql-m-dark.svg" /><source media="(max-width: 600px)" srcset="./assets/project-sql-m-light.svg" /><source media="(prefers-color-scheme: dark)" srcset="./assets/project-sql-dark.svg" /><img src="./assets/project-sql-light.svg" width="49.5%" alt="sql" /></picture></a>
 
 <details>
 <summary><b>Details</b></summary>
@@ -161,17 +161,17 @@ Pygame snake with three difficulty modes, speed that grows with the score, saved
 
 <br>
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/section-stack-dark.svg" /><img src="./assets/section-stack-light.svg" width="100%" alt="06 Stack" /></picture>
+<picture><source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="./assets/section-stack-m-dark.svg" /><source media="(max-width: 600px)" srcset="./assets/section-stack-m-light.svg" /><source media="(prefers-color-scheme: dark)" srcset="./assets/section-stack-dark.svg" /><img src="./assets/section-stack-light.svg" width="100%" alt="06 Stack" /></picture>
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/stack-dark.svg" /><img src="./assets/stack-light.svg" width="100%" alt="Stack: apps, web and backend, ML and statistics" /></picture>
+<picture><source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="./assets/stack-m-dark.svg" /><source media="(max-width: 600px)" srcset="./assets/stack-m-light.svg" /><source media="(prefers-color-scheme: dark)" srcset="./assets/stack-dark.svg" /><img src="./assets/stack-light.svg" width="100%" alt="Stack: apps, web and backend, ML and statistics" /></picture>
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg" /><img src="./assets/activity-light.svg" width="100%" alt="GitHub activity over the last 26 weeks" /></picture>
+<picture><source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="./assets/activity-m-dark.svg" /><source media="(max-width: 600px)" srcset="./assets/activity-m-light.svg" /><source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg" /><img src="./assets/activity-light.svg" width="100%" alt="GitHub activity over the last 26 weeks" /></picture>
 
 <br>
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/section-about-dark.svg" /><img src="./assets/section-about-light.svg" width="100%" alt="07 About" /></picture>
+<picture><source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="./assets/section-about-m-dark.svg" /><source media="(max-width: 600px)" srcset="./assets/section-about-m-light.svg" /><source media="(prefers-color-scheme: dark)" srcset="./assets/section-about-dark.svg" /><img src="./assets/section-about-light.svg" width="100%" alt="07 About" /></picture>
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/about-dark.svg" /><img src="./assets/about-light.svg" width="100%" alt="Yonsei University, Economics and Information Statistics, expected February 2027. Founder of JUNIXION. Open to app feedback, research, roles and graduate study" /></picture>
+<picture><source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="./assets/about-m-dark.svg" /><source media="(max-width: 600px)" srcset="./assets/about-m-light.svg" /><source media="(prefers-color-scheme: dark)" srcset="./assets/about-dark.svg" /><img src="./assets/about-light.svg" width="100%" alt="Yonsei University, Economics and Information Statistics, expected February 2027. Founder of JUNIXION. Open to app feedback, research, roles and graduate study" /></picture>
 
 <details>
 <summary><b>Certifications</b></summary>
@@ -194,4 +194,4 @@ Pygame snake with three difficulty modes, speed that grows with the score, saved
 
 <br>
 
-<a href="mailto:contact@junixion.com"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/footer-dark.svg" /><img src="./assets/footer-light.svg" width="100%" alt="Software for every day, built and backed to last. JUNIXION, Seoul, contact@junixion.com" /></picture></a>
+<a href="mailto:contact@junixion.com"><picture><source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="./assets/footer-m-dark.svg" /><source media="(max-width: 600px)" srcset="./assets/footer-m-light.svg" /><source media="(prefers-color-scheme: dark)" srcset="./assets/footer-dark.svg" /><img src="./assets/footer-light.svg" width="100%" alt="Software for every day, built and backed to last. JUNIXION, Seoul, contact@junixion.com" /></picture></a>

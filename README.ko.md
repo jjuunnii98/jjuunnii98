@@ -1,6 +1,6 @@
 <p align="right"><sub><a href="./README.md">English</a> · <b>한국어</b></sub></p>
 
-<a href="https://junixion.com"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/header-ko-dark.svg" /><img src="./assets/header-ko-light.svg" width="100%" alt="Junyeong Song — 주닉션 대표, 서울의 앱 개발자" /></picture></a>
+<a href="https://junixion.com"><picture><source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="./assets/header-m-ko-dark.svg" /><source media="(max-width: 600px)" srcset="./assets/header-m-ko-light.svg" /><source media="(prefers-color-scheme: dark)" srcset="./assets/header-ko-dark.svg" /><img src="./assets/header-ko-light.svg" width="100%" alt="Junyeong Song — 주닉션 대표, 서울의 앱 개발자" /></picture></a>
 
 <div align="center">
 
@@ -14,25 +14,25 @@
 
 <br>
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/section-now-ko-dark.svg" /><img src="./assets/section-now-ko-light.svg" width="100%" alt="01 Now" /></picture>
+<picture><source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="./assets/section-now-m-ko-dark.svg" /><source media="(max-width: 600px)" srcset="./assets/section-now-m-ko-light.svg" /><source media="(prefers-color-scheme: dark)" srcset="./assets/section-now-ko-dark.svg" /><img src="./assets/section-now-ko-light.svg" width="100%" alt="01 Now" /></picture>
 
-<a href="https://junixion.com"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/now-ko-dark.svg" /><img src="./assets/now-ko-light.svg" width="100%" alt="2026년 11월 출시 예정인 날봄과 회사 웹사이트 junixion.com" /></picture></a>
-
-<br>
-
-<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/roadmap-ko-dark.svg" /><img src="./assets/roadmap-ko-light.svg" width="100%" alt="날봄 출시 길: TestFlight 베타, Google Play 테스트, 2026년 11월 출시, 정기 업데이트, 2027년 두 번째 앱" /></picture>
+<a href="https://junixion.com"><picture><source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="./assets/now-m-ko-dark.svg" /><source media="(max-width: 600px)" srcset="./assets/now-m-ko-light.svg" /><source media="(prefers-color-scheme: dark)" srcset="./assets/now-ko-dark.svg" /><img src="./assets/now-ko-light.svg" width="100%" alt="2026년 11월 출시 예정인 날봄과 회사 웹사이트 junixion.com" /></picture></a>
 
 <br>
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/kpi-ko-dark.svg" /><img src="./assets/kpi-ko-light.svg" width="100%" alt="공휴일 151개 나라, 기기 4종, 언어 3개, 종단간 암호화 공유, 날봄 커밋 745개" /></picture>
+<picture><source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="./assets/roadmap-m-ko-dark.svg" /><source media="(max-width: 600px)" srcset="./assets/roadmap-m-ko-light.svg" /><source media="(prefers-color-scheme: dark)" srcset="./assets/roadmap-ko-dark.svg" /><img src="./assets/roadmap-ko-light.svg" width="100%" alt="날봄 출시 길: TestFlight 베타, Google Play 테스트, 2026년 11월 출시, 정기 업데이트, 2027년 두 번째 앱" /></picture>
 
 <br>
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/section-nalbom-ko-dark.svg" /><img src="./assets/section-nalbom-ko-light.svg" width="100%" alt="02 Nalbom" /></picture>
+<picture><source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="./assets/kpi-m-ko-dark.svg" /><source media="(max-width: 600px)" srcset="./assets/kpi-m-ko-light.svg" /><source media="(prefers-color-scheme: dark)" srcset="./assets/kpi-ko-dark.svg" /><img src="./assets/kpi-ko-light.svg" width="100%" alt="공휴일 151개 나라, 기기 4종, 언어 3개, 종단간 암호화 공유, 날봄 커밋 745개" /></picture>
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/lead-nalbom-ko-dark.svg" /><img src="./assets/lead-nalbom-ko-light.svg" width="100%" alt="날봄은 챙겨야 할 날, 캘린더, 하루 메모, 직장인 도구를 한 앱에 담고 홈 화면과 잠금화면에 보여 줍니다. 아이폰, 아이패드, 맥(Apple 실리콘), 안드로이드에서 쓸 수 있어요." /></picture>
+<br>
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/features-ko-dark.svg" /><img src="./assets/features-ko-light.svg" width="100%" alt="날봄 기능: 달력, D-day와 메모, 일 도구, 위젯과 실시간 현황, 함께 공간, 꾸미기" /></picture>
+<picture><source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="./assets/section-nalbom-m-ko-dark.svg" /><source media="(max-width: 600px)" srcset="./assets/section-nalbom-m-ko-light.svg" /><source media="(prefers-color-scheme: dark)" srcset="./assets/section-nalbom-ko-dark.svg" /><img src="./assets/section-nalbom-ko-light.svg" width="100%" alt="02 Nalbom" /></picture>
+
+<picture><source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="./assets/lead-nalbom-m-ko-dark.svg" /><source media="(max-width: 600px)" srcset="./assets/lead-nalbom-m-ko-light.svg" /><source media="(prefers-color-scheme: dark)" srcset="./assets/lead-nalbom-ko-dark.svg" /><img src="./assets/lead-nalbom-ko-light.svg" width="100%" alt="날봄은 챙겨야 할 날, 캘린더, 하루 메모, 직장인 도구를 한 앱에 담고 홈 화면과 잠금화면에 보여 줍니다. 아이폰, 아이패드, 맥(Apple 실리콘), 안드로이드에서 쓸 수 있어요." /></picture>
+
+<picture><source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="./assets/features-m-ko-dark.svg" /><source media="(max-width: 600px)" srcset="./assets/features-m-ko-light.svg" /><source media="(prefers-color-scheme: dark)" srcset="./assets/features-ko-dark.svg" /><img src="./assets/features-ko-light.svg" width="100%" alt="날봄 기능: 달력, D-day와 메모, 일 도구, 위젯과 실시간 현황, 함께 공간, 꾸미기" /></picture>
 
 <details>
 <summary><b>어떻게 만들었나</b></summary>
@@ -53,11 +53,11 @@
 
 <br>
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/section-web-ko-dark.svg" /><img src="./assets/section-web-ko-light.svg" width="100%" alt="03 junixion.com" /></picture>
+<picture><source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="./assets/section-web-m-ko-dark.svg" /><source media="(max-width: 600px)" srcset="./assets/section-web-m-ko-light.svg" /><source media="(prefers-color-scheme: dark)" srcset="./assets/section-web-ko-dark.svg" /><img src="./assets/section-web-ko-light.svg" width="100%" alt="03 junixion.com" /></picture>
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/lead-web-ko-dark.svg" /><img src="./assets/lead-web-ko-light.svg" width="100%" alt="회사 웹사이트입니다. 직접 만들고 운영해요. 비공개 저장소이고 GitHub와 GitLab에 함께 올려요." /></picture>
+<picture><source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="./assets/lead-web-m-ko-dark.svg" /><source media="(max-width: 600px)" srcset="./assets/lead-web-m-ko-light.svg" /><source media="(prefers-color-scheme: dark)" srcset="./assets/lead-web-ko-dark.svg" /><img src="./assets/lead-web-ko-light.svg" width="100%" alt="회사 웹사이트입니다. 직접 만들고 운영해요. 비공개 저장소이고 GitHub와 GitLab에 함께 올려요." /></picture>
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/web-ko-dark.svg" /><img src="./assets/web-ko-light.svg" width="100%" alt="junixion.com: 3개 언어, 날봄 소개, 앱에 맞춘 법적 문서, 비밀 초대 링크, 작고 조용하게, 바꿀 때마다 검사" /></picture>
+<picture><source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="./assets/web-m-ko-dark.svg" /><source media="(max-width: 600px)" srcset="./assets/web-m-ko-light.svg" /><source media="(prefers-color-scheme: dark)" srcset="./assets/web-ko-dark.svg" /><img src="./assets/web-ko-light.svg" width="100%" alt="junixion.com: 3개 언어, 날봄 소개, 앱에 맞춘 법적 문서, 비밀 초대 링크, 작고 조용하게, 바꿀 때마다 검사" /></picture>
 
 <details>
 <summary><b>웹사이트 자세히</b></summary>
@@ -76,9 +76,9 @@
 
 <br>
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/section-research-ko-dark.svg" /><img src="./assets/section-research-ko-light.svg" width="100%" alt="04 Research" /></picture>
+<picture><source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="./assets/section-research-m-ko-dark.svg" /><source media="(max-width: 600px)" srcset="./assets/section-research-m-ko-light.svg" /><source media="(prefers-color-scheme: dark)" srcset="./assets/section-research-ko-dark.svg" /><img src="./assets/section-research-ko-light.svg" width="100%" alt="04 Research" /></picture>
 
-<a href="https://papers.ssrn.com/abstract=6656258"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/research-ko-dark.svg" /><img src="./assets/research-ko-light.svg" width="100%" alt="워킹 페이퍼: 한국 주식시장 상장폐지 위험의 생존분석. C-index 0.738, 기업 365개, 상장폐지 158건, 276개월" /></picture></a>
+<a href="https://papers.ssrn.com/abstract=6656258"><picture><source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="./assets/research-m-ko-dark.svg" /><source media="(max-width: 600px)" srcset="./assets/research-m-ko-light.svg" /><source media="(prefers-color-scheme: dark)" srcset="./assets/research-ko-dark.svg" /><img src="./assets/research-ko-light.svg" width="100%" alt="워킹 페이퍼: 한국 주식시장 상장폐지 위험의 생존분석. C-index 0.738, 기업 365개, 상장폐지 158건, 276개월" /></picture></a>
 
 <details>
 <summary><b>전체 결과</b></summary>
@@ -112,13 +112,13 @@ Cox 비례위험 모형과 가속실패시간(AFT) 모형 — KOSPI/KOSDAQ 패�
 
 <br>
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/section-projects-ko-dark.svg" /><img src="./assets/section-projects-ko-light.svg" width="100%" alt="05 Projects" /></picture>
+<picture><source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="./assets/section-projects-m-ko-dark.svg" /><source media="(max-width: 600px)" srcset="./assets/section-projects-m-ko-light.svg" /><source media="(prefers-color-scheme: dark)" srcset="./assets/section-projects-ko-dark.svg" /><img src="./assets/section-projects-ko-light.svg" width="100%" alt="05 Projects" /></picture>
 
-<a href="https://github.com/jjuunnii98/survival-analysis-finance"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/project-krx-ko-dark.svg" /><img src="./assets/project-krx-ko-light.svg" width="49.5%" alt="krx" /></picture></a> <a href="https://huggingface.co/JUNIXION"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/project-lm-ko-dark.svg" /><img src="./assets/project-lm-ko-light.svg" width="49.5%" alt="lm" /></picture></a>
+<a href="https://github.com/jjuunnii98/survival-analysis-finance"><picture><source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="./assets/project-krx-m-ko-dark.svg" /><source media="(max-width: 600px)" srcset="./assets/project-krx-m-ko-light.svg" /><source media="(prefers-color-scheme: dark)" srcset="./assets/project-krx-ko-dark.svg" /><img src="./assets/project-krx-ko-light.svg" width="49.5%" alt="krx" /></picture></a> <a href="https://huggingface.co/JUNIXION"><picture><source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="./assets/project-lm-m-ko-dark.svg" /><source media="(max-width: 600px)" srcset="./assets/project-lm-m-ko-light.svg" /><source media="(prefers-color-scheme: dark)" srcset="./assets/project-lm-ko-dark.svg" /><img src="./assets/project-lm-ko-light.svg" width="49.5%" alt="lm" /></picture></a>
 <br>
-<a href="https://crypto-risk-scoring-demo.onrender.com/docs"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/project-crypto-ko-dark.svg" /><img src="./assets/project-crypto-ko-light.svg" width="49.5%" alt="crypto" /></picture></a> <a href="https://ml-churn-api-2z9m.onrender.com/docs"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/project-e2e-ko-dark.svg" /><img src="./assets/project-e2e-ko-light.svg" width="49.5%" alt="e2e" /></picture></a>
+<a href="https://crypto-risk-scoring-demo.onrender.com/docs"><picture><source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="./assets/project-crypto-m-ko-dark.svg" /><source media="(max-width: 600px)" srcset="./assets/project-crypto-m-ko-light.svg" /><source media="(prefers-color-scheme: dark)" srcset="./assets/project-crypto-ko-dark.svg" /><img src="./assets/project-crypto-ko-light.svg" width="49.5%" alt="crypto" /></picture></a> <a href="https://ml-churn-api-2z9m.onrender.com/docs"><picture><source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="./assets/project-e2e-m-ko-dark.svg" /><source media="(max-width: 600px)" srcset="./assets/project-e2e-m-ko-light.svg" /><source media="(prefers-color-scheme: dark)" srcset="./assets/project-e2e-ko-dark.svg" /><img src="./assets/project-e2e-ko-light.svg" width="49.5%" alt="e2e" /></picture></a>
 <br>
-<a href="https://survival-api.onrender.com/docs"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/project-grad-ko-dark.svg" /><img src="./assets/project-grad-ko-light.svg" width="49.5%" alt="grad" /></picture></a> <a href="https://github.com/jjuunnii98/sql-analytics-portfolio"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/project-sql-ko-dark.svg" /><img src="./assets/project-sql-ko-light.svg" width="49.5%" alt="sql" /></picture></a>
+<a href="https://survival-api.onrender.com/docs"><picture><source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="./assets/project-grad-m-ko-dark.svg" /><source media="(max-width: 600px)" srcset="./assets/project-grad-m-ko-light.svg" /><source media="(prefers-color-scheme: dark)" srcset="./assets/project-grad-ko-dark.svg" /><img src="./assets/project-grad-ko-light.svg" width="49.5%" alt="grad" /></picture></a> <a href="https://github.com/jjuunnii98/sql-analytics-portfolio"><picture><source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="./assets/project-sql-m-ko-dark.svg" /><source media="(max-width: 600px)" srcset="./assets/project-sql-m-ko-light.svg" /><source media="(prefers-color-scheme: dark)" srcset="./assets/project-sql-ko-dark.svg" /><img src="./assets/project-sql-ko-light.svg" width="49.5%" alt="sql" /></picture></a>
 
 <details>
 <summary><b>자세히</b></summary>
@@ -161,17 +161,17 @@ PostgreSQL 16으로 자산 9개 × 5년(13,489행)을 분석한 18개 쿼리. �
 
 <br>
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/section-stack-ko-dark.svg" /><img src="./assets/section-stack-ko-light.svg" width="100%" alt="06 Stack" /></picture>
+<picture><source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="./assets/section-stack-m-ko-dark.svg" /><source media="(max-width: 600px)" srcset="./assets/section-stack-m-ko-light.svg" /><source media="(prefers-color-scheme: dark)" srcset="./assets/section-stack-ko-dark.svg" /><img src="./assets/section-stack-ko-light.svg" width="100%" alt="06 Stack" /></picture>
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/stack-ko-dark.svg" /><img src="./assets/stack-ko-light.svg" width="100%" alt="기술: 앱, 웹·서버, ML·통계" /></picture>
+<picture><source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="./assets/stack-m-ko-dark.svg" /><source media="(max-width: 600px)" srcset="./assets/stack-m-ko-light.svg" /><source media="(prefers-color-scheme: dark)" srcset="./assets/stack-ko-dark.svg" /><img src="./assets/stack-ko-light.svg" width="100%" alt="기술: 앱, 웹·서버, ML·통계" /></picture>
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/activity-ko-dark.svg" /><img src="./assets/activity-ko-light.svg" width="100%" alt="최근 26주 GitHub 활동" /></picture>
+<picture><source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="./assets/activity-m-ko-dark.svg" /><source media="(max-width: 600px)" srcset="./assets/activity-m-ko-light.svg" /><source media="(prefers-color-scheme: dark)" srcset="./assets/activity-ko-dark.svg" /><img src="./assets/activity-ko-light.svg" width="100%" alt="최근 26주 GitHub 활동" /></picture>
 
 <br>
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/section-about-ko-dark.svg" /><img src="./assets/section-about-ko-light.svg" width="100%" alt="07 About" /></picture>
+<picture><source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="./assets/section-about-m-ko-dark.svg" /><source media="(max-width: 600px)" srcset="./assets/section-about-m-ko-light.svg" /><source media="(prefers-color-scheme: dark)" srcset="./assets/section-about-ko-dark.svg" /><img src="./assets/section-about-ko-light.svg" width="100%" alt="07 About" /></picture>
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/about-ko-dark.svg" /><img src="./assets/about-ko-light.svg" width="100%" alt="연세대학교 경제학 × 정보통계학, 2027년 2월 졸업 예정. 주닉션 대표. 앱 의견, 연구, 직무, 대학원 이야기 환영" /></picture>
+<picture><source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="./assets/about-m-ko-dark.svg" /><source media="(max-width: 600px)" srcset="./assets/about-m-ko-light.svg" /><source media="(prefers-color-scheme: dark)" srcset="./assets/about-ko-dark.svg" /><img src="./assets/about-ko-light.svg" width="100%" alt="연세대학교 경제학 × 정보통계학, 2027년 2월 졸업 예정. 주닉션 대표. 앱 의견, 연구, 직무, 대학원 이야기 환영" /></picture>
 
 <details>
 <summary><b>자격증</b></summary>
@@ -194,4 +194,4 @@ PostgreSQL 16으로 자산 9개 × 5년(13,489행)을 분석한 18개 쿼리. �
 
 <br>
 
-<a href="mailto:contact@junixion.com"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/footer-ko-dark.svg" /><img src="./assets/footer-ko-light.svg" width="100%" alt="매일 손이 가는 소프트웨어를, 끝까지 책임지고 만듭니다. 주닉션, 서울, contact@junixion.com" /></picture></a>
+<a href="mailto:contact@junixion.com"><picture><source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="./assets/footer-m-ko-dark.svg" /><source media="(max-width: 600px)" srcset="./assets/footer-m-ko-light.svg" /><source media="(prefers-color-scheme: dark)" srcset="./assets/footer-ko-dark.svg" /><img src="./assets/footer-ko-light.svg" width="100%" alt="매일 손이 가는 소프트웨어를, 끝까지 책임지고 만듭니다. 주닉션, 서울, contact@junixion.com" /></picture></a>

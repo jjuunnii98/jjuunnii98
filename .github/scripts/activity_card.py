@@ -124,6 +124,45 @@ def draw(s, lang, mode):
         f.write(svg)
 
 
+def draw_phone(s, lang, mode):
+    """Narrow version shown under 600px wide."""
+    c, t = THEMES[mode], TEXT[lang]
+    W, H = 480, 352
+    out = [f'<defs><linearGradient id="cardg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="{c["card"]}"/><stop offset="1" stop-color="{c["card2"]}"/></linearGradient>'
+           f'<linearGradient id="barg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="{c["violet"]}"/><stop offset="1" stop-color="{c["bar"]}"/></linearGradient>'
+           f'<linearGradient id="edge" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="{c["bar"]}" stop-opacity="0"/><stop offset="0.25" stop-color="{c["bar"]}" stop-opacity="0.9"/><stop offset="0.6" stop-color="{c["violet"]}" stop-opacity="0.8"/><stop offset="1" stop-color="{c["violet"]}" stop-opacity="0"/></linearGradient></defs>',
+           f'<rect x="0.5" y="0.5" width="{W-1}" height="{H-1}" rx="14" fill="url(#cardg)" stroke="{c["line"]}"/>',
+           f'<rect x="20" y="0.2" width="300" height="1.6" rx="0.8" fill="url(#edge)"/>',
+           f'<text x="28" y="40" font-family="{MONO}" font-size="12.5" letter-spacing="2" fill="{c["faint"]}">{esc(t["title"])}</text>',
+           f'<text x="28" y="62" font-family="{MONO}" font-size="12.5" fill="{c["faint"]}">{t["updated"]} {s["today"]}</text>']
+    x0, x1, top, base = 28, W - 28, 84, 176
+    slot = (x1 - x0) / WEEKS
+    peak = max(s["weeks"]) or 1
+    last_month = None
+    for i, n in enumerate(s["weeks"]):
+        x = x0 + i * slot
+        h = max(3, (base - top) * n / peak)
+        op = 0.35 + 0.65 * (n / peak) if n else 1
+        out.append(f'<rect x="{x+1.5:.1f}" y="{base-h:.1f}" width="{slot-3:.1f}" height="{h:.1f}" rx="2.5" fill="{"url(#barg)" if n else c["empty"]}" fill-opacity="{op:.2f}"/>')
+        month = (s["start"] + timedelta(weeks=i)).month
+        if month != last_month:
+            out.append(f'<text x="{x+1.5:.1f}" y="{base+22}" font-family="{MONO}" font-size="12" fill="{c["faint"]}">{t["months"][month-1]}</text>')
+            last_month = month
+    items = [(f'{s["total"]:,}' if isinstance(s["total"], int) else s["total"], t["total"]), (str(s["current"]), t["current"]),
+             (str(s["best"]), t["best"]), (str(s["active"]), t["active"])]
+    cw = (W - 56) / 2
+    for i, (num, label) in enumerate(items):
+        x = 28 + (i % 2) * cw; y = base + 44 + (i // 2) * 64
+        out.append(f'<line x1="{x:.1f}" y1="{y}" x2="{x+cw-14:.1f}" y2="{y}" stroke="{c["line"]}"/>')
+        out.append(f'<text x="{x:.1f}" y="{y+32}" font-size="24" font-weight="600" letter-spacing="-0.6" fill="{c["ink"]}">{num}</text>')
+        out.append(f'<text x="{x:.1f}" y="{y+52}" font-family="{MONO}" font-size="12" fill="{c["faint"]}">{esc(label)}</text>')
+    svg = (f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}" '
+           f'font-family="{SANS}">{"".join(out)}</svg>\n')
+    name = "activity-m" + ("" if lang == "en" else "-ko") + f"-{mode}.svg"
+    with open(os.path.join(OUT, name), "w") as f:
+        f.write(svg)
+
+
 def main():
     if "--placeholder" in sys.argv:  # first commit, before the Action fills real numbers
         s = stats([])
@@ -133,6 +172,7 @@ def main():
     for lang in TEXT:
         for mode in THEMES:
             draw(s, lang, mode)
+            draw_phone(s, lang, mode)
     print("activity card:", s["total"], "contributions,", s["current"], "day streak")
 
 
