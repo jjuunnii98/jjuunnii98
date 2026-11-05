@@ -16,8 +16,6 @@
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="./assets/section-now-dark.svg" /><img src="./assets/section-now-light.svg" width="100%" alt="01 Now" /></picture>
 
-<br>
-
 <a href="https://junixion.com"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/now-dark.svg" /><img src="./assets/now-light.svg" width="100%" alt="Nalbom, launching November 2026, and junixion.com, the company website" /></picture></a>
 
 <br>
@@ -64,6 +62,13 @@ Nalbom puts the dates you care about, your calendar, daily notes and everyday wo
 
 The company website, built and run by me. Private repository, mirrored on GitHub and GitLab.
 
+<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/web-dark.svg" /><img src="./assets/web-light.svg" width="100%" alt="junixion.com: three languages, Nalbom pages, legal pages that match the app, private invite links, small and quiet, checked on every change" /></picture>
+
+<details>
+<summary><b>Website details</b></summary>
+
+<br>
+
 - **Three languages**: Korean, English and Japanese, with a language menu in the header and Japanese line-breaking and fonts.
 - **Nalbom pages**: introduction, real app screenshots (light and dark, three languages), pricing table and FAQ.
 - **Legal pages written to match the app**: Nalbom's privacy policy and terms in three languages, updated with each app build. Facts that are unfavorable to users are shown in bold blue, one sentence per line.
@@ -72,11 +77,20 @@ The company website, built and run by me. Private repository, mirrored on GitHub
 - **Checked on every change**: GitLab CI runs typecheck, lint, build and a Lighthouse gate.
 - **Now**: in a review period. The legal pages, app links and press images stay public.
 
+</details>
+
 <sub>Next.js 16 · React 19 · Tailwind v4 · Vercel · GitLab CI</sub>
 
 <br>
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="./assets/section-research-dark.svg" /><img src="./assets/section-research-light.svg" width="100%" alt="04 Research" /></picture>
+
+<a href="https://papers.ssrn.com/abstract=6656258"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/research-dark.svg" /><img src="./assets/research-light.svg" width="100%" alt="Working paper: Survival Analysis of Corporate Delisting Risk in the Korean Stock Market. C-index 0.738, 365 firms, 158 delisting events, 276 months" /></picture></a>
+
+<details>
+<summary><b>Full results</b></summary>
+
+<br>
 
 **Survival Analysis of Corporate Delisting Risk in the Korean Stock Market**  
 Cox Proportional Hazards and Accelerated Failure Time Models — KOSPI/KOSDAQ Panel Data (2000–2023)
@@ -101,11 +115,11 @@ Cox Proportional Hazards and Accelerated Failure Time Models — KOSPI/KOSDAQ Pa
 
 **Next**: continuous-time hazard models with time-varying baselines and regime conditioning.
 
+</details>
+
 <br>
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="./assets/section-projects-dark.svg" /><img src="./assets/section-projects-light.svg" width="100%" alt="05 Projects" /></picture>
-
-<br>
 
 <a href="https://github.com/jjuunnii98/survival-analysis-finance"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/project-krx-dark.svg" /><img src="./assets/project-krx-light.svg" width="49%" alt="krx" /></picture></a> <a href="https://huggingface.co/JUNIXION"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/project-lm-dark.svg" /><img src="./assets/project-lm-light.svg" width="49%" alt="lm" /></picture></a>
 <br>
@@ -156,13 +170,7 @@ Pygame snake with three difficulty modes, speed that grows with the score, saved
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="./assets/section-stack-dark.svg" /><img src="./assets/section-stack-light.svg" width="100%" alt="06 Stack" /></picture>
 
-| Area | Tools |
-|---|---|
-| **Apps** | React Native · Expo · TypeScript · Swift · Kotlin · SQLite · CloudKit |
-| **Web & backend** | Next.js · Tailwind CSS · Supabase · PostgreSQL · Deno · Vercel · GitLab CI |
-| **ML & statistics** | Python · PyTorch · scikit-learn · pandas · R · SAS · FastAPI · Docker |
-
-<br>
+<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/stack-dark.svg" /><img src="./assets/stack-light.svg" width="100%" alt="Stack: apps, web and backend, ML and statistics" /></picture>
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg" /><img src="./assets/activity-light.svg" width="100%" alt="GitHub activity over the last 26 weeks" /></picture>
 
@@ -170,9 +178,7 @@ Pygame snake with three difficulty modes, speed that grows with the score, saved
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="./assets/section-about-dark.svg" /><img src="./assets/section-about-light.svg" width="100%" alt="07 About" /></picture>
 
-**Yonsei University** — Economics × Information Statistics · Expected February 2027
-Undergraduate Research Assistant — Survival Analysis & Healthcare Risk Modeling
-Founder — JUNIXION (application software, opened August 2026)
+<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/about-dark.svg" /><img src="./assets/about-light.svg" width="100%" alt="Yonsei University, Economics and Information Statistics, expected February 2027. Founder of JUNIXION. Open to app feedback, research, roles and graduate study" /></picture>
 
 <details>
 <summary><b>Certifications</b></summary>
@@ -192,13 +198,6 @@ Founder — JUNIXION (application software, opened August 2026)
 - 금융투자분석사 (Financial Investment Analyst)
 
 </details>
-
-| Area | Open to |
-|---|---|
-| Apps | Nalbom feedback, bug reports and localization help |
-| Research | Survival analysis · LLM / NLP · statistical modeling |
-| Roles | App engineer · ML researcher · AI engineer · Quant engineer |
-| Academia | Financial Engineering / AI graduate programs (2027 entry) |
 
 <br>
 

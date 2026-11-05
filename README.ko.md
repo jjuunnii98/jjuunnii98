@@ -16,8 +16,6 @@
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="./assets/section-now-ko-dark.svg" /><img src="./assets/section-now-ko-light.svg" width="100%" alt="01 Now" /></picture>
 
-<br>
-
 <a href="https://junixion.com"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/now-ko-dark.svg" /><img src="./assets/now-ko-light.svg" width="100%" alt="2026년 11월 출시 예정인 날봄과 회사 웹사이트 junixion.com" /></picture></a>
 
 <br>
@@ -64,6 +62,13 @@
 
 회사 웹사이트입니다. 직접 만들고 운영해요. 비공개 저장소이고 GitHub와 GitLab에 함께 올려요.
 
+<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/web-ko-dark.svg" /><img src="./assets/web-ko-light.svg" width="100%" alt="junixion.com: 3개 언어, 날봄 소개, 앱에 맞춘 법적 문서, 비밀 초대 링크, 작고 조용하게, 바꿀 때마다 검사" /></picture>
+
+<details>
+<summary><b>웹사이트 자세히</b></summary>
+
+<br>
+
 - **3개 언어**: 한국어·영어·일본어. 머리글에서 언어를 바꾸고, 일본어는 줄바꿈과 글꼴을 따로 맞췄어요.
 - **날봄 소개**: 기능 소개, 실제 앱 화면(라이트·다크, 3개 언어), 요금표, 자주 묻는 질문.
 - **앱에 맞춘 법적 문서**: 날봄 개인정보처리방침과 이용약관을 3개 언어로, 앱 빌드마다 함께 고쳐요. 사용자에게 불리한 내용은 파란 굵은 글씨로, 문장마다 줄을 바꿔요.
@@ -72,13 +77,22 @@
 - **바꿀 때마다 검사**: GitLab CI가 타입 검사, 린트, 빌드, Lighthouse 기준 검사를 돌려요.
 - **지금**: 검토 기간이에요. 법적 문서, 앱 링크, 프레스 이미지는 계속 공개돼요.
 
+</details>
+
 <sub>Next.js 16 · React 19 · Tailwind v4 · Vercel · GitLab CI</sub>
 
 <br>
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="./assets/section-research-ko-dark.svg" /><img src="./assets/section-research-ko-light.svg" width="100%" alt="04 Research" /></picture>
 
-**한국 주식시장 상장폐지 위험의 생존분석**  
+<a href="https://papers.ssrn.com/abstract=6656258"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/research-ko-dark.svg" /><img src="./assets/research-ko-light.svg" width="100%" alt="워킹 페이퍼: 한국 주식시장 상장폐지 위험의 생존분석. C-index 0.738, 기업 365개, 상장폐지 158건, 276개월" /></picture></a>
+
+<details>
+<summary><b>전체 결과</b></summary>
+
+<br>
+
+**한국 주식시장 상장폐지 위험의 생존분석**
 Cox 비례위험 모형과 가속실패시간(AFT) 모형 — KOSPI/KOSDAQ 패널 데이터(2000–2023)
 
 📄 [SSRN 워킹 페이퍼](https://papers.ssrn.com/abstract=6656258) · 2026년 4월 제출
@@ -101,11 +115,11 @@ Cox 비례위험 모형과 가속실패시간(AFT) 모형 — KOSPI/KOSDAQ 패�
 
 **다음**: 시간에 따라 변하는 기저위험과 국면을 반영한 연속시간 위험 모형.
 
+</details>
+
 <br>
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="./assets/section-projects-ko-dark.svg" /><img src="./assets/section-projects-ko-light.svg" width="100%" alt="05 Projects" /></picture>
-
-<br>
 
 <a href="https://github.com/jjuunnii98/survival-analysis-finance"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/project-krx-ko-dark.svg" /><img src="./assets/project-krx-ko-light.svg" width="49%" alt="krx" /></picture></a> <a href="https://huggingface.co/JUNIXION"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/project-lm-ko-dark.svg" /><img src="./assets/project-lm-ko-light.svg" width="49%" alt="lm" /></picture></a>
 <br>
@@ -156,13 +170,7 @@ PostgreSQL 16으로 자산 9개 × 5년(13,489행)을 분석한 18개 쿼리. �
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="./assets/section-stack-ko-dark.svg" /><img src="./assets/section-stack-ko-light.svg" width="100%" alt="06 Stack" /></picture>
 
-| 영역 | 도구 |
-|---|---|
-| **앱** | React Native · Expo · TypeScript · Swift · Kotlin · SQLite · CloudKit |
-| **웹·서버** | Next.js · Tailwind CSS · Supabase · PostgreSQL · Deno · Vercel · GitLab CI |
-| **ML·통계** | Python · PyTorch · scikit-learn · pandas · R · SAS · FastAPI · Docker |
-
-<br>
+<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/stack-ko-dark.svg" /><img src="./assets/stack-ko-light.svg" width="100%" alt="기술: 앱, 웹·서버, ML·통계" /></picture>
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="./assets/activity-ko-dark.svg" /><img src="./assets/activity-ko-light.svg" width="100%" alt="최근 26주 GitHub 활동" /></picture>
 
@@ -170,9 +178,7 @@ PostgreSQL 16으로 자산 9개 × 5년(13,489행)을 분석한 18개 쿼리. �
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="./assets/section-about-ko-dark.svg" /><img src="./assets/section-about-ko-light.svg" width="100%" alt="07 About" /></picture>
 
-**연세대학교** — 경제학 × 정보통계학 · 2027년 2월 졸업 예정  
-학부 연구원 — 생존분석·헬스케어 위험 모델링  
-주닉션(JUNIXION) 대표 — 응용 소프트웨어, 2026년 8월 개업
+<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/about-ko-dark.svg" /><img src="./assets/about-ko-light.svg" width="100%" alt="연세대학교 경제학 × 정보통계학, 2027년 2월 졸업 예정. 주닉션 대표. 앱 의견, 연구, 직무, 대학원 이야기 환영" /></picture>
 
 <details>
 <summary><b>자격증</b></summary>
@@ -192,13 +198,6 @@ PostgreSQL 16으로 자산 9개 × 5년(13,489행)을 분석한 18개 쿼리. �
 - 금융투자분석사
 
 </details>
-
-| 분야 | 이런 이야기 환영해요 |
-|---|---|
-| 앱 | 날봄 의견, 버그 제보, 번역 도움 |
-| 연구 | 생존분석 · LLM / NLP · 통계 모델링 |
-| 직무 | 앱 엔지니어 · ML 연구원 · AI 엔지니어 · 퀀트 엔지니어 |
-| 학업 | 금융공학 / AI 대학원 (2027년 입학) |
 
 <br>
 
